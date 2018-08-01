@@ -1,0 +1,56 @@
+.dpmsg-TriggerBtn {
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  display: flex;
+  font-size: 10px;
+  height: 5.2em;
+  justify-content: center;
+  position: relative;
+  width: 5.2em;
+}
+
+.dpmsg-TriggerBtn * {
+  cursor: pointer;
+}
+
+.dpmsg-IconBadge {
+  align-items: center;
+  background: linear-gradient(to top, var(--red) 50%, color-mod(var(--red) blackness(20%)));
+  border-radius: 50%;
+  color: var(--white);
+  display: flex;
+  font-size: 1.4em;
+  height: 1.4em;
+  justify-content: center;
+  line-height: 1;
+  width: 1.4em;
+
+  &.is-inactive {
+    background: linear-gradient(to top, var(--gray-400), var(--gray-400));
+  }
+}
+
+.dpmsg-TriggerBtn .dpmsg-IconBadge {
+  position: absolute;
+  right: -0.2em;
+  top: -0.2em;
+}
+
+.dpmsg-Icon {
+  background-color: #3c87f3;
+  box-shadow: 0 6px 9px 1px rgba(51, 51, 62, 0.3);
+  height: 60px;
+  width: 60px;
+}
+
+.dpmsg-Icon img {
+  height: auto;
+  width: 60%;
+}
+
+.dpmsg-IconClose img {
+  height: 20px;
+  width: 20px;
+}
