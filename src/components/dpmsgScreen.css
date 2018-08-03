@@ -1,0 +1,139 @@
+.dpmsg-ScreenWrap {
+  display: block;
+  width: 380px;
+}
+
+.dpmsg-Screen {
+  background-color: #f6f7fa;
+  border-radius: 4px;
+  box-shadow: 0 4px 9px 1px rgba(51, 51, 62, 0.3);
+  display: block;
+}
+
+.dpmsg-ScreenHeder {
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -50px;
+  padding: 30px 30px 74px 30px;
+}
+
+.is-minimal .dpmsg-ScreenHeder {
+  padding: 30px 30px 77px 27px;
+}
+
+.dpmsg-ScreenHederLogo img {
+  height: 36px;
+}
+
+.is-minimal .dpmsg-ScreenHederLogo img {
+  height: 44px;
+}
+
+.is-minimal .dpmsg-ScreenHeder {
+  flex-direction: row;
+}
+
+.dpmsg-ScreenHederLogo {
+  margin-right: 11px;
+}
+
+.dpmsg-ScreenHederTitle {
+  font-size: 28px;
+  letter-spacing: 1.6px;
+  padding: 22px 0 10px;
+}
+
+.is-minimal .dpmsg-ScreenHederTitle {
+  letter-spacing: 0;
+}
+
+.is-minimal .dpmsg-ScreenHederTitle {
+  padding: 0;
+}
+
+.dpmsg-ScreenHederText {
+  font-size: var(--h1);
+  letter-spacing: 0.4px;
+  line-height: 1.375;
+}
+
+.dpmsg-ScreenContainer {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 1px rgba(51, 51, 62, 0.1);
+  display: block;
+  margin: 0 10px 10px 10px;
+}
+
+.dpmsg-ScreenFooter {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 10px;
+}
+
+.dpmsg-ScreenLine {
+  background-color: #e4e4e4;
+  display: block;
+  height: 1px;
+  width: 67px;
+}
+
+.dpmsg-ScreenFooterText {
+  color: #666;
+  font-size: var(--h4);
+}
+
+.dpmsg-VertLine {
+  background-color: #d1d5dc;
+  height: 30px;
+  width: 2px;
+}
+
+.dpmsg-ScreenFooterLogo {
+  height: 24px;
+}
+
+.dpmsg-ScreenIconRow {
+  margin-top: 20px;
+}
+
+.dpmsg-ScreenIconRow.is-left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.is-blue .dpmsg-ScreenHeder {
+  background-image: linear-gradient(30deg, #3d88f3 0%, #3d88f3 22%, #4877b2 100%);
+}
+
+.is-blue .dpmsg-ScreenHederTitle {
+  color: #fff;
+}
+
+.is-blue .dpmsg-ScreenHederText {
+  color: #f9f9f9;
+}
+
+.is-minimal.is-light .dpmsg-ScreenHederText {
+  color: #f9f9f9;
+}
+
+.is-light .dpmsg-ScreenHederText {
+  color: var(--gray-500);
+}
+
+.is-light .dpmsg-ScreenHeder {
+  background-color: #fff;
+  background-image: none;
+}
+
+.is-minimal.is-light .dpmsg-ScreenHederTitle {
+  color: #5f7689;
+}
+
+.is-light .dpmsg-ScreenHederTitle {
+  color: #1d3e55;
+}
