@@ -3,7 +3,8 @@
     "Getting Started": ["intro", "colors"],
     "Components": [
       "components/dp-Level",
-      "components/dpmsg-TriggerButtons"
+      "components/dpmsg-TriggerButtons",
+      "components/dpmsg-Screen"
     ],
     "Elements": [
       "elements/dp-Button",
