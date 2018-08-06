@@ -3,7 +3,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --font-family-base: var(--font-family-sans-serif);
 
-  --font-size-base: 0.75rem;
+  --font-size-base: 0.875rem;
   --font-size-lg: calc(var(--font-size-base) * 1.25);
   --font-size-sm: calc(var(--font-size-base) * 0.85);
 
@@ -29,19 +29,19 @@
 
   --gray-light: #afc0cc;
 
-  --blue: #4696dc;
+  --blue: #3d88f3;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
-  --red: #f14154;
+  --red: #f25a6c;
   --orange: #faaf3a;
   --yellow: #ffc107;
-  --green: #94be46;
+  --green: #36a66c;
   --teal: #20c997;
   --cyan: #17a2b8;
 
   --color-primary: var(--blue);
-  --color-secondary: var(--gray-400);
+  --color-secondary: #6e8293;
   --color-success: var(--green);
   --color-info: var(--cyan);
   --color-warning: var(--yellow);

@@ -18,7 +18,7 @@
 }
 
 .dpmsg-BlockHeader::after {
-  background-color: #3d88f3;
+  background-color: var(--blue);
   bottom: 0;
   content: "";
   display: block;

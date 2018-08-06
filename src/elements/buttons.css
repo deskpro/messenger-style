@@ -1,4 +1,4 @@
-.dp-Button {
+.dpmsg-Button {
   background: #ccc;
   background: #fff;
   border: 1px solid var(--gray-200);
@@ -6,9 +6,10 @@
   color: var(--text-dark);
   cursor: pointer;
   display: inline-block;
-  font-size: var(--h4);
+  font-size: var(--font-size-base);
   line-height: 100%;
   padding: var(--button-padding) 1rem;
+  text-align: center;
 
   &:hover { background: var(--gray-100); }
 
@@ -21,8 +22,8 @@
 
   &.Button--transparent {
     background: transparent;
-    border: 1px solid #6e8293;
-    color: #6e8293;
+    border: 1px solid #3d88f3;
+    color: #5f768a;
     &:hover { background: var(--gray-100); }
   }
 
@@ -89,25 +90,37 @@
   }
 
   &[disabled] {
+    border-color: #d0dae2;
     cursor: not-allowed;
     opacity: 0.55;
   }
 
   &.Button--small {
-    border-radius: calc(var(--border-radius) * 0.7);
-    font-size: calc(var(--font-size-base) * 0.7);
-    padding: calc(0.7rem * 0.7) calc(1rem * 0.7);
+    font-size: calc(var(--font-size-base) * 0.875);
   }
 
   &.Button--medium {
-    border-radius: calc(var(--border-radius) * 1.2);
-    font-size: calc(var(--font-size-base) * 1.2);
-    padding: calc(0.7rem * 1.2) calc(1rem * 1.2);
+    border-radius: calc(var(--border-radius) * 1.14);
+    font-size: calc(var(--font-size-base) * 1.14);
+    padding: calc(0.7rem * 1.14) calc(1rem * 1.14);
   }
 
   &.Button--large {
     border-radius: calc(var(--border-radius) * 1.4);
     font-size: calc(var(--font-size-base) * 1.4);
     padding: calc(0.7rem * 1.4) calc(1rem * 1.4);
+  }
+
+  &.Button-FullWidth {
+    display: block;
+    width: 100%;
+  }
+
+  &.Button-LimitedWidth {
+    width: 100px;
+  }
+
+  &.Button-HalfWidth {
+    width: calc(50% - 10px);
   }
 }
