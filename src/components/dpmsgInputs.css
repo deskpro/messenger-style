@@ -18,6 +18,7 @@
 .dpmsg-WrapInput .dpmsg-IconSearch {
   background-image: url("/messenger-style/img/docs/icon-search.png");
   content: "";
+  cursor: pointer;
   display: block;
   height: 24px;
   left: 10px;
