@@ -1,0 +1,58 @@
+.dpmsg-Block {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 1px rgba(51, 51, 62, 0.1);
+  display: block;
+  padding: 20px 20px 25px;
+}
+
+.dpmsg-BlockHeader {
+  color: var(--gray-500);
+  display: block;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.dpmsg-BlockHeader::after {
+  background-color: #3d88f3;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.dpmsg-WrapInput {
+  display: block;
+  position: relative;
+}
+
+.dpmsg-WrapInput .dpmsg-InputSearch {
+  border: 1px solid #dce4eb;
+  border-radius: 4px;
+  font-size: var(--h1);
+  padding: 13px 15px 13px 46px;
+  width: 100%;
+}
+
+.dpmsg-WrapInput .dpmsg-InputSearch:placeholder {
+  color: #b2c0cc;
+}
+
+.dpmsg-WrapInput .dpmsg-IconSearch {
+  background-image: url("/messenger-style/img/docs/icon-search.png");
+  content: "";
+  display: block;
+  height: 24px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 24px;
+}

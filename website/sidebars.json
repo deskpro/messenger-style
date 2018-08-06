@@ -4,11 +4,14 @@
     "Components": [
       "components/dp-Level",
       "components/dpmsg-TriggerButtons",
-      "components/dpmsg-Screen"
+      "components/dpmsg-Screen",
+      "components/dpmsg-Block",
+      "components/dpmsg-Inputs"
     ],
     "Elements": [
-      "elements/dp-Button",
-      "elements/dp-Content"
+      "elements/dpmsg-Button",
+      "elements/dpmsg-Icon",
+      "elements/dpmsg-Content"
     ]
   }
 }

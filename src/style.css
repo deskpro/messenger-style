@@ -3,5 +3,8 @@
 @import "components/level.css";
 @import "components/triggerButtons.css";
 @import "components/dpmsgScreen.css";
+@import "components/dpmsgBlock.css";
+@import "elements/icons.css";
+@import "elements/buttons.css";
 @import "elements/buttons.css";
 @import "elements/content.css";
