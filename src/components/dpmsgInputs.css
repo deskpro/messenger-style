@@ -1,0 +1,27 @@
+.dpmsg-WrapInput {
+  display: block;
+  position: relative;
+}
+
+.dpmsg-WrapInput .dpmsg-InputSearch {
+  border: 1px solid #dce4eb;
+  border-radius: 4px;
+  font-size: var(--h1);
+  padding: 13px 15px 13px 46px;
+  width: 100%;
+}
+
+.dpmsg-WrapInput .dpmsg-InputSearch:placeholder {
+  color: #b2c0cc;
+}
+
+.dpmsg-WrapInput .dpmsg-IconSearch {
+  background-image: url("/messenger-style/img/docs/icon-search.png");
+  content: "";
+  display: block;
+  height: 24px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 24px;
+}

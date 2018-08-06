@@ -14,6 +14,7 @@
   border-radius: 4px 4px 0 0;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin-bottom: -50px;
   padding: 30px 30px 74px 30px;
 }
@@ -46,25 +47,17 @@
 
 .is-minimal .dpmsg-ScreenHederTitle {
   letter-spacing: 0;
+  padding: 0;
 }
 
-.is-minimal .dpmsg-ScreenHederTitle {
-  padding: 0;
+.dpmsg-Block {
+  margin: 0 10px 10px 10px;
 }
 
 .dpmsg-ScreenHederText {
   font-size: var(--h1);
   letter-spacing: 0.4px;
   line-height: 1.375;
-}
-
-.dpmsg-ScreenContainer {
-  background-color: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px 1px rgba(51, 51, 62, 0.1);
-  display: block;
-  margin: 0 10px 10px 10px;
 }
 
 .dpmsg-ScreenFooter {
@@ -110,7 +103,7 @@
 }
 
 .is-blue .dpmsg-ScreenHederTitle {
-  color: #fff;
+  color: var(--white);
 }
 
 .is-blue .dpmsg-ScreenHederText {
@@ -126,7 +119,7 @@
 }
 
 .is-light .dpmsg-ScreenHeder {
-  background-color: #fff;
+  background-color: var(--white);
   background-image: none;
 }
 
@@ -136,4 +129,38 @@
 
 .is-light .dpmsg-ScreenHederTitle {
   color: #1d3e55;
+}
+
+.dpmsg-Screen .dp-IconArrow {
+  height: 20px;
+  width: 20px;
+}
+
+.dpmsg-ScreenControls {
+  flex: 0 0 100%;
+  margin-top: -5px;
+  padding-bottom: 20px;
+}
+
+.dpmsg-ScreenControls a {
+  font-size: 16px;
+}
+
+.is-blue .dpmsg-ScreenControls,
+.is-blue .dpmsg-ScreenControls a {
+  color: var(--white);
+}
+
+.is-blue .dpmsg-ScreenControls .dp-IconArrow {
+  background-image: url('data:image/svg+xml,<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs><style>.cls-1{fill:var(--white);}</style></defs><title>app_icons</title><path class="cls-1" d="M275,468.73a36.26,36.26,0,0,0,50.26,0l0,0L589.1,206a36.27,36.27,0,0,0-51.29-51.29L300.69,391.8,63.56,154.67A36.27,36.27,0,0,0,12.27,206Z"/></svg>');
+}
+
+.is-light .dpmsg-ScreenControls,
+.is-light .dpmsg-ScreenControls a {
+  color: #5f7689;
+}
+
+.is-light .dpmsg-ScreenControls .dp-IconArrow {
+  background-image: url('data:image/svg+xml,<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs><style>.cls-1{fill: #4395d2;}</style></defs><title>app_icons</title><path class="cls-1" d="M275,468.73a36.26,36.26,0,0,0,50.26,0l0,0L589.1,206a36.27,36.27,0,0,0-51.29-51.29L300.69,391.8,63.56,154.67A36.27,36.27,0,0,0,12.27,206Z"/></svg>');
+
 }
