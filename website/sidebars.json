@@ -6,6 +6,7 @@
       "components/dpmsg-TriggerButtons",
       "components/dpmsg-Screen",
       "components/dpmsg-Block",
+      "components/dpmsg-AvatarHeadsList",
       "components/dpmsg-Inputs"
     ],
     "Elements": [

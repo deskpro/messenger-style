@@ -11,6 +11,10 @@
   width: 5.2em;
 }
 
+.dpmsg-TriggerBtn img {
+  overflow: hidden;
+}
+
 .dpmsg-TriggerBtn * {
   cursor: pointer;
 }

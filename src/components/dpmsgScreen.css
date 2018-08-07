@@ -8,7 +8,15 @@
   background-color: #f6f7fa;
   border-radius: 4px;
   box-shadow: 0 4px 9px 1px rgba(51, 51, 62, 0.3);
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 15px);
+  overflow-x: auto;
+}
+
+.dpmsg-ScreenContent {
+  align-self: flex-start;
+  flex: 0 0 100%;
 }
 
 .dpmsg-ScreenHeder {
@@ -63,7 +71,9 @@
 
 .dpmsg-ScreenFooter {
   align-items: center;
+  align-self: flex-end;
   display: flex;
+  flex: 0 0 100%;
   justify-content: space-between;
   padding: 0 30px 10px;
 }
