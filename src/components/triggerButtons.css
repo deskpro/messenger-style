@@ -41,8 +41,9 @@
 .dpmsg-Icon {
   background-color: var(--blue);
   box-shadow: 0 6px 9px 1px rgba(51, 51, 62, 0.3);
-  height: 60px;
-  width: 60px;
+  font-size: 10px;
+  height: 5.2em;
+  width: 5.2em;
 }
 
 .dpmsg-Icon img {
