@@ -56,3 +56,11 @@
   top: 10px;
   width: 24px;
 }
+
+.dpmsg-BlockText {
+  color: #5f768a;
+  font-size: var(--h1);
+  max-width: 260px;
+  display: block;
+  margin-bottom: 18px;
+}
