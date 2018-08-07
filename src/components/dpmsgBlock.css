@@ -59,8 +59,8 @@
 
 .dpmsg-BlockText {
   color: #5f768a;
-  font-size: var(--h1);
-  max-width: 260px;
   display: block;
+  font-size: var(--h1);
   margin-bottom: 18px;
+  max-width: 260px;
 }

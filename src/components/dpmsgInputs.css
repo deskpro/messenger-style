@@ -56,24 +56,24 @@
 }
 
 .dpmsg-InputCheckboxMarker::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: -3px;
-  left: 0;
-  right: auto;
-  display: block;
-  width: 14px;
-  height: 14px;
   background-color: #3c87f3;
   border-radius: 50%;
+  content: "";
+  display: block;
+  display: block;
+  height: 14px;
+  left: 0;
+  position: absolute;
+  right: auto;
+  top: -3px;
   transition: left var(--animation-speed);
+  width: 14px;
 }
 
 .dpmsg-InputCheckbox:checked + .dpmsg-InputCustomCheckbox .dpmsg-InputCheckboxMarker::after {
   left: 15px;
   transition: left var(--animation-speed);
-} 
+}
 
 .dpmsg-InputCheckboxText.is-first {
   color: #3c87f3;
@@ -84,6 +84,7 @@
   color: #6e8293;
   transition: color var(--animation-speed);
 }
+
 .dpmsg-InputCheckbox:checked + .dpmsg-InputCustomCheckbox .dpmsg-InputCheckboxText {
   color: #3c87f3;
   transition: color var(--animation-speed);
