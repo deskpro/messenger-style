@@ -1,0 +1,75 @@
+.dpmsg-MessageBubble {
+  display: block;
+}
+
+.dpmsg-MessageBubbleRow {
+  display: flex;
+  margin-bottom: var(--xs-space);
+}
+
+.dpmsg-AvatarCol {
+  flex: 0 0 42px;
+}
+
+.dpmsg-AvatarCol img {
+  max-width: 32px;
+}
+
+.dpmsg-BubbleCol {
+  display: block;
+  width: 100%;
+}
+
+.dpmsg-BubbleItem {
+  border-radius: var(--border-radius);
+  color: var(--gray-500);
+  display: block;
+  font-size: var(--h1);
+  margin-bottom: var(--xs-space);
+  padding: var(--sm-space);
+}
+
+.is-incoming .dpmsg-BubbleItem {
+  background-color: #f8fafc;
+  border: 2px solid #dce4eb;
+
+}
+
+.is-outgoing .dpmsg-BubbleItem {
+  background-color: #fff;
+  border: 2px solid var(--gray-300);
+}
+
+.is-outgoing .dpmsg-AvatarCol {
+  text-align: right;
+}
+
+.dpmsg-BubbleNotification {
+  color: var(--gray-500);
+  display: block;
+  font-size: var(--h2);
+  font-style: italic;
+  margin-bottom: var(--xs-space);
+  margin-top: var(--space);
+}
+
+.dpmsg-BubbleNotification.is-joined {
+  text-align: left;
+}
+
+.dpmsg-BubbleNotification.is-ended {
+  text-align: right;
+}
+
+.dpmsg-BubbleItem.is-typing {
+  align-items: flex-start;
+  display: flex;
+  font-size: 36px;
+  height: 26px;
+  justify-content: center;
+  line-height: 4px;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 0;
+  width: 52px;
+}

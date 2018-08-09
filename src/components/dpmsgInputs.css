@@ -3,16 +3,22 @@
   position: relative;
 }
 
-.dpmsg-WrapInput .dpmsg-InputSearch {
-  border: 1px solid #dce4eb;
-  border-radius: 4px;
+.dpmsg-Input {
+  background-color: #f8fafc;
+  border: var(--border);
+  border-radius: var(--border-radius);
   font-size: var(--h1);
-  padding: 13px 15px 13px 46px;
+  padding: 13px var(--sm-space);
   width: 100%;
+
+  &.is-search {
+    background-color: #fff;
+    padding-left: 46px;
+  }
 }
 
-.dpmsg-WrapInput .dpmsg-InputSearch:placeholder {
-  color: #b2c0cc;
+.dpmsg-Input:placeholder {
+  color: var(--gray-300);
 }
 
 .dpmsg-WrapInput .dpmsg-IconSearch {
@@ -60,7 +66,6 @@
   border-radius: 50%;
   content: "";
   display: block;
-  display: block;
   height: 14px;
   left: 0;
   position: absolute;
@@ -88,4 +93,36 @@
 .dpmsg-InputCheckbox:checked + .dpmsg-InputCustomCheckbox .dpmsg-InputCheckboxText {
   color: #3c87f3;
   transition: color var(--animation-speed);
+}
+
+.dpmsg-MainTextarea {
+  background-color: #fff;
+  border: none;
+  border-top: 2px solid var(--blue);
+  color: var(--gray-500);
+  cursor: text;
+  display: block;
+  font-size: var(--h1);
+  max-height: 200px;
+  overflow-x: auto;
+  padding: var(--sm-space);
+  padding-left: 0;
+  resize: none;
+  white-space: pre;
+  white-space: pre-wrap;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.dpmsg-TextareaActions {
+  align-items: center;
+  margin-top: var(--xs-space);
+}
+
+.dpmsg-TextareaActions img {
+  max-height: 26px;
+}
+
+.dpmsg-TextareaActions .dp-LevelLeft img {
+  margin-right: 20px;
 }
