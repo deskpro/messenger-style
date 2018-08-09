@@ -1,0 +1,75 @@
+.dpmsg-MessagePrompt {
+  background-color: #fff;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 3px 3px 8px 1px rgba(51, 51, 62, 0.1);
+  display: block;
+  margin-top: 50px;
+}
+
+.dpmsg-PromptHeader {
+  align-items: center;
+  border-bottom: var(--border);
+  color: var(--gray-500);
+  display: flex;
+  font-size: var(--h1);
+  justify-content: center;
+  padding: var(--sm-space) var(--sm-space) 12px;
+}
+
+.dpmsg-PromptHeader img {
+  margin-right: var(--xs-space);
+  margin-top: 6px;
+  max-width: var(--space);
+}
+
+.dpmsg-PromptContentAgree {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.dpmsg-PromptBtn {
+  cursor: pointer;
+  flex: 0 0 50%;
+  padding: var(--space);
+  text-align: center;
+}
+
+.dpmsg-PromptBtn:first-child {
+  border-right: var(--border);
+}
+
+.dpmsg-PromptBtn.is-agdee {
+  color: var(--color-success);
+  &:hover { color: color-mod(var(--color-success) blackness(20%)); }
+}
+
+.dpmsg-PromptBtn.is-disagree {
+  color: var(--color-danger);
+  &:hover { color: color-mod(var(--color-danger) blackness(20%)); }
+}
+
+.dpmsg-PromptContentEvaluation {
+  align-items: center;
+  display: flex;
+  height: 75px;
+  justify-content: space-around;
+}
+
+.dpmsg-GroupInputs {
+  display: block;
+  padding: var(--sm-space);
+}
+
+.dpmsg-GroupInputs input {
+  margin-bottom: var(--xs-space);
+}
+
+.dpmsg-PromptText {
+  color: var(--gray-500);
+  display: block;
+  font-size: var(--h1);
+  padding: var(--space);
+  text-align: center;
+}

@@ -7,6 +7,8 @@
       "components/dpmsg-Screen",
       "components/dpmsg-Block",
       "components/dpmsg-AvatarHeadsList",
+      "components/dpmsg-MessagePrompt",
+      "components/dpmsg-MessageBubble",
       "components/dpmsg-Inputs"
     ],
     "Elements": [

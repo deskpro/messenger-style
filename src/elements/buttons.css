@@ -121,6 +121,6 @@
   }
 
   &.Button-HalfWidth {
-    width: calc(50% - 10px);
+    width: calc(50% - var(--xs-space));
   }
 }

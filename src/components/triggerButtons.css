@@ -4,7 +4,7 @@
   cursor: pointer;
   display: block;
   display: flex;
-  font-size: 10px;
+  font-size: var(--p1);
   height: 5.2em;
   justify-content: center;
   position: relative;
@@ -45,7 +45,7 @@
 .dpmsg-Icon {
   background-color: var(--blue);
   box-shadow: 0 6px 9px 1px rgba(51, 51, 62, 0.3);
-  font-size: 10px;
+  font-size: var(--p1);
   height: 5.2em;
   width: 5.2em;
 }

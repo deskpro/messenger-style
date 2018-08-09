@@ -66,9 +66,6 @@
   --height-icon: 20px;
   --width-icon: 20px;
 
-  --width-app: 275px;
-  --padding-app: 10px;
-
   --h1: 16px;
   --h2: 14px;
   --h3: 13px;
@@ -78,10 +75,12 @@
   --p2: 9px;
   --p3: 8px;
 
-  --card-border: 2px;
-  --card-padding: 8px;
-  --card-element-margin: 13px;
-  --framework-margin: 11px;
-  --button-padding: 10px;
+  --space: 20px;
+  --sm-space: 15px;
+  --xs-space: 10px;
 
+  --button-padding: var(--xs-space);
+
+  --grey-border: #dce4eb;
+  --border: 2px solid var(--grey-border);
 }

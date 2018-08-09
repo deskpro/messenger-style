@@ -5,6 +5,8 @@
 @import "components/dpmsgScreen.css";
 @import "components/dpmsgBlock.css";
 @import "components/dpmsgAvatarHeadsList.css";
+@import "components/dpmsgMessagePrompt.css";
+@import "components/dpmsgMessageBubble.css";
 @import "components/dpmsgInputs.css";
 @import "elements/icons.css";
 @import "elements/buttons.css";
