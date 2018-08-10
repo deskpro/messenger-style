@@ -13,6 +13,7 @@
 
 .dpmsg-AvatarCol img {
   max-width: 32px;
+  margin-top: 5px;
 }
 
 .dpmsg-BubbleCol {
@@ -41,6 +42,7 @@
 
 .is-outgoing .dpmsg-AvatarCol {
   text-align: right;
+  order: 1;
 }
 
 .dpmsg-BubbleNotification {
@@ -52,11 +54,11 @@
   margin-top: var(--space);
 }
 
-.dpmsg-BubbleNotification.is-joined {
+.dpmsg-BubbleNotification.is-left {
   text-align: left;
 }
 
-.dpmsg-BubbleNotification.is-ended {
+.dpmsg-BubbleNotification.is-right {
   text-align: right;
 }
 

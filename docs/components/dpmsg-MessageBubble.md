@@ -20,11 +20,11 @@ title: Message Bubble
 ```html @preview
 <div class="dpmsg-MessageBubble">
   <div class="dpmsg-MessageBubbleRow is-outgoing">
-    <div class="dpmsg-BubbleCol">
-      <span class="dpmsg-BubbleItem">Our mission is to help businesses and organizations like yours provide their customers with better support across every communication channel.</span>
-    </div>
     <div class="dpmsg-AvatarCol">
       <img src="/messenger-style/img/docs/avatar.png" alt="">
+    </div>
+    <div class="dpmsg-BubbleCol">
+      <span class="dpmsg-BubbleItem">Our mission is to help businesses and organizations like yours provide their customers with better support across every communication channel.</span>
     </div>
   </div>
 </div>
@@ -34,11 +34,11 @@ title: Message Bubble
 ```html @preview
 <div class="dpmsg-MessageBubble">
   <div class="dpmsg-MessageBubbleRow is-outgoing">
-    <div class="dpmsg-BubbleCol">
-      <span class="dpmsg-BubbleItem is-typing">...</span>
-    </div>
     <div class="dpmsg-AvatarCol">
       <img src="/messenger-style/img/docs/avatar.png" alt="">
+    </div>
+    <div class="dpmsg-BubbleCol">
+      <span class="dpmsg-BubbleItem is-typing">...</span>
     </div>
   </div>
 </div>
@@ -46,8 +46,8 @@ title: Message Bubble
 
 # Notification
 ```html @preview
-<span class="dpmsg-BubbleNotification is-joined">Nick Green joined the conversation (12.47pm)</span>
-<span class="dpmsg-BubbleNotification is-ended">John Doe ended the conversation (13.02pm)</span>
+<span class="dpmsg-BubbleNotification is-left">Nick Green joined the conversation (12.47pm)</span>
+<span class="dpmsg-BubbleNotification is-right">John Doe ended the conversation (13.02pm)</span>
 ```
 
 # Message Bubble example
@@ -86,14 +86,14 @@ title: Message Bubble
       </div>
     </div>
     <div class="dpmsg-MessageBubbleRow is-outgoing">
-      <div class="dpmsg-BubbleCol">
-        <span class="dpmsg-BubbleItem">Hi, need help with a ticket please.</span>
-      </div>
       <div class="dpmsg-AvatarCol">
         <img src="/messenger-style/img/docs/avatar.png" alt="">
       </div>
+      <div class="dpmsg-BubbleCol">
+        <span class="dpmsg-BubbleItem">Hi, need help with a ticket please.</span>
+      </div>
     </div>
-    <span class="dpmsg-BubbleNotification is-joined">Nick Green joined the conversation (12.47pm)</span>
+    <span class="dpmsg-BubbleNotification is-left">Nick Green joined the conversation (12.47pm)</span>
     <div class="dpmsg-MessageBubbleRow is-incoming">
       <div class="dpmsg-AvatarCol">
         <img src="/messenger-style/img/docs/avatar.png" alt="">
@@ -103,14 +103,14 @@ title: Message Bubble
       </div>
     </div>
     <div class="dpmsg-MessageBubbleRow is-outgoing">
-      <div class="dpmsg-BubbleCol">
-        <span class="dpmsg-BubbleItem">It’s AW874KGY9056.</span>
-      </div>
       <div class="dpmsg-AvatarCol">
         <img src="/messenger-style/img/docs/avatar.png" alt="">
       </div>
+      <div class="dpmsg-BubbleCol">
+        <span class="dpmsg-BubbleItem">It’s AW874KGY9056.</span>
+      </div>
     </div>
-    <span class="dpmsg-BubbleNotification is-ended">John Doe ended the conversation (13.02pm)</span>
+    <span class="dpmsg-BubbleNotification is-right">John Doe ended the conversation (13.02pm)</span>
     <div class="dpmsg-MessagePrompt">
       <div class="dpmsg-PromptHeader">
         <img src="/messenger-style/img/docs/prompt-icon.png" alt="">

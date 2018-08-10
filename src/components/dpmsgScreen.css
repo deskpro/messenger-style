@@ -155,8 +155,10 @@
   padding-bottom: var(--space);
 }
 
-.dpmsg-ScreenControls a {
+.dpmsg-ScreenControls a,
+.dpmsg-ScreenControls a *{
   font-size: 16px;
+  cursor: pointer;
 }
 
 .is-blue .dpmsg-ScreenControls,
