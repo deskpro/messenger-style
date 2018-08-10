@@ -7,33 +7,33 @@ sidebar_label: Color Palette
 # Class Colors
 
 ```html @preview
-<div class="dp-ColorSwatchGrid">
-    <div class="dp-ColorSwatchItem ColorSwatchItem--neutral">
+<div class="dpmsg-ColorSwatchGrid">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--neutral">
         <span class="ColorSwatchItemTitle">neutral</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
 
-    <div class="dp-ColorSwatchItem ColorSwatchItem--primary">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--primary">
         <span class="ColorSwatchItemTitle">primary</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
 
-    <div class="dp-ColorSwatchItem ColorSwatchItem--success">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--success">
         <span class="ColorSwatchItemTitle">success</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
 
-    <div class="dp-ColorSwatchItem ColorSwatchItem--info">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--info">
         <span class="ColorSwatchItemTitle">info</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
 
-    <div class="dp-ColorSwatchItem ColorSwatchItem--warning">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--warning">
         <span class="ColorSwatchItemTitle">warning</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
 
-    <div class="dp-ColorSwatchItem ColorSwatchItem--danger">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--danger">
         <span class="ColorSwatchItemTitle">danger</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
@@ -43,28 +43,28 @@ sidebar_label: Color Palette
 # Gray Scale
 
 ```html @preview
-<div class="dp-ColorSwatchGrid">
-    <div class="dp-ColorSwatchItem ColorSwatchItem--gray-100">
+<div class="dpmsg-ColorSwatchGrid">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--gray-100">
         <span class="ColorSwatchItemTitle">gray-100</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
 
-    <div class="dp-ColorSwatchItem ColorSwatchItem--gray-200">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--gray-200">
         <span class="ColorSwatchItemTitle">gray-200</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
 
-    <div class="dp-ColorSwatchItem ColorSwatchItem--gray-300">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--gray-300">
         <span class="ColorSwatchItemTitle">gray-300</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
 
-    <div class="dp-ColorSwatchItem ColorSwatchItem--gray-400">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--gray-400">
         <span class="ColorSwatchItemTitle">gray-400</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
 
-    <div class="dp-ColorSwatchItem ColorSwatchItem--gray-500">
+    <div class="dpmsg-ColorSwatchItem ColorSwatchItem--gray-500">
         <span class="ColorSwatchItemTitle">gray-500</span>
         <span class="ColorSwatchItemValue"></span>
     </div>
@@ -87,7 +87,7 @@ sidebar_label: Color Palette
         return "#" + hex(m[1]) + hex(m[2]) + hex(m[3]);
     }
 
-    var els = document.getElementsByClassName('dp-ColorSwatchItem');
+    var els = document.getElementsByClassName('dpmsg-ColorSwatchItem');
     for (var i = 0; i < els.length; i++) {
         var el = els[i];
         var cv = document.defaultView.getComputedStyle(el, null);

@@ -9,7 +9,7 @@ title: Screens
     <div class="dpmsg-ScreenContent">
       <div class="dpmsg-ScreenHeder">
         <div class="dpmsg-ScreenHederLogo">
-          <img src="/messenger-style/img/dp-logo-white.svg" alt="">
+          <img src="/messenger-style/img/dpmsg-logo-white.svg" alt="">
         </div>
         <span class="dpmsg-ScreenHederTitle">Get in touch</span>
       </div>
@@ -127,10 +127,12 @@ title: Screens
   <div class="dpmsg-Screen is-blue">
     <div class="dpmsg-ScreenContent">
       <div class="dpmsg-ScreenHeder">
-        <div class="dpmsg-ScreenControls dp-Level">
-          <a class="dpmsg-BackBtn dp-LevelLeft" href="#"><i class="dp-IconArrow iconArrow--left"></i> back</a>
-          <div class="dp-LevelRight">
-            <i class="dp-IconArrow iconArrow--right"></i>
+        <div class="dpmsg-ScreenControls dpmsg-Level">
+          <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left"></i> back</a>
+          <div class="dpmsg-LevelRight">
+            <a href="#">
+              <i class="dpmsg-IconMute"></i>
+            </a>
           </div>
         </div>
         <div class="dpmsg-ScreenHederLogo">
@@ -166,10 +168,12 @@ title: Screens
   <div class="dpmsg-Screen is-light">
     <div class="dpmsg-ScreenContent">
       <div class="dpmsg-ScreenHeder">
-        <div class="dpmsg-ScreenControls dp-Level">
-          <a class="dpmsg-BackBtn dp-LevelLeft" href="#"><i class="dp-IconArrow iconArrow--left"></i> back</a>
-          <div class="dp-LevelRight">
-            <i class="dp-IconArrow iconArrow--right"></i>
+        <div class="dpmsg-ScreenControls dpmsg-Level">
+          <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left"></i> back</a>
+          <div class="dpmsg-LevelRight">
+            <a href="#">
+              <i class="dpmsg-IconMute"></i>
+            </a>
           </div>
         </div>
         <div class="dpmsg-ScreenHederLogo">

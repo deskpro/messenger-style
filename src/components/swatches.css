@@ -1,9 +1,9 @@
-.dp-ColorSwatchGrid {
+.dpmsg-ColorSwatchGrid {
   display: flex;
   flex-wrap: wrap;
 }
 
-.dp-ColorSwatchItem {
+.dpmsg-ColorSwatchItem {
   border-radius: 3px;
   flex-shrink: 0;
   height: 100px;

@@ -30,8 +30,8 @@ title: Inputs
 ```html @preview
 <div class="dpmsg-WrapTextarea">
   <span class="dpmsg-MainTextarea" contenteditable="true"></span>
-  <div class="dpmsg-TextareaActions dp-Level">
-    <div class="dp-LevelLeft">
+  <div class="dpmsg-TextareaActions dpmsg-Level">
+    <div class="dpmsg-LevelLeft">
       <a href="#">
         <img src="/messenger-style/img/docs/smile-icon.png" alt="">
       </a>
@@ -39,7 +39,7 @@ title: Inputs
         <img src="/messenger-style/img/docs/attach-icon.png" alt="">
       </a>  
     </div>
-    <div class="dp-LevelRight">
+    <div class="dpmsg-LevelRight">
       <a href="#">
         <img src="/messenger-style/img/docs/send-icon.png" alt="">
       </a>

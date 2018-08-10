@@ -31,8 +31,7 @@
 
 .is-incoming .dpmsg-BubbleItem {
   background-color: #f8fafc;
-  border: 2px solid #dce4eb;
-
+  border: var(--border);
 }
 
 .is-outgoing .dpmsg-BubbleItem {
