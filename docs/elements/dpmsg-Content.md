@@ -7,7 +7,7 @@ lists, blockquotes, etc. This is generally useful for rendering things like
 comments or articles or other textual content.
 
 ```html @preview
-<div class="dp-Content">
+<div class="dpmsg-Content">
   <h1>Hello, world!</h1>
   <p>
     Hi <a href="">there</a>.

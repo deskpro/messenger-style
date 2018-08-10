@@ -2,13 +2,14 @@
   "docs": {
     "Getting Started": ["intro", "colors"],
     "Components": [
-      "components/dp-Level",
+      "components/dpmsg-Level",
       "components/dpmsg-TriggerButtons",
       "components/dpmsg-Screen",
       "components/dpmsg-Block",
       "components/dpmsg-AvatarHeadsList",
       "components/dpmsg-MessagePrompt",
       "components/dpmsg-MessageBubble",
+      "components/dpmsg-Greetings",
       "components/dpmsg-Inputs"
     ],
     "Elements": [

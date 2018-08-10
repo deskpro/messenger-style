@@ -1,0 +1,94 @@
+.dpmsg-WrapGreetings {
+  display: block;
+  width: 317px;
+}
+
+.dpmsg-WrapGreetings .dpmsg-Button {
+  display: block;
+  margin: var(--xs-space) 0 var(--xs-space) auto;
+}
+
+.dpmsg-GreetingsBubbleTime {
+  color: var(--gray-300);
+  display: block;
+}
+
+.dpmsg-GreetingsBubble {
+  display: block;
+}
+
+.dpmsg-GreetingsBubbleRow {
+  display: flex;
+  margin-bottom: var(--xs-space);
+}
+
+.dpmsg-GreetingsAvatarCol {
+  flex: 0 0 42px;
+}
+
+.dpmsg-GreetingsAvatarCol img {
+  max-width: 32px;
+}
+
+.dpmsg-GreetingsBubbleCol {
+  display: block;
+  width: 100%;
+}
+
+.dpmsg-GreetingsBubbleItem {
+  background-color: #f8fafc;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  color: var(--gray-500);
+  display: block;
+  font-size: var(--h1);
+  margin-bottom: var(--xs-space);
+  padding: var(--sm-space);
+}
+
+.dpmsg-WrapGreetingsArea {
+  background-color: #fff;
+  border: var(--border);
+  display: block;
+  padding: var(--sm-space);
+}
+
+.dpmsg-GreetingsArea {
+  background-color: #fff;
+  border: none;
+  color: var(--gray-500);
+  cursor: text;
+  display: block;
+  font-size: var(--h1);
+  max-height: 200px;
+  overflow-x: auto;
+  padding: var(--sm-space);
+  padding-left: 0;
+  resize: none;
+  white-space: pre;
+  white-space: pre-wrap;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.dpmsg-GreetingsArea[placeholder]:empty::before {
+  color: #555;
+  content: attr(placeholder);
+}
+
+.dpmsg-GreetingsArea[placeholder]:empty:focus::before {
+  content: "";
+}
+
+.dpmsg-GreetingsActions {
+  align-items: center;
+  margin-top: var(--xs-space);
+}
+
+.dpmsg-GreetingsActions img {
+  max-height: 26px;
+}
+
+.dpmsg-GreetingsActions .dpmsg-LevelLeft img {
+  margin-right: 20px;
+}

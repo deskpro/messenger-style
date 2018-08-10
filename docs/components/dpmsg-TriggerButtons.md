@@ -12,9 +12,9 @@ title: Messenger Trigger Button
   <span class="dpmsg-IconBadge">1</span>
 </button>
 <button class="dpmsg-TriggerBtn dpmsg-Icon">
-  <img src="/messenger-style/img/docs/chat-icon.jpg" alt="">
+  <img src="/messenger-style/img/docs/message-icon.svg" alt="">
 </button>
 <button class="dpmsg-TriggerBtn dpmsg-Icon dpmsg-IconClose">
-  <img src="/messenger-style/img/docs/close-icon.png" alt="">
+  <img src="/messenger-style/img/docs/close-icon.svg" alt="">
 </button>
 ```
