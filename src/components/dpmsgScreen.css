@@ -156,9 +156,9 @@
 }
 
 .dpmsg-ScreenControls a,
-.dpmsg-ScreenControls a *{
-  font-size: 16px;
+.dpmsg-ScreenControls a * {
   cursor: pointer;
+  font-size: 16px;
 }
 
 .is-blue .dpmsg-ScreenControls,

@@ -12,8 +12,8 @@
 }
 
 .dpmsg-AvatarCol img {
-  max-width: 32px;
   margin-top: 5px;
+  max-width: 32px;
 }
 
 .dpmsg-BubbleCol {
@@ -41,8 +41,8 @@
 }
 
 .is-outgoing .dpmsg-AvatarCol {
-  text-align: right;
   order: 1;
+  text-align: right;
 }
 
 .dpmsg-BubbleNotification {
