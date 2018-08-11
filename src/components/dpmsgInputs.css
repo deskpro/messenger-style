@@ -22,9 +22,9 @@
 }
 
 .dpmsg-WrapInput .dpmsg-IconSearch {
+  left: 10px;
   position: absolute;
   top: 10px;
-  left: 10px;
 }
 
 .dpmsg-InputCheckbox {
