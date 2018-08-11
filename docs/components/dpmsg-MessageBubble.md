@@ -20,7 +20,7 @@ title: Message Bubble
 ```html @preview
 <div class="dpmsg-MessageBubble">
   <div class="dpmsg-MessageBubbleRow is-outgoing">
-    <div class="dpmsg-AvatarCol">
+    <div class="dpmsg-AvatarCol is-rounded">
       <img src="/messenger-style/img/docs/avatar.png" alt="">
     </div>
     <div class="dpmsg-BubbleCol">
@@ -34,10 +34,10 @@ title: Message Bubble
 ```html @preview
 <div class="dpmsg-MessageBubble">
   <div class="dpmsg-MessageBubbleRow is-outgoing">
-    <div class="dpmsg-AvatarCol">
+    <div class="dpmsg-AvatarCol is-rounded">
       <img src="/messenger-style/img/docs/avatar.png" alt="">
     </div>
-    <div class="dpmsg-BubbleCol">
+    <div class="dpmsg-BubbleCol is-center">
       <span class="dpmsg-BubbleItem is-typing">...</span>
     </div>
   </div>
@@ -53,7 +53,7 @@ title: Message Bubble
 # Message Bubble example
 ```html @preview
 <div class="dpmsg-Block">
-  <div class="dpmsg-BlockWrapper" style="max-height: 700px">
+  <div class="dpmsg-BlockWrapper" style="max-height: 785px">
     <span class="dpmsg-BlockHeader">Your conversations</span>
     <div class="dpmsg-AvatarHeadsList">
       <div class="dpmsg-AvatarHeadsIcon">
@@ -86,7 +86,7 @@ title: Message Bubble
       </div>
     </div>
     <div class="dpmsg-MessageBubbleRow is-outgoing">
-      <div class="dpmsg-AvatarCol">
+      <div class="dpmsg-AvatarCol is-rounded">
         <img src="/messenger-style/img/docs/avatar.png" alt="">
       </div>
       <div class="dpmsg-BubbleCol">
@@ -95,7 +95,7 @@ title: Message Bubble
     </div>
     <span class="dpmsg-BubbleNotification is-left">Nick Green joined the conversation (12.47pm)</span>
     <div class="dpmsg-MessageBubbleRow is-incoming">
-      <div class="dpmsg-AvatarCol">
+      <div class="dpmsg-AvatarCol is-rounded">
         <img src="/messenger-style/img/docs/avatar.png" alt="">
       </div>
       <div class="dpmsg-BubbleCol">
@@ -103,7 +103,7 @@ title: Message Bubble
       </div>
     </div>
     <div class="dpmsg-MessageBubbleRow is-outgoing">
-      <div class="dpmsg-AvatarCol">
+      <div class="dpmsg-AvatarCol is-rounded">
         <img src="/messenger-style/img/docs/avatar.png" alt="">
       </div>
       <div class="dpmsg-BubbleCol">
@@ -113,7 +113,7 @@ title: Message Bubble
     <span class="dpmsg-BubbleNotification is-right">John Doe ended the conversation (13.02pm)</span>
     <div class="dpmsg-MessagePrompt">
       <div class="dpmsg-PromptHeader">
-        <img src="/messenger-style/img/docs/prompt-icon.png" alt="">
+        <i class="dpmsg-IconNotes"></i>
         <span class="dpmsg-PromptHeaderText">Would you like an email transcript?</span>
       </div>
       <div class="dpmsg-PromptContentAgree">
@@ -132,19 +132,19 @@ title: Message Bubble
     </div>
   </div>
   <div class="dpmsg-WrapTextarea">
-    <span class="dpmsg-MainTextarea" contenteditable="true"></span>
+    <span class="dpmsg-MainTextarea" placeholder="" contenteditable="true"></span>
     <div class="dpmsg-TextareaActions dpmsg-Level">
       <div class="dpmsg-LevelLeft">
         <a href="#">
-          <img src="/messenger-style/img/docs/smile-icon.png" alt="">
+          <i class="dpmsg-IconSmile"></i>
         </a>
         <a href="#">
-          <img src="/messenger-style/img/docs/attach-icon.png" alt="">
+          <i class="dpmsg-IconAttach"></i>
         </a>  
       </div>
       <div class="dpmsg-LevelRight">
         <a href="#">
-          <img src="/messenger-style/img/docs/send-icon.png" alt="">
+          <i class="dpmsg-IconSend"></i>
         </a>
       </div>
     </div>

@@ -19,6 +19,19 @@
 .dpmsg-BubbleCol {
   display: block;
   width: 100%;
+  &.is-center {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.dpmsg-MainTextarea[placeholder]:empty::before {
+  color: #555;
+  content: attr(placeholder);
+}
+
+.dpmsg-MainTextarea[placeholder]:empty:focus::before {
+  content: "";
 }
 
 .dpmsg-BubbleItem {
@@ -73,4 +86,5 @@
   margin-right: 0;
   padding: 0;
   width: 52px;
+  margin-bottom: 0;
 }

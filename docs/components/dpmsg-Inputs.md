@@ -29,19 +29,19 @@ title: Inputs
 # Main textarea messenger 
 ```html @preview
 <div class="dpmsg-WrapTextarea">
-  <span class="dpmsg-MainTextarea" contenteditable="true"></span>
+  <span class="dpmsg-MainTextarea" placeholder="" contenteditable="true"></span>
   <div class="dpmsg-TextareaActions dpmsg-Level">
     <div class="dpmsg-LevelLeft">
       <a href="#">
-        <img src="/messenger-style/img/docs/smile-icon.png" alt="">
+        <i class="dpmsg-IconSmile"></i>
       </a>
       <a href="#">
-        <img src="/messenger-style/img/docs/attach-icon.png" alt="">
+        <i class="dpmsg-IconAttach"></i>
       </a>  
     </div>
     <div class="dpmsg-LevelRight">
       <a href="#">
-        <img src="/messenger-style/img/docs/send-icon.png" alt="">
+        <i class="dpmsg-IconSend"></i>
       </a>
     </div>
   </div>

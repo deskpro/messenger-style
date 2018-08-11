@@ -16,6 +16,17 @@ title: Icons
 ```html @preview
 <span class="dpmsg-IconBadge">1</span>
 <span class="dpmsg-IconBadge is-inactive">1</span>
+<br>
+<div class="dpmsg-IconBadgeWrap is-left">
+  <span class="dpmsg-IconBadge">2</span>
+  <i class="dpmsg-IconMail"></i>
+</div>
+<br>
+<br>
+<div class="dpmsg-IconBadgeWrap is-right">
+  <span class="dpmsg-IconBadge">2</span>
+  <i class="dpmsg-IconMail"></i>
+</div>
 ```
 
 # Ellipsis
@@ -33,12 +44,16 @@ title: Icons
 
 # All
 ```html @preview
+<i class="dpmsg-IconSearch"></i>
+<i class="dpmsg-IconNotes"></i>
+<i class="dpmsg-IconSmile"></i>
+<i class="dpmsg-IconAttach"></i>
+<i class="dpmsg-IconSend"></i>
 <i class="dpmsg-IconEdit"></i>
 <i class="dpmsg-IconLock"></i>
-<i class="dpmsg-RefreshIcon"></i>
-<i class="dpmsg-RefreshIcon is-updating"></i>
-<i class="dpmsg-RefreshIcon is-updated"></i>
-<i class="dpmsg-IconSearch"></i>
+<i class="dpmsg-IconRefresh"></i>
+<i class="dpmsg-IconRefresh is-updating"></i>
+<i class="dpmsg-IconRefresh is-updated"></i>
 <i class="dpmsg-IconTag"></i>
 <i class="dpmsg-IconOpen"></i>
 <i class="dpmsg-IconLink"></i>

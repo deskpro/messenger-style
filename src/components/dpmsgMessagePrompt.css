@@ -17,9 +17,8 @@
   padding: var(--sm-space) var(--sm-space) 12px;
 }
 
-.dpmsg-PromptHeader img {
+.dpmsg-PromptHeader .dpmsg-IconNotes {
   margin-right: var(--xs-space);
-  margin-top: 6px;
   max-width: var(--space);
 }
 

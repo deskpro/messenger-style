@@ -1,6 +1,5 @@
 .dpmsg-WrapGreetings {
   display: block;
-  width: 317px;
 }
 
 .dpmsg-WrapGreetings .dpmsg-Button {
@@ -90,10 +89,10 @@
   margin-top: var(--sm-space);
 }
 
-.dpmsg-GreetingsActions img {
-  max-height: 26px;
+.dpmsg-GreetingsActions .dpmsg-LevelLeft [class*="dpmsg-Icon"] {
+  margin-right: 20px;
 }
 
-.dpmsg-GreetingsActions .dpmsg-LevelLeft img {
-  margin-right: 20px;
+.dpmsg-GreetingsActions [class*="dpmsg-Icon"] {
+  cursor: pointer;
 }

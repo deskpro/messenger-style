@@ -7,7 +7,7 @@ title: Greetings
   <button class="dpmsg-Button Button--primary Button--rounded">View all</button>
   <div class="dpmsg-GreetingsBubble">
     <div class="dpmsg-GreetingsBubbleRow">
-      <div class="dpmsg-GreetingsAvatarCol">
+      <div class="dpmsg-GreetingsAvatarCol is-rounded">
         <img src="/messenger-style/img/docs/avatar.png" alt="">
       </div>
       <div class="dpmsg-GreetingsBubbleCol">
@@ -22,15 +22,15 @@ title: Greetings
     <div class="dpmsg-GreetingsActions dpmsg-Level">
       <div class="dpmsg-LevelLeft">
         <a href="#">
-          <img src="/messenger-style/img/docs/smile-icon.png" alt="">
+          <i class="dpmsg-IconSmile"></i>
         </a>
         <a href="#">
-          <img src="/messenger-style/img/docs/attach-icon.png" alt="">
+          <i class="dpmsg-IconAttach"></i>
         </a>  
       </div>
       <div class="dpmsg-LevelRight">
         <a href="#">
-          <img src="/messenger-style/img/docs/send-icon.png" alt="">
+          <i class="dpmsg-IconSend"></i>
         </a>
       </div>
     </div>

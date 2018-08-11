@@ -6,7 +6,7 @@ title: Message Prompt
 ```html @preview
 <div class="dpmsg-MessagePrompt">
   <div class="dpmsg-PromptHeader">
-    <img src="/messenger-style/img/docs/prompt-icon.png" alt="">
+    <i class="dpmsg-IconNotes"></i>
     <span class="dpmsg-PromptHeaderText">Would you like an email transcript?</span>
   </div>
   <div class="dpmsg-PromptContentAgree">
@@ -20,7 +20,7 @@ title: Message Prompt
 ```html @preview
 <div class="dpmsg-MessagePrompt">
   <div class="dpmsg-PromptHeader">
-    <img src="/messenger-style/img/docs/prompt-icon.png" alt="">
+    <i class="dpmsg-IconNotes"></i>
     <span class="dpmsg-PromptHeaderText">Would you like an email transcript?</span>
   </div>
   <div class="dpmsg-GroupInputs">
@@ -35,7 +35,7 @@ title: Message Prompt
 ```html @preview
 <div class="dpmsg-MessagePrompt">
   <div class="dpmsg-PromptHeader">
-    <img src="/messenger-style/img/docs/prompt-icon.png" alt="">
+    <i class="dpmsg-IconNotes"></i>
     <span class="dpmsg-PromptHeaderText">Your transcript is on it’s way to:</span>
   </div>
   <span class="dpmsg-PromptText">nickjigreen@hotmail.com</span>
