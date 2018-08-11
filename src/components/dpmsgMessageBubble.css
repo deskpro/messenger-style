@@ -12,12 +12,27 @@
 }
 
 .dpmsg-AvatarCol img {
+  margin-top: 5px;
   max-width: 32px;
 }
 
 .dpmsg-BubbleCol {
   display: block;
   width: 100%;
+
+  &.is-center {
+    align-items: center;
+    display: flex;
+  }
+}
+
+.dpmsg-MainTextarea[placeholder]:empty::before {
+  color: #555;
+  content: attr(placeholder);
+}
+
+.dpmsg-MainTextarea[placeholder]:empty:focus::before {
+  content: "";
 }
 
 .dpmsg-BubbleItem {
@@ -40,6 +55,7 @@
 }
 
 .is-outgoing .dpmsg-AvatarCol {
+  order: 1;
   text-align: right;
 }
 
@@ -52,11 +68,11 @@
   margin-top: var(--space);
 }
 
-.dpmsg-BubbleNotification.is-joined {
+.dpmsg-BubbleNotification.is-left {
   text-align: left;
 }
 
-.dpmsg-BubbleNotification.is-ended {
+.dpmsg-BubbleNotification.is-right {
   text-align: right;
 }
 
@@ -67,6 +83,7 @@
   height: 26px;
   justify-content: center;
   line-height: 4px;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: 0;
   padding: 0;

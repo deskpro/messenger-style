@@ -1,16 +1,19 @@
 .dpmsg-WrapGreetings {
   display: block;
-  width: 317px;
 }
 
 .dpmsg-WrapGreetings .dpmsg-Button {
   display: block;
   margin: var(--xs-space) 0 var(--xs-space) auto;
+  padding: 7px 1.5rem;
 }
 
 .dpmsg-GreetingsBubbleTime {
   color: var(--gray-300);
   display: block;
+  font-size: var(--h4);
+  padding-top: var(--xs-space);
+  text-transform: uppercase;
 }
 
 .dpmsg-GreetingsBubble {
@@ -27,6 +30,7 @@
 }
 
 .dpmsg-GreetingsAvatarCol img {
+  margin-top: 5px;
   max-width: 32px;
 }
 
@@ -42,15 +46,16 @@
   color: var(--gray-500);
   display: block;
   font-size: var(--h1);
+  letter-spacing: 0.4px;
   margin-bottom: var(--xs-space);
-  padding: var(--sm-space);
+  padding: var(--xs-space) var(--sm-space);
 }
 
 .dpmsg-WrapGreetingsArea {
   background-color: #fff;
   border: var(--border);
   display: block;
-  padding: var(--sm-space);
+  padding: var(--xs-space) var(--sm-space) var(--xs-space) var(--xs-space);
 }
 
 .dpmsg-GreetingsArea {
@@ -62,7 +67,6 @@
   font-size: var(--h1);
   max-height: 200px;
   overflow-x: auto;
-  padding: var(--sm-space);
   padding-left: 0;
   resize: none;
   white-space: pre;
@@ -82,13 +86,13 @@
 
 .dpmsg-GreetingsActions {
   align-items: center;
-  margin-top: var(--xs-space);
+  margin-top: var(--sm-space);
 }
 
-.dpmsg-GreetingsActions img {
-  max-height: 26px;
-}
-
-.dpmsg-GreetingsActions .dpmsg-LevelLeft img {
+.dpmsg-GreetingsActions .dpmsg-LevelLeft [class*="dpmsg-Icon"] {
   margin-right: 20px;
+}
+
+.dpmsg-GreetingsActions [class*="dpmsg-Icon"] {
+  cursor: pointer;
 }

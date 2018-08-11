@@ -24,8 +24,8 @@ title: Screens
     </div>
   </div>
   <div class="dpmsg-ScreenIconRow is-left">
-    <button class="dpmsg-TriggerBtn dpmsg-Icon dpmsg-IconClose">
-      <img src="/messenger-style/img/docs/close-icon.png" alt="">
+    <button class="dpmsg-TriggerBtn is-blue">
+      <i class="dpmsg-Icon dpmsg-IconClose"></i>
     </button>
   </div>
 </div>
@@ -54,8 +54,8 @@ title: Screens
     </div>
   </div>
   <div class="dpmsg-ScreenIconRow is-left">
-    <button class="dpmsg-TriggerBtn dpmsg-Icon dpmsg-IconClose">
-      <img src="/messenger-style/img/docs/close-icon.png" alt="">
+    <button class="dpmsg-TriggerBtn is-blue">
+      <i class="dpmsg-Icon dpmsg-IconClose"></i>
     </button>
   </div>
 </div>
@@ -84,8 +84,8 @@ title: Screens
     </div>
   </div>
   <div class="dpmsg-ScreenIconRow is-left">
-    <button class="dpmsg-TriggerBtn dpmsg-Icon dpmsg-IconClose">
-      <img src="/messenger-style/img/docs/close-icon.png" alt="">
+    <button class="dpmsg-TriggerBtn is-blue">
+      <i class="dpmsg-Icon dpmsg-IconClose"></i>
     </button>
   </div>
 </div>
@@ -114,8 +114,8 @@ title: Screens
     </div>
   </div>
   <div class="dpmsg-ScreenIconRow is-left">
-    <button class="dpmsg-TriggerBtn dpmsg-Icon dpmsg-IconClose">
-      <img src="/messenger-style/img/docs/close-icon.png" alt="">
+    <button class="dpmsg-TriggerBtn is-blue">
+      <i class="dpmsg-Icon dpmsg-IconClose"></i>
     </button>
   </div>
 </div>
@@ -155,8 +155,8 @@ title: Screens
     </div>
   </div>
   <div class="dpmsg-ScreenIconRow is-left">
-    <button class="dpmsg-TriggerBtn dpmsg-Icon dpmsg-IconClose">
-      <img src="/messenger-style/img/docs/close-icon.png" alt="">
+    <button class="dpmsg-TriggerBtn is-blue">
+      <i class="dpmsg-Icon dpmsg-IconClose"></i>
     </button>
   </div>
 </div>
@@ -196,8 +196,8 @@ title: Screens
     </div>
   </div>
   <div class="dpmsg-ScreenIconRow is-left">
-    <button class="dpmsg-TriggerBtn dpmsg-Icon dpmsg-IconClose">
-      <img src="/messenger-style/img/docs/close-icon.png" alt="">
+    <button class="dpmsg-TriggerBtn is-blue">
+      <i class="dpmsg-Icon dpmsg-IconClose"></i>
     </button>
   </div>
 </div>
