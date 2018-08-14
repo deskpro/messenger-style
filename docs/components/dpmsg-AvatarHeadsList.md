@@ -28,28 +28,30 @@ title: Avatar Heads List
 # Example
 ```html @preview
 <div class="dpmsg-Block">
-  <span class="dpmsg-BlockHeader">Your conversations</span>
-  <div class="dpmsg-AvatarHeadsList">
-    <div class="dpmsg-AvatarHeadsIcon">
-      <img src="/messenger-style/img/docs/avatar.png" alt="">
+  <div class="dpmsg-BlockWrapper">
+    <span class="dpmsg-BlockHeader">Your conversations</span>
+    <div class="dpmsg-AvatarHeadsList">
+      <div class="dpmsg-AvatarHeadsIcon">
+        <img src="/messenger-style/img/docs/avatar.png" alt="">
+      </div>
+      <div class="dpmsg-AvatarHeadsIcon">
+        <img src="/messenger-style/img/docs/avatar.png" alt="">
+      </div>
+      <div class="dpmsg-AvatarHeadsIcon">
+        <img src="/messenger-style/img/docs/avatar.png" alt="">
+      </div>
+      <div class="dpmsg-AvatarHeadsIcon">
+        <img src="/messenger-style/img/docs/avatar.png" alt="">
+      </div>
+      <div class="dpmsg-AvatarHeadsIcon">
+        <img src="/messenger-style/img/docs/avatar.png" alt="">
+      </div>
+      <div class="dpmsg-AvatarHeadsIcon">
+        <img src="/messenger-style/img/docs/avatar.png" alt="">
+      </div>
     </div>
-    <div class="dpmsg-AvatarHeadsIcon">
-      <img src="/messenger-style/img/docs/avatar.png" alt="">
-    </div>
-    <div class="dpmsg-AvatarHeadsIcon">
-      <img src="/messenger-style/img/docs/avatar.png" alt="">
-    </div>
-    <div class="dpmsg-AvatarHeadsIcon">
-      <img src="/messenger-style/img/docs/avatar.png" alt="">
-    </div>
-    <div class="dpmsg-AvatarHeadsIcon">
-      <img src="/messenger-style/img/docs/avatar.png" alt="">
-    </div>
-    <div class="dpmsg-AvatarHeadsIcon">
-      <img src="/messenger-style/img/docs/avatar.png" alt="">
-    </div>
+    <span class="dpmsg-BlockText">Need help? Just reply to start a live conversation  with one of our team</span>
+    <button class="dpmsg-Button Button-FullWidth Button--primary Button--medium">Start a new conversation</button>
   </div>
-  <span class="dpmsg-BlockText">Need help? Just reply to start a live conversation  with one of our team</span>
-  <button class="dpmsg-Button Button-FullWidth Button--primary Button--medium">Start a new conversation</button>
 </div>
 ```

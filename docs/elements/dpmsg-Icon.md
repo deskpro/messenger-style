@@ -49,6 +49,7 @@ title: Icons
 <i class="dpmsg-IconSmile"></i>
 <i class="dpmsg-IconAttach"></i>
 <i class="dpmsg-IconSend"></i>
+<i class="dpmsg-IconArrowCircle"></i>
 <i class="dpmsg-IconEdit"></i>
 <i class="dpmsg-IconLock"></i>
 <i class="dpmsg-IconRefresh"></i>

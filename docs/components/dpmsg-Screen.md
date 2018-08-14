@@ -9,7 +9,7 @@ title: Screens
     <div class="dpmsg-ScreenContent">
       <div class="dpmsg-ScreenHeder">
         <div class="dpmsg-ScreenHederLogo">
-          <img src="/messenger-style/img/dpmsg-logo-white.svg" alt="">
+          <img src="/messenger-style/img/dp-logo-white.svg" alt="">
         </div>
         <span class="dpmsg-ScreenHederTitle">Get in touch</span>
       </div>

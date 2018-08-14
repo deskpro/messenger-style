@@ -4,6 +4,10 @@ title: Inputs
 
 ```html @preview
 <input class="dpmsg-Input" placeholder="name">
+<label>
+  <span class="dpmsg-LabelInputText">Name</span>
+  <input class="dpmsg-Input" placeholder="name">
+</label>
 ```
 
 # Input search
