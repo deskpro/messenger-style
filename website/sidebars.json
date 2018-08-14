@@ -10,6 +10,7 @@
       "components/dpmsg-MessagePrompt",
       "components/dpmsg-MessageBubble",
       "components/dpmsg-Greetings",
+      "components/dpmsg-BookTime",
       "components/dpmsg-Inputs"
     ],
     "Elements": [

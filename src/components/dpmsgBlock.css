@@ -4,7 +4,7 @@
   border-radius: var(--border-radius);
   box-shadow: 0 4px 8px 1px rgba(51, 51, 62, 0.1);
   display: block;
-  padding: var(--space) var(--space) 25px;
+  padding: var(--space) var(--space) 0;
 }
 
 .dpmsg-BlockWrapper {
@@ -16,12 +16,19 @@
 
 .dpmsg-BlockHeader {
   color: var(--gray-500);
-  display: block;
+  display: flex;
   font-size: 18px;
   letter-spacing: 0.4px;
   margin-bottom: var(--sm-space);
   padding-bottom: 12px;
   position: relative;
+}
+
+.dpmsg-BlockHeader span {
+  color: var(--gray-500);
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 0.4px;
 }
 
 .dpmsg-BlockHeader::after {
