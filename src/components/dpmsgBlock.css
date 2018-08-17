@@ -6,7 +6,7 @@
   display: block;
   max-height: calc(100vh - 200px);
   overflow-y: auto;
-  padding: var(--space) var(--space) 0;
+  padding: var(--space);
   position: relative;
 }
 
