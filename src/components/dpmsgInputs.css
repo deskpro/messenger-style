@@ -8,12 +8,12 @@
   border: var(--border);
   border-radius: var(--border-radius);
   font-size: var(--h1);
-  padding: 13px var(--sm-space);
+  padding: 11px var(--sm-space);
   width: 100%;
 
   &.is-search {
     background-color: #fff;
-    padding-left: 46px;
+    padding-left: 39px;
   }
 }
 
@@ -44,17 +44,17 @@ label {
 }
 
 .dpmsg-GroupInputs .dpmsg-LabelInputText {
-  padding-top: 5px;
+  padding-top: 4px;
 }
 
 .dpmsg-LabelInputText + .dpmsg-Input {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .dpmsg-WrapInput .dpmsg-IconSearch {
-  left: 10px;
+  left: 12px;
   position: absolute;
-  top: 10px;
+  top: 12px;
 }
 
 .dpmsg-InputCheckbox {
@@ -78,11 +78,11 @@ label {
 .dpmsg-InputCheckboxMarker {
   background-color: #f4f7fa;
   border: 1px solid #c3cbd1;
-  border-radius: 5px;
+  border-radius: 4px;
   display: inline-block;
-  height: 10px;
+  height: 9px;
   position: relative;
-  width: 30px;
+  width: 25px;
 }
 
 .dpmsg-InputCheckboxMarker::after {
@@ -90,17 +90,17 @@ label {
   border-radius: 50%;
   content: "";
   display: block;
-  height: 14px;
+  height: 13px;
   left: 0;
   position: absolute;
   right: auto;
   top: -3px;
   transition: left var(--animation-speed);
-  width: 14px;
+  width: 12px;
 }
 
 .dpmsg-InputCheckbox:checked + .dpmsg-InputCustomCheckbox .dpmsg-InputCheckboxMarker::after {
-  left: 15px;
+  left: 13px;
   transition: left var(--animation-speed);
 }
 
@@ -123,12 +123,12 @@ label {
   background-color: #fff;
   bottom: 0;
   display: block;
-  margin-left: -10px;
-  margin-right: -10px;
-  padding: 0 10px 10px;
+  margin-left: calc(var(--xs-space) * -1);
+  margin-right: calc(var(--xs-space) * -1);
+  padding: 0 var(--xs-space) var(--xs-space);
   position: sticky;
   top: auto;
-  width: calc(100% + 20px);
+  width: calc(100% + var(--xs-space) + var(--xs-space));
 }
 
 .dpmsg-MainTextarea {
@@ -139,7 +139,7 @@ label {
   cursor: text;
   display: block;
   font-size: var(--h1);
-  max-height: 200px;
+  max-height: 170px;
   overflow-x: auto;
   padding: var(--sm-space);
   padding-left: 0;
@@ -152,16 +152,16 @@ label {
 
 .dpmsg-TextareaActions {
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 21px;
   margin-top: var(--xs-space);
 }
 
 .dpmsg-TextareaActions img {
-  max-height: 26px;
+  max-height: 22px;
 }
 
 .dpmsg-TextareaActions .dpmsg-LevelLeft [class*="dpmsg-Icon"] {
-  margin-right: 20px;
+  margin-right: 17px;
 }
 
 .dpmsg-TextareaActions [class*="dpmsg-Icon"] {

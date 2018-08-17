@@ -1,22 +1,22 @@
 .dpmsg-AvatarHeadsList {
   display: flex;
-  margin-bottom: 6px;
-  margin-top: -7px;
+  margin-bottom: 5px;
+  margin-top: -6px;
 }
 
 .dpmsg-AvatarHeadsIcon {
-  border: 7px solid #fff;
+  border: 6px solid #fff;
   border-radius: 50%;
   display: block;
-  height: 66px;
+  height: 56px;
   overflow: hidden;
-  width: 66px;
+  width: 56px;
 }
 
 .dpmsg-AvatarHeadsIcon:not(:first-child) {
-  margin-left: -14px;
+  margin-left: -12px;
 }
 
 .dpmsg-AvatarHeadsIcon:first-child {
-  margin-left: -7px;
+  margin-left: -12px;
 }

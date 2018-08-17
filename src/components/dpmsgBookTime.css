@@ -26,10 +26,10 @@ a.dpmsg-BlockHeader:hover span {
 
 .dpmsg-BookAvatar {
   display: block;
-  height: 49px;
+  height: 42px;
   margin: auto;
-  padding-top: 5px;
-  width: 44px;
+  padding-top: 4px;
+  width: 37px;
 }
 
 .dpmsg-BookAvatar img {
@@ -47,16 +47,16 @@ a.dpmsg-BlockHeader:hover span {
 
 .dpmsg-BookPost {
   display: block;
-  padding-top: 6px;
+  padding-top: 5px;
   text-align: center;
 }
 
 .dpmsg-BookTime .dpmsg-Level {
   border-bottom: var(--border);
-  padding: 15px 0;
+  padding: var(--sm-space) 0;
 
   &.dpmsg-BookHeader {
-    padding-bottom: 9px;
+    padding-bottom: 8px;
     padding-top: var(--space);
   }
 }
@@ -85,7 +85,7 @@ a.dpmsg-BlockHeader:hover span {
   border-bottom: none;
   color: var(--blue);
   font-size: var(--h3);
-  margin-top: 12px;
+  margin-top: 10px;
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -109,7 +109,7 @@ a.dpmsg-BlockHeader:hover span {
   border: 1px solid var(--blue);
   color: var(--gray-500);
   display: inline-block;
-  height: 44px;
+  height: 37px;
   width: 100%;
   &:hover { background: var(--gray-100); }
 }
@@ -118,10 +118,10 @@ a.dpmsg-BlockHeader:hover span {
   background: var(--color-primary);
   border: 1px solid var(--color-primary);
   color: var(--text-light);
-  height: 44px;
+  height: 37px;
   margin-right: -50%;
   transition: all var(--animation-speed);
-  width: calc(50% - 10px);
+  width: calc(50% - 9px);
   &:hover { background: color-mod(var(--color-primary) blackness(20%)); }
 }
 
@@ -129,14 +129,14 @@ a.dpmsg-BlockHeader:hover span {
   background: var(--color-secondary);
   border: 1px solid var(--color-secondary);
   color: var(--text-light);
-  margin-right: 10px;
+  margin-right: 9px;
   transition: all var(--animation-speed);
-  width: calc(50% - 10px);
+  width: calc(50% - 9px);
   &:hover { background: color-mod(var(--color-secondary) blackness(20%)); }
 }
 
 .dpmsg-BookTime .for-confirm .Button-Confirm {
-  margin-left: 10px;
+  margin-left: 9px;
   margin-right: 0;
   transition: all var(--animation-speed);
 }
@@ -144,14 +144,14 @@ a.dpmsg-BlockHeader:hover span {
 .dpmsg-DateMeeting {
   border-bottom: var(--border);
   display: block;
-  padding: 25px;
+  padding: 21px;
   text-align: center;
 }
 
 .dpmsg-Button.submit-bookTime {
   font-size: var(--h1);
-  height: 44px;
-  margin-top: 65px;
+  height: 37px;
+  margin-top: 55px;
 }
 
 .dpmsg-ConfirmDateMeeting {
@@ -167,6 +167,6 @@ a.dpmsg-BlockHeader:hover span {
   cursor: pointer;
   display: block;
   font-size: var(--h4);
-  padding-top: 5px;
+  padding-top: 4px;
   text-align: center;
 }
