@@ -56,13 +56,9 @@
   justify-content: space-around;
 }
 
-.dpmsg-GroupInputs {
-  display: block;
-  padding: var(--sm-space);
-}
-
-.dpmsg-GroupInputs input {
-  margin-bottom: var(--xs-space);
+.dpmsg-MessagePrompt .dpmsg-GroupInputs {
+  padding-left: var(--sm-space);
+  padding-right: var(--sm-space);
 }
 
 .dpmsg-PromptText {
