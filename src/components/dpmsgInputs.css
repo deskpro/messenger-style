@@ -17,6 +17,16 @@
   }
 }
 
+.dpmsg-GroupInputs {
+  display: block;
+  padding-bottom: var(--sm-space);
+  padding-top: var(--sm-space);
+}
+
+.dpmsg-GroupInputs input {
+  margin-bottom: var(--xs-space);
+}
+
 .dpmsg-Input::placeholder {
   color: var(--gray-300);
 }
@@ -31,6 +41,10 @@ label {
   font-size: var(--h2);
   line-height: 1;
   padding: var(--xs-space) 0;
+}
+
+.dpmsg-GroupInputs .dpmsg-LabelInputText {
+  padding-top: 5px;
 }
 
 .dpmsg-LabelInputText + .dpmsg-Input {
@@ -103,6 +117,18 @@ label {
 .dpmsg-InputCheckbox:checked + .dpmsg-InputCustomCheckbox .dpmsg-InputCheckboxText {
   color: #3c87f3;
   transition: color var(--animation-speed);
+}
+
+.dpmsg-WrapTextarea {
+  background-color: #fff;
+  bottom: 0;
+  display: block;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 0 10px 10px;
+  position: sticky;
+  top: auto;
+  width: calc(100% + 20px);
 }
 
 .dpmsg-MainTextarea {

@@ -3,11 +3,13 @@ title: Inputs
 ---
 
 ```html @preview
+<div class="dpmsg-GroupInputs">
 <input class="dpmsg-Input" placeholder="name">
 <label>
   <span class="dpmsg-LabelInputText">Name</span>
   <input class="dpmsg-Input" placeholder="name">
 </label>
+</div>
 ```
 
 # Input search
