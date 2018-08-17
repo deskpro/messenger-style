@@ -4,9 +4,9 @@
   border-radius: var(--border-radius);
   box-shadow: 0 4px 8px 1px rgba(51, 51, 62, 0.1);
   display: block;
-  padding: var(--space) var(--space) 0;
-  overflow-y: auto;
   max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  padding: var(--space) var(--space) 0;
   position: relative;
 }
 

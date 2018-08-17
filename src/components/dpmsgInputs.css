@@ -19,8 +19,8 @@
 
 .dpmsg-GroupInputs {
   display: block;
-  padding-top: var(--sm-space);
   padding-bottom: var(--sm-space);
+  padding-top: var(--sm-space);
 }
 
 .dpmsg-GroupInputs input {
@@ -42,6 +42,7 @@ label {
   line-height: 1;
   padding: var(--xs-space) 0;
 }
+
 .dpmsg-GroupInputs .dpmsg-LabelInputText {
   padding-top: 5px;
 }
@@ -117,16 +118,17 @@ label {
   color: #3c87f3;
   transition: color var(--animation-speed);
 }
+
 .dpmsg-WrapTextarea {
-  position: sticky;
+  background-color: #fff;
   bottom: 0;
-  top: auto;
+  display: block;
   margin-left: -10px;
   margin-right: -10px;
-  background-color: #fff;
-  display: block;
-  width: calc(100% + 20px);
   padding: 0 10px 10px;
+  position: sticky;
+  top: auto;
+  width: calc(100% + 20px);
 }
 
 .dpmsg-MainTextarea {

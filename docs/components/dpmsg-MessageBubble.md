@@ -52,7 +52,7 @@ title: Message Bubble
 
 # Message Bubble example
 ```html @preview
-<div class="dpmsg-Block" style="max-height: 785px">
+<div class="dpmsg-Block">
   <div class="dpmsg-BlockWrapper">
     <span class="dpmsg-BlockHeader">Your conversations</span>
     <div class="dpmsg-AvatarHeadsList">
