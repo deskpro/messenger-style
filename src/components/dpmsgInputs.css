@@ -121,7 +121,7 @@ label {
 
 .dpmsg-WrapTextarea {
   background-color: #fff;
-  bottom: 0;
+  bottom: calc(var(--space) * -1);
   display: block;
   margin-left: calc(var(--xs-space) * -1);
   margin-right: calc(var(--xs-space) * -1);
