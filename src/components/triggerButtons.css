@@ -1,3 +1,8 @@
+.frame-root {
+  position: absolute;
+  bottom: 0;
+}
+
 .dpmsg-TriggerBtn {
   align-items: center;
   border-radius: 50%;
