@@ -5,7 +5,7 @@
 .dpmsg-WrapGreetings .dpmsg-Button {
   display: block;
   margin: var(--xs-space) 0 var(--xs-space) auto;
-  padding: 7px 1.5rem;
+  padding: 6px 1.3rem;
 }
 
 .dpmsg-GreetingsBubbleTime {
@@ -26,12 +26,12 @@
 }
 
 .dpmsg-GreetingsAvatarCol {
-  flex: 0 0 42px;
+  flex: 0 0 35px;
 }
 
 .dpmsg-GreetingsAvatarCol img {
-  margin-top: 5px;
-  max-width: 32px;
+  margin-top: 4px;
+  max-width: 27px;
 }
 
 .dpmsg-GreetingsBubbleCol {
@@ -65,7 +65,7 @@
   cursor: text;
   display: block;
   font-size: var(--h1);
-  max-height: 200px;
+  max-height: 170px;
   overflow-x: auto;
   padding-left: 0;
   resize: none;
@@ -90,7 +90,7 @@
 }
 
 .dpmsg-GreetingsActions .dpmsg-LevelLeft [class*="dpmsg-Icon"] {
-  margin-right: 20px;
+  margin-right: 17px;
 }
 
 .dpmsg-GreetingsActions [class*="dpmsg-Icon"] {

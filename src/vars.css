@@ -63,21 +63,21 @@
   --normal-font-size: 1rem;
   --border-color-input: #cecece;
 
-  --height-icon: 20px;
-  --width-icon: 20px;
+  --height-icon: 17px;
+  --width-icon: 17px;
 
-  --h1: 16px;
-  --h2: 14px;
-  --h3: 13px;
-  --h4: 12px;
+  --h1: 14px;
+  --h2: 12px;
+  --h3: 11px;
+  --h4: 10px;
 
-  --p1: 10px;
-  --p2: 9px;
-  --p3: 8px;
+  --p1: 9px;
+  --p2: 8px;
+  --p3: 7px;
 
   --space: 17px;
-  --sm-space: 15px;
-  --xs-space: 10px;
+  --sm-space: 13px;
+  --xs-space: 8px;
 
   --button-padding: var(--xs-space);
 

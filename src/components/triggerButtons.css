@@ -35,7 +35,7 @@
 .dpmsg-TriggerBtn {
   align-items: center;
   background-image: none;
-  box-shadow: 0 6px 9px 1px rgba(51, 51, 62, 0.3);
+  box-shadow: 0 5px 8px 1px rgba(51, 51, 62, 0.3);
   display: flex;
   font-size: var(--p1);
   height: 5.2em;
