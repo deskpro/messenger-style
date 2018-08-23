@@ -121,15 +121,15 @@ label {
 
 .dpmsg-WrapTextarea {
   background-color: #fff;
+  bottom: 0;
   display: block;
   margin-left: calc(var(--xs-space) * -1);
   margin-right: calc(var(--xs-space) * -1);
+  margin-top: 20px;
   padding: 0 var(--xs-space) var(--xs-space);
   position: sticky;
   top: auto;
-  bottom: 0;
   width: calc(100% + var(--xs-space) + var(--xs-space));
-  margin-top: 20px;
 }
 
 .dpmsg-MainTextarea {
