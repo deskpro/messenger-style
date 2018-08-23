@@ -1,6 +1,7 @@
 .frame-root {
   bottom: 0;
   position: absolute;
+  right: 0;
 }
 
 .dpmsg-TriggerBtn {
@@ -12,6 +13,8 @@
   font-size: var(--p1);
   height: 5.2em;
   justify-content: center;
+  margin-bottom: 8px;
+  margin-right: 8px;
   position: relative;
   width: 5.2em;
 }

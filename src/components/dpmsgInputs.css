@@ -121,10 +121,11 @@ label {
 
 .dpmsg-WrapTextarea {
   background-color: #fff;
-  bottom: calc(var(--space) * -1);
+  bottom: 0;
   display: block;
   margin-left: calc(var(--xs-space) * -1);
   margin-right: calc(var(--xs-space) * -1);
+  margin-top: 20px;
   padding: 0 var(--xs-space) var(--xs-space);
   position: sticky;
   top: auto;
@@ -152,8 +153,6 @@ label {
 
 .dpmsg-TextareaActions {
   align-items: center;
-  margin-bottom: 21px;
-  margin-top: var(--xs-space);
 }
 
 .dpmsg-TextareaActions img {

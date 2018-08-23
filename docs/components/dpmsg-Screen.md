@@ -6,13 +6,13 @@ title: Screens
 ```html @preview
 <div class="dpmsg-ScreenWrap">
   <div class="dpmsg-Screen is-minimal is-blue">
-    <div class="dpmsg-ScreenContent">
-      <div class="dpmsg-ScreenHeder">
-        <div class="dpmsg-ScreenHederLogo">
-          <img src="/messenger-style/img/dp-logo-white.svg" alt="">
-        </div>
-        <span class="dpmsg-ScreenHederTitle">Get in touch</span>
+    <div class="dpmsg-ScreenHeder">
+      <div class="dpmsg-ScreenHederLogo">
+        <img src="/messenger-style/img/dp-logo-white.svg" alt="">
       </div>
+      <span class="dpmsg-ScreenHederTitle">Get in touch</span>
+    </div>
+    <div class="dpmsg-ScreenContent">
       <div class="dpmsg-Block" style="height: 250px"></div>
     </div>
     <div class="dpmsg-ScreenFooter">
@@ -36,13 +36,13 @@ title: Screens
 ```html @preview
 <div class="dpmsg-ScreenWrap">
   <div class="dpmsg-Screen is-minimal is-light">
-    <div class="dpmsg-ScreenContent">
-      <div class="dpmsg-ScreenHeder">
-        <div class="dpmsg-ScreenHederLogo">
-          <img src="/messenger-style/img/dp-logo.svg" alt="">
-        </div>
-        <span class="dpmsg-ScreenHederTitle">Get in touch</span>
+    <div class="dpmsg-ScreenHeder">
+      <div class="dpmsg-ScreenHederLogo">
+        <img src="/messenger-style/img/dp-logo.svg" alt="">
       </div>
+      <span class="dpmsg-ScreenHederTitle">Get in touch</span>
+    </div>
+    <div class="dpmsg-ScreenContent">
       <div class="dpmsg-Block" style="height: 250px"></div>
     </div>
     <div class="dpmsg-ScreenFooter">
@@ -65,14 +65,14 @@ title: Screens
 ```html @preview
 <div class="dpmsg-ScreenWrap">
   <div class="dpmsg-Screen is-blue">
-    <div class="dpmsg-ScreenContent">
-      <div class="dpmsg-ScreenHeder">
-        <div class="dpmsg-ScreenHederLogo">
-          <img src="/messenger-style/img/deskpro-logo-white.svg" alt="">
-        </div>
-        <span class="dpmsg-ScreenHederTitle">Get in touch</span>
-        <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
+    <div class="dpmsg-ScreenHeder">
+      <div class="dpmsg-ScreenHederLogo">
+        <img src="/messenger-style/img/deskpro-logo-white.svg" alt="">
       </div>
+      <span class="dpmsg-ScreenHederTitle">Get in touch</span>
+      <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
+    </div>
+    <div class="dpmsg-ScreenContent">
       <div class="dpmsg-Block" style="height: 250px"></div>
     </div>
     <div class="dpmsg-ScreenFooter">
@@ -95,14 +95,14 @@ title: Screens
 ```html @preview
 <div class="dpmsg-ScreenWrap">
   <div class="dpmsg-Screen is-light">
-    <div class="dpmsg-ScreenContent">
-      <div class="dpmsg-ScreenHeder">
-        <div class="dpmsg-ScreenHederLogo">
-          <img src="/messenger-style/img/deskpro-logo.svg" alt="">
-        </div>
-        <span class="dpmsg-ScreenHederTitle">Get in touch</span>
-        <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
+    <div class="dpmsg-ScreenHeder">
+      <div class="dpmsg-ScreenHederLogo">
+        <img src="/messenger-style/img/deskpro-logo.svg" alt="">
       </div>
+      <span class="dpmsg-ScreenHederTitle">Get in touch</span>
+      <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
+    </div>
+    <div class="dpmsg-ScreenContent">
       <div class="dpmsg-Block" style="height: 250px"></div>
     </div>
     <div class="dpmsg-ScreenFooter">
@@ -125,22 +125,22 @@ title: Screens
 ```html @preview
 <div class="dpmsg-ScreenWrap">
   <div class="dpmsg-Screen is-blue">
-    <div class="dpmsg-ScreenContent">
-      <div class="dpmsg-ScreenHeder">
-        <div class="dpmsg-ScreenControls dpmsg-Level">
-          <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left"></i> back</a>
-          <div class="dpmsg-LevelRight">
-            <a href="#">
-              <i class="dpmsg-IconMute"></i>
-            </a>
-          </div>
+    <div class="dpmsg-ScreenHeder">
+      <div class="dpmsg-ScreenControls dpmsg-Level">
+        <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left"></i> back</a>
+        <div class="dpmsg-LevelRight">
+          <a href="#">
+            <i class="dpmsg-IconMute is-disabled"></i>
+          </a>
         </div>
-        <div class="dpmsg-ScreenHederLogo">
-          <img src="/messenger-style/img/deskpro-logo-white.svg" alt="">
-        </div>
-        <span class="dpmsg-ScreenHederTitle">Get in touch</span>
-        <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
       </div>
+      <div class="dpmsg-ScreenHederLogo">
+        <img src="/messenger-style/img/deskpro-logo-white.svg" alt="">
+      </div>
+      <span class="dpmsg-ScreenHederTitle">Get in touch</span>
+      <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
+    </div>
+    <div class="dpmsg-ScreenContent">
       <div class="dpmsg-Block" style="height: 190px"></div>
       <div class="dpmsg-Block" style="height: 246px"></div>
       <div class="dpmsg-Block" style="height: 141px"></div>
@@ -166,22 +166,22 @@ title: Screens
 ```html @preview
 <div class="dpmsg-ScreenWrap">
   <div class="dpmsg-Screen is-light">
-    <div class="dpmsg-ScreenContent">
-      <div class="dpmsg-ScreenHeder">
-        <div class="dpmsg-ScreenControls dpmsg-Level">
-          <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left"></i> back</a>
-          <div class="dpmsg-LevelRight">
-            <a href="#">
-              <i class="dpmsg-IconMute"></i>
-            </a>
-          </div>
+    <div class="dpmsg-ScreenHeder">
+      <div class="dpmsg-ScreenControls dpmsg-Level">
+        <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left"></i> back</a>
+        <div class="dpmsg-LevelRight">
+          <a href="#">
+            <i class="dpmsg-IconMute"></i>
+          </a>
         </div>
-        <div class="dpmsg-ScreenHederLogo">
-          <img src="/messenger-style/img/deskpro-logo.svg" alt="">
-        </div>
-        <span class="dpmsg-ScreenHederTitle">Get in touch</span>
-        <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
       </div>
+      <div class="dpmsg-ScreenHederLogo">
+        <img src="/messenger-style/img/deskpro-logo.svg" alt="">
+      </div>
+      <span class="dpmsg-ScreenHederTitle">Get in touch</span>
+      <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
+    </div>
+    <div class="dpmsg-ScreenContent">
       <div class="dpmsg-Block" style="height: 190px"></div>
       <div class="dpmsg-Block" style="height: 246px"></div>
       <div class="dpmsg-Block" style="height: 141px"></div>
