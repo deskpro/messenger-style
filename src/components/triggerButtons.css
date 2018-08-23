@@ -1,5 +1,6 @@
 .frame-root {
   bottom: 0;
+  right: 0;
   position: absolute;
 }
 
@@ -14,6 +15,8 @@
   justify-content: center;
   position: relative;
   width: 5.2em;
+  margin-bottom: 8px;
+  margin-right: 8px;
 }
 
 .dpmsg-TriggerBtn img {

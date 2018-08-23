@@ -56,6 +56,11 @@
   justify-content: space-around;
 }
 
+.dpmsg-PromptContentEvaluation [class*=dpmsg-IconSmile] {
+  height: 32px;
+  width: 32px;
+}
+
 .dpmsg-MessagePrompt .dpmsg-GroupInputs {
   padding-left: var(--sm-space);
   padding-right: var(--sm-space);
