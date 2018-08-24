@@ -128,11 +128,7 @@ title: Screens
     <div class="dpmsg-ScreenHeder">
       <div class="dpmsg-ScreenControls dpmsg-Level">
         <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left"></i> back</a>
-        <div class="dpmsg-LevelRight">
-          <a href="#">
-            <i class="dpmsg-IconMute is-disabled"></i>
-          </a>
-        </div>
+        <a class="dpmsg-LevelRight is-disabled" href="#"><i class="dpmsg-IconMute"></i></a>
       </div>
       <div class="dpmsg-ScreenHederLogo">
         <img src="/messenger-style/img/deskpro-logo-white.svg" alt="">
@@ -169,11 +165,7 @@ title: Screens
     <div class="dpmsg-ScreenHeder">
       <div class="dpmsg-ScreenControls dpmsg-Level">
         <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left"></i> back</a>
-        <div class="dpmsg-LevelRight">
-          <a href="#">
-            <i class="dpmsg-IconMute"></i>
-          </a>
-        </div>
+        <a class="dpmsg-LevelRight" href="#"><i class="dpmsg-IconMute"></i></a>
       </div>
       <div class="dpmsg-ScreenHederLogo">
         <img src="/messenger-style/img/deskpro-logo.svg" alt="">
