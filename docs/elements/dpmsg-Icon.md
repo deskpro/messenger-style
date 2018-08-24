@@ -47,6 +47,7 @@ title: Icons
 <i class="dpmsg-IconSearch"></i>
 <i class="dpmsg-IconNotes"></i>
 <i class="dpmsg-IconSmile"></i>
+<i class="dpmsg-IconSmile is-blue"></i>
 <i class="dpmsg-IconAttach"></i>
 <i class="dpmsg-IconSend"></i>
 <i class="dpmsg-IconArrowCircle"></i>
