@@ -4,8 +4,8 @@
   border-radius: var(--border-radius);
   box-shadow: 3px 3px 7px 1px rgba(51, 51, 62, 0.1);
   display: block;
-  margin-top: 42px;
   margin-bottom: 20px;
+  margin-top: 42px;
 }
 
 .dpmsg-PromptHeader {

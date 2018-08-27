@@ -11,6 +11,7 @@
   border: none;
   display: inline-block;
   outline: none;
+
   &:hover,
   &:focus {
     outline: none;
