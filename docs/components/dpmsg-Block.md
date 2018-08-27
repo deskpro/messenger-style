@@ -8,7 +8,7 @@ title: Block
     <span class="dpmsg-BlockHeader">Quick search</span>
     <div class="dpmsg-WrapInput">
       <input class="dpmsg-Input is-search" placeholder="Search">
-      <i class="dpmsg-IconSearch"></i>
+      <button class="dpmsg-iconOnly dpmsg-IconSearch"></button>
     </div>
   </div>
 </div>
