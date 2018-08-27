@@ -252,24 +252,24 @@ title: Message Bubble
               <i class="dpmsg-IconSmile is-blue"></i>
             </div>
           </div>
-      <div class="dpmsg-WrapTextarea">
-        <span class="dpmsg-MainTextarea" placeholder="" contenteditable="true"></span>
-        <div class="dpmsg-TextareaActions dpmsg-Level">
-          <div class="dpmsg-LevelLeft">
-            <a href="#">
-              <i class="dpmsg-IconSmile"></i>
-            </a>
-            <a href="#">
-              <i class="dpmsg-IconAttach"></i>
-            </a>  
+          <div class="dpmsg-WrapTextarea">
+            <span class="dpmsg-MainTextarea" placeholder="" contenteditable="true"></span>
+            <div class="dpmsg-TextareaActions dpmsg-Level">
+              <div class="dpmsg-LevelLeft">
+                <button class="dpmsg-iconOnly">
+                  <i class="dpmsg-IconSmile"></i>
+                </button>
+                <button class="dpmsg-iconOnly">
+                  <i class="dpmsg-IconAttach"></i>
+                </button>  
+              </div>
+              <div class="dpmsg-LevelRight">
+                <button class="dpmsg-iconOnly">
+                  <i class="dpmsg-IconSend"></i>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="dpmsg-LevelRight">
-            <a href="#">
-              <i class="dpmsg-IconSend"></i>
-            </a>
-          </div>
-        </div>
-      </div>
         </div>
       </div>
     </div>

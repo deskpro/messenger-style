@@ -16,7 +16,7 @@ title: Inputs
 ```html @preview
 <div class="dpmsg-WrapInput">
   <input class="dpmsg-Input is-search" placeholder="Search">
-  <i class="dpmsg-IconSearch"></i>
+  <button class="dpmsg-iconOnly dpmsg-IconSearch"></button>
 </div>
 ```
 
@@ -38,17 +38,17 @@ title: Inputs
   <span class="dpmsg-MainTextarea" placeholder="" contenteditable="true"></span>
   <div class="dpmsg-TextareaActions dpmsg-Level">
     <div class="dpmsg-LevelLeft">
-      <a href="#">
+      <button class="dpmsg-iconOnly">
         <i class="dpmsg-IconSmile"></i>
-      </a>
-      <a href="#">
+      </button>
+      <button class="dpmsg-iconOnly">
         <i class="dpmsg-IconAttach"></i>
-      </a>  
+      </button>  
     </div>
     <div class="dpmsg-LevelRight">
-      <a href="#">
+      <button class="dpmsg-iconOnly">
         <i class="dpmsg-IconSend"></i>
-      </a>
+      </button>
     </div>
   </div>
 </div>

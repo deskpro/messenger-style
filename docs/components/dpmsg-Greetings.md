@@ -21,17 +21,17 @@ title: Greetings
     <span class="dpmsg-GreetingsArea" placeholder="Write reply" contenteditable="true"></span>
     <div class="dpmsg-GreetingsActions dpmsg-Level">
       <div class="dpmsg-LevelLeft">
-        <a href="#">
+        <button class="dpmsg-iconOnly">
           <i class="dpmsg-IconSmile"></i>
-        </a>
-        <a href="#">
+        </button>
+        <button class="dpmsg-iconOnly">
           <i class="dpmsg-IconAttach"></i>
-        </a>  
+        </button>  
       </div>
       <div class="dpmsg-LevelRight">
-        <a href="#">
+        <button class="dpmsg-iconOnly">
           <i class="dpmsg-IconSend"></i>
-        </a>
+        </button>
       </div>
     </div>
   </div>
