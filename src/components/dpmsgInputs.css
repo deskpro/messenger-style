@@ -135,7 +135,7 @@ label {
 .dpmsg-MainTextarea {
   background-color: #fff;
   border: none;
-  border-top: 2px solid var(--blue);
+  border-top: 2px solid var(--color-primary);
   color: var(--gray-500);
   cursor: text;
   display: block;
