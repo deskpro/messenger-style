@@ -40,7 +40,7 @@
   --teal: #20c997;
   --cyan: #17a2b8;
 
-  --color-primary: pink;
+  --color-primary: var(--blue);
   --color-dark-primary: color-mod(var(--color-primary) blackness(20%));
   --color-secondary: #6e8293;
   --color-success: var(--green);
