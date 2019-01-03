@@ -126,6 +126,7 @@
 }
 
 .is-light .dpmsg-Button {
+
   &.Button--primary {
     color: var(--text-dark);
   }
