@@ -124,3 +124,9 @@
     width: calc(50% - var(--xs-space));
   }
 }
+
+.is-light .dpmsg-Button {
+  &.Button--primary {
+    color: var(--text-dark);
+  }
+}
