@@ -20,7 +20,6 @@
 .dpmsg-ScreenContent {
   align-self: flex-start;
   flex: 0 0 100%;
-  overflow-y: auto;
 }
 
 .dpmsg-ScreenHeder {
@@ -175,6 +174,10 @@
 .dpmsg-ScreenControls,
 .dpmsg-ScreenControls a {
   color: var(--white);
+
+  &:hover {
+    color: #9db2d8;
+  }
 }
 
 .dpmsg-ScreenControls .dpmsg-IconArrow {
@@ -184,6 +187,10 @@
 .is-light .dpmsg-ScreenControls,
 .is-light .dpmsg-ScreenControls a {
   color: #5f7689;
+
+  &:hover {
+    color: #9db2d8;
+  }
 }
 
 .is-light .dpmsg-ScreenControls .dpmsg-IconArrow {
