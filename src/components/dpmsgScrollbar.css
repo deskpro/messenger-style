@@ -1,0 +1,37 @@
+.dpmsg-ChatMessagesWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.dpmsg-ChatMessagesWrapper .scrollarea {
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-right: -10px;
+  min-height: 1px;
+  overflow: hidden;
+  padding-right: 12px;
+  position: relative;
+}
+
+.dpmsg-WrapTextarea {
+  flex: 0 0 auto;
+}
+
+.dpmsg-ChatMessagesWrapper .scrollbar-container.vertical {
+  background: #d1d9e1;
+  border-radius: 10px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.4s;
+  width: 6px;
+  z-index: 9999;
+}
+
+.dpmsg-ChatMessagesWrapper .scrollbar-container.vertical .scrollbar {
+  background: #6e8394;
+  border-radius: 10px;
+  height: 20px;
+  width: 6px;
+}
