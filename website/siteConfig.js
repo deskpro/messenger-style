@@ -10,10 +10,7 @@ const siteConfig = {
   projectName: 'messenger-style',
   organizationName: 'Deskpro',
 
-  headerLinks: [
-    {doc: 'intro', label: 'Docs'},
-    {blog: true, label: 'News'},
-  ],
+  headerLinks: [{ doc: 'intro', label: 'Docs' }, { blog: true, label: 'News' }],
 
   headerIcon: 'img/dp-logo-white.svg',
   footerIcon: 'img/dp-logo.svg',
@@ -21,26 +18,30 @@ const siteConfig = {
 
   colors: {
     primaryColor: '#4195d1',
-    secondaryColor: '#205C3B',
+    secondaryColor: '#205C3B'
   },
 
   copyright: 'Copyright © ' + new Date().getFullYear() + ' Deskpro',
   separateCss: ['../dist/style.css'],
 
   highlight: {
-    theme: 'vs2015',
+    theme: 'vs2015'
   },
 
-  scripts: ['https://buttons.github.io/buttons.js', '/messenger-style/js/code-collapsed-toggle.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    '/messenger-style/js/code-collapsed-toggle.js'
+  ],
+  stylesheets: [
+    'https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i'
+  ],
 
   onPageNav: 'separate',
 
   ogImage: 'img/dp-logo.svg',
   twitterImage: 'img/dp-logo.svg',
 
-  markdownPlugins: [
-    (md) => require('./md-preview-plugin.js')(md)
-  ]
+  markdownPlugins: [(md) => require('./md-preview-plugin.js')(md)]
 };
 
 module.exports = siteConfig;
