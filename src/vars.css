@@ -51,10 +51,11 @@
   --link-color: var(--color-primary);
   --link-hover-color: color-mod(var(--color-primary) blackness(50%));
 
+  /* 4px based on 16px document */
   --border-radius: 0.25rem;
+
   /* 4px based on 16px document */
   --border-radius-small: calc(var(--border-radius) * 0.5);
-  /* 4px based on 16px document */
 
   --animation-speed: 0.2s;
 
