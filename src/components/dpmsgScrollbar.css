@@ -7,8 +7,6 @@
   flex-basis: 0;
   flex-grow: 1;
   margin-right: -10px;
-  min-height: 1px;
-  overflow: hidden;
   padding-right: 12px;
   position: relative;
 }
