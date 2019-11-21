@@ -48,11 +48,11 @@
   &.is-blue {
     background-color: var(--color-primary);
   }
-   
+
   &:hover {
-     filter: grayscale(50%);
-     transition: var(--animation-speed);
-   }
+    filter: grayscale(50%);
+    transition: var(--animation-speed);
+  }
 }
 
 .dpmsg-TriggerBtn .dpmsg-Icon {

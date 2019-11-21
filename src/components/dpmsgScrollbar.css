@@ -1,16 +1,19 @@
 .scrollarea-content:focus {
   outline: 0;
 }
+
 .scrollarea .scrollbar-container:hover {
   background: gray;
-  opacity: .6 !important;
+  opacity: 0.6 !important;
 }
+
 .scrollarea .scrollbar-container.active {
   background: gray;
-  opacity: .6 !important;
+  opacity: 0.6 !important;
 }
+
 .scrollarea:hover .scrollbar-container {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .dpmsg-ChatMessagesWrapper {
