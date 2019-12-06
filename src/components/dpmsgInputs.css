@@ -3,6 +3,14 @@
   position: relative;
 }
 
+.dpmsg-InputError {
+  font-size: 12px;
+  margin-left: 10px;
+  bottom: 5px;
+  left: 11px;
+  color: #f16c7c;;
+}
+
 .dpmsg-Input {
   background-color: #f8fafc;
   border: var(--border);
