@@ -37,7 +37,7 @@
 
 .dpmsg-BubbleItem {
   border-radius: var(--border-radius);
-  color: var(--gray-500);
+  color: var(--grey-darkest);
   display: block;
   font-size: var(--h1);
   margin-bottom: var(--xs-space);
@@ -55,7 +55,7 @@
 
 .is-outgoing .dpmsg-BubbleItem {
   background-color: #fff;
-  border: 2px solid var(--gray-300);
+  border: 2px solid var(--grey-300);
 }
 
 .is-outgoing .dpmsg-AvatarCol {
@@ -64,7 +64,7 @@
 }
 
 .dpmsg-BubbleNotification {
-  color: var(--gray-500);
+  color: var(--grey-darkest);
   display: block;
   font-size: var(--h2);
   font-style: italic;

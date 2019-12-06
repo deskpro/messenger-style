@@ -1,7 +1,7 @@
 .dpmsg-Button {
   background: #ccc;
   background: #fff;
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--grey-200);
   border-radius: var(--border-radius);
   color: var(--text-dark);
   cursor: pointer;
@@ -11,20 +11,20 @@
   padding: var(--button-padding) 1rem;
   text-align: center;
 
-  &:hover { background: var(--gray-100); }
+  &:hover { background: var(--grey-100); }
 
   &.Button--white {
     background: var(--white);
     border: 1px solid var(--white);
     color: var(--text-dark);
-    &:hover { background: var(--gray-100); }
+    &:hover { background: var(--grey-100); }
   }
 
   &.Button--transparent {
     background: transparent;
     border: 1px solid var(--color-primary);
     color: #5f768a;
-    &:hover { background: var(--gray-100); }
+    &:hover { background: var(--grey-100); }
   }
 
   &.Button--text {
@@ -32,14 +32,14 @@
     border: 1px solid transparent;
     color: var(--text-dark);
     text-decoration: underline;
-    &:hover { background: var(--gray-100); }
+    &:hover { background: var(--grey-100); }
   }
 
   &.Button--black {
     background: var(--black);
     border: 1px solid var(--black);
     color: var(--text-light);
-    &:hover { background: var(--gray-500); }
+    &:hover { background: var(--grey-500); }
   }
 
   &.Button--primary {

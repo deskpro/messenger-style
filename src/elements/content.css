@@ -98,8 +98,8 @@
   }
 
   & blockquote {
-    background-color: var(--gray-100);
-    border-left: 3px solid color-mod(var(--gray-100) blackness(20%));
+    background-color: var(--grey-100);
+    border-left: 3px solid color-mod(var(--grey-100) blackness(20%));
     padding: 1.25em 1.53em;
   }
 

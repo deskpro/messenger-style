@@ -36,7 +36,7 @@
 }
 
 .dpmsg-Input::placeholder {
-  color: var(--gray-300);
+  color: var(--grey-300);
 }
 
 label {
@@ -44,7 +44,7 @@ label {
 }
 
 .dpmsg-LabelInputText {
-  color: var(--gray-500);
+  color: var(--grey-darkest);
   display: block;
   font-size: var(--h2);
   line-height: 1;
@@ -142,7 +142,7 @@ label {
   background-color: #fff;
   border: none;
   border-top: 2px solid var(--color-primary);
-  color: var(--gray-500);
+  color: var(--grey-darkest);
   cursor: text;
   display: block;
   font-size: var(--h1);

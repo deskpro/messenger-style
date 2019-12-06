@@ -3,12 +3,12 @@
 }
 
 .scrollarea .scrollbar-container:hover {
-  background: gray;
+  background: grey;
   opacity: 0.6 !important;
 }
 
 .scrollarea .scrollbar-container.active {
-  background: gray;
+  background: grey;
   opacity: 0.6 !important;
 }
 

@@ -11,7 +11,7 @@
 .dpmsg-PromptHeader {
   align-items: center;
   border-bottom: var(--border);
-  color: var(--gray-500);
+  color: var(--grey-darkest);
   display: flex;
   font-size: var(--h1);
   justify-content: center;
@@ -68,7 +68,7 @@
 }
 
 .dpmsg-PromptText {
-  color: var(--gray-500);
+  color: var(--grey-darkest);
   display: block;
   font-size: var(--h1);
   padding: var(--space);

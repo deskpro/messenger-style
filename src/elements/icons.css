@@ -83,7 +83,7 @@
   width: 1.7em;
 
   &.is-inactive {
-    background: linear-gradient(to top, var(--gray-400), var(--gray-400));
+    background: linear-gradient(to top, var(--grey-400), var(--grey-400));
   }
 }
 
@@ -129,7 +129,7 @@
 .dpmsg-IconEllipsis,
 .dpmsg-IconEllipsis::after,
 .dpmsg-IconEllipsis::before {
-  background-color: var(--gray-400);
+  background-color: var(--grey-400);
   border-radius: 100%;
   border-radius: 50%;
   display: inline-block;
@@ -241,7 +241,7 @@
 }
 
 .dpmsg-IconSearch:hover {
-  filter: grayscale(50%);
+  filter: greyscale(50%);
 }
 
 .dpmsg-IconTag {

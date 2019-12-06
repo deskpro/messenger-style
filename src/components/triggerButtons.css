@@ -50,7 +50,7 @@
   }
 
   &:hover {
-    filter: grayscale(50%);
+    filter: greyscale(50%);
     transition: var(--animation-speed);
   }
 }

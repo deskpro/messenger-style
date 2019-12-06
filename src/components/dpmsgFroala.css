@@ -8,7 +8,7 @@
 }
 
 .fr-box.fr-basic .fr-element {
-  color: var(--gray-500);
+  color: var(--grey-darkest);
   cursor: text;
   font-size: var(--h1);
   max-height: 170px;

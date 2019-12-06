@@ -21,13 +21,14 @@
 
   --white: #fff;
   --black: #000;
-  --gray-100: #eceef0;
-  --gray-200: #d0dae2;
-  --gray-300: #b0c0cc;
-  --gray-400: #798d9d;
-  --gray-500: #5f768a;
+  --grey-100: #eceef0;
+  --grey-200: #d0dae2;
+  --grey-300: #b0c0cc;
+  --grey-400: #798d9d;
 
-  --gray-light: #afc0cc;
+  --grey-dark: #8b9293;
+  --grey-light: #fc0cc;
+  --grey-darkest: #4c4f50;
 
   --blue: #3d88f3;
   --indigo: #6610f2;

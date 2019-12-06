@@ -14,9 +14,9 @@
 }
 
 .dpmsg-BlockHeader {
-  color: var(--gray-500);
+  color: var(--grey-darkest);
   display: flex;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.4px;
   margin-bottom: var(--sm-space);
   padding-bottom: 10px;
@@ -24,7 +24,7 @@
 }
 
 .dpmsg-BlockHeader span {
-  color: var(--gray-500);
+  color: var(--grey-darkest);
   cursor: pointer;
   font-size: 15px;
   letter-spacing: 0.4px;

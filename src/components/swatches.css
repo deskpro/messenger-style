@@ -68,43 +68,43 @@
     }
   }
 
-  &.ColorSwatchItem--gray-100 {
-    background-color: var(--gray-100);
+  &.ColorSwatchItem--grey-100 {
+    background-color: var(--grey-100);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-100));
+      color: contrast(var(--grey-100));
     }
   }
 
-  &.ColorSwatchItem--gray-200 {
-    background-color: var(--gray-200);
+  &.ColorSwatchItem--grey-200 {
+    background-color: var(--grey-200);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-200));
+      color: contrast(var(--grey-200));
     }
   }
 
-  &.ColorSwatchItem--gray-300 {
-    background-color: var(--gray-300);
+  &.ColorSwatchItem--grey-300 {
+    background-color: var(--grey-300);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-300));
+      color: contrast(var(--grey-300));
     }
   }
 
-  &.ColorSwatchItem--gray-400 {
-    background-color: var(--gray-400);
+  &.ColorSwatchItem--grey-400 {
+    background-color: var(--grey-400);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-400));
+      color: contrast(var(--grey-400));
     }
   }
 
-  &.ColorSwatchItem--gray-500 {
-    background-color: var(--gray-500);
+  &.ColorSwatchItem--grey-darkest {
+    background-color: var(--grey-darkest);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-500));
+      color: contrast(var(--grey-darkest));
     }
   }
 }
