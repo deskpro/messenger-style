@@ -44,6 +44,7 @@
   --color-primary: var(--blue);
   --color-dark-primary: color-mod(var(--color-primary) blackness(20%));
   --color-secondary: #6e8293;
+  --color-dark-secondary: color-mod(var(--color-secondary) blackness(20%));
   --color-success: var(--green);
   --color-info: var(--cyan);
   --color-warning: var(--yellow);
