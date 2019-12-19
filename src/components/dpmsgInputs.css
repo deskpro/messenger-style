@@ -4,11 +4,11 @@
 }
 
 .dpmsg-InputError {
-  font-size: 12px;
-  margin-left: 10px;
   bottom: 5px;
-  left: 11px;
   color: #f16c7c;
+  font-size: 12px;
+  left: 11px;
+  margin-left: 10px;
 }
 
 .dpmsg-Input {
