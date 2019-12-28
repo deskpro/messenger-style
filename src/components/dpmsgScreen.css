@@ -210,3 +210,7 @@
     color: var(--color-primary);
   }
 }
+
+.dpmsg-StartChatScreen-BrandMessage {
+  padding: 10px;
+}
