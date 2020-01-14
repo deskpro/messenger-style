@@ -43,22 +43,16 @@
 
   & .dpmsg-QuickSearchEntry {
     margin-top: 15px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
     max-width: calc(100% - 20px);
-    overflow: hidden;
 
     & h4 {
       font-size: 14px;
       line-height: 150%;
       margin: 0 0 11px 0;
-      text-overflow: ellipsis;
       max-width: calc(100% - 20px);
     }
 
     & .dpmsg-QuickSearchEntry--divider {
-      margin-left: 10px;
-      width: calc(100% - 20px);
       margin-top: 10px;
       height: 1px;
       background-color: var(--grey-light);
