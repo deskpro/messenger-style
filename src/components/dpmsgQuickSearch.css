@@ -45,6 +45,10 @@
     margin-top: 15px;
     max-width: calc(100% - 20px);
 
+    & .dpmsg-QuickSearchExcerpt {
+      line-height: 150%;
+    }
+
     & h4 {
       font-size: 14px;
       line-height: 150%;
