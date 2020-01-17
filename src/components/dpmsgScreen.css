@@ -43,6 +43,20 @@
   height: 37px;
 }
 
+.is-minimal .dpmsg-ScreenHederLogo svg {
+  height: 37px;
+  color: var(--text-color);
+}
+
+.is-minimal .dpmsg-ScreenHederLogo svg {
+  height: 37px;
+  color: var(--text-color);
+}
+
+.is-minimal .dpmsg-ScreenHederLogo svg path{
+  fill: var(--text-color);
+}
+
 .is-minimal .dpmsg-ScreenHeder {
   flex-direction: row;
 }
