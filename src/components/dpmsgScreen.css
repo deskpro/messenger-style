@@ -22,7 +22,7 @@
   flex: 0 0 100%;
 }
 
-.dpmsg-ScreenHeder {
+.dpmsg-ScreenHeader {
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   display: flex;
   flex: 0 0 100%;
@@ -31,55 +31,55 @@
   padding: 25px 25px 62px 25px;
 }
 
-.is-minimal .dpmsg-ScreenHeder {
+.is-minimal .dpmsg-ScreenHeader {
   padding: 25px 25px 65px 23px;
 }
 
-.dpmsg-ScreenHederLogo img {
+.dpmsg-ScreenHeaderLogo img {
   height: 30px;
 }
 
-.is-minimal .dpmsg-ScreenHederLogo img {
+.is-minimal .dpmsg-ScreenHeaderLogo img {
   height: 37px;
 }
 
-.is-minimal .dpmsg-ScreenHederLogo svg {
-  height: 37px;
-  color: var(--text-color);
-}
-
-.is-minimal .dpmsg-ScreenHederLogo svg {
+.is-minimal .dpmsg-ScreenHeaderLogo svg {
   height: 37px;
   color: var(--text-color);
 }
 
-.is-minimal .dpmsg-ScreenHederLogo svg path{
+.is-minimal .dpmsg-ScreenHeaderLogo svg {
+  height: 37px;
+  color: var(--text-color);
+}
+
+.is-minimal .dpmsg-ScreenHeaderLogo svg path{
   fill: var(--text-color);
 }
 
-.is-minimal .dpmsg-ScreenHeder {
+.is-minimal .dpmsg-ScreenHeader {
   flex-direction: row;
 }
 
-.dpmsg-ScreenHederLogo {
+.dpmsg-ScreenHeaderLogo {
   flex: 0 0 100%;
   margin-right: 9px;
 }
 
-.dpmsg-ScreenHederTitle {
+.dpmsg-ScreenHeaderTitle {
   flex: 0 0 100%;
   font-size: 24px;
   letter-spacing: 1.4px;
   padding: 18px 0 var(--xs-space);
 }
 
-.is-minimal .dpmsg-ScreenHederTitle {
+.is-minimal .dpmsg-ScreenHeaderTitle {
   letter-spacing: 0;
   padding: 0;
 }
 
-.is-minimal .dpmsg-ScreenHederLogo,
-.is-minimal .dpmsg-ScreenHederTitle {
+.is-minimal .dpmsg-ScreenHeaderLogo,
+.is-minimal .dpmsg-ScreenHeaderTitle {
   flex: 0 0 auto;
 }
 
@@ -87,7 +87,7 @@
   margin: 0 var(--xs-space) 10px var(--xs-space);
 }
 
-.dpmsg-ScreenHederText {
+.dpmsg-ScreenHeaderText {
   flex: 0 0 100%;
   font-size: var(--h1);
   letter-spacing: 0.4px;
@@ -135,36 +135,36 @@
   justify-content: flex-end;
 }
 
-.dpmsg-ScreenHeder {
+.dpmsg-ScreenHeader {
   background-image: linear-gradient(30deg, var(--color-primary) 0%, var(--color-primary) 22%, var(--color-dark-primary) 100%);
 }
 
-.dpmsg-ScreenHederTitle {
+.dpmsg-ScreenHeaderTitle {
   color: var(--text-color);
 }
 
-.dpmsg-ScreenHederText {
+.dpmsg-ScreenHeaderText {
   color: #f9f9f9;
 }
 
-.is-minimal.is-light .dpmsg-ScreenHederText {
+.is-minimal.is-light .dpmsg-ScreenHeaderText {
   color: #f9f9f9;
 }
 
-.is-light .dpmsg-ScreenHederText {
+.is-light .dpmsg-ScreenHeaderText {
   color: var(--grey-darkest);
 }
 
-.is-light .dpmsg-ScreenHeder {
+.is-light .dpmsg-ScreenHeader {
   background-color: var(--white);
   background-image: none;
 }
 
-.is-minimal.is-light .dpmsg-ScreenHederTitle {
+.is-minimal.is-light .dpmsg-ScreenHeaderTitle {
   color: #5f7689;
 }
 
-.is-light .dpmsg-ScreenHederTitle {
+.is-light .dpmsg-ScreenHeaderTitle {
   color: #1d3e55;
 }
 
