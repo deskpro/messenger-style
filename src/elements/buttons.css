@@ -38,7 +38,7 @@
     background: var(--black);
     border: 1px solid var(--black);
     color: var(--text-light);
-    &:hover { background: var(--grey-500); }
+    &:hover { background: var(--grey-darkest); }
   }
 
   &.Button--primary {
