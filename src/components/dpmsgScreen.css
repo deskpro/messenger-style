@@ -44,16 +44,16 @@
 }
 
 .is-minimal .dpmsg-ScreenHeaderLogo svg {
-  height: 37px;
   color: var(--text-color);
+  height: 37px;
 }
 
 .is-minimal .dpmsg-ScreenHeaderLogo svg {
-  height: 37px;
   color: var(--text-color);
+  height: 37px;
 }
 
-.is-minimal .dpmsg-ScreenHeaderLogo svg path{
+.is-minimal .dpmsg-ScreenHeaderLogo svg path {
   fill: var(--text-color);
 }
 

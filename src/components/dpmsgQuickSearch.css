@@ -32,8 +32,8 @@
 
   & .dpmsg-QuickSearchControl--hint {
     color: var(--grey-darkest);
-    font-style: italic;
     font-size: 14px;
+    font-style: italic;
     font-weight: normal;
     margin-top: 15px;
   }
