@@ -8,9 +8,9 @@
 }
 
 .dpmsg-Screen {
-  background-color: #f6f7fa;
+  background-color: var(--color-secondary);
   border-radius: var(--border-radius);
-  box-shadow: 0 3px 8px 1px rgba(51, 51, 62, 0.3);
+  box-shadow: 0 3px 8px 1px var(--color-dark-secondary);
   display: flex;
   flex-wrap: wrap;
   height: auto;
