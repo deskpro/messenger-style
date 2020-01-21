@@ -51,11 +51,17 @@
 .is-incoming .dpmsg-BubbleItem {
   background-color: #f8fafc;
   border: var(--border);
+  &.dpmsg-SameSender {
+    margin-left: 35px;
+  }
 }
 
 .is-outgoing .dpmsg-BubbleItem {
   background-color: #fff;
   border: 2px solid var(--grey-300);
+  &.dpmsg-SameSender {
+    margin-right: 35px;
+  }
 }
 
 .is-outgoing .dpmsg-AvatarCol {
