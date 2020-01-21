@@ -44,17 +44,17 @@
 }
 
 .is-minimal .dpmsg-ScreenHeaderLogo svg {
-  color: var(--text-color);
+  color: var(--header-icon-text-color);
   height: 37px;
 }
 
 .is-minimal .dpmsg-ScreenHeaderLogo svg {
-  color: var(--text-color);
+  color: var(--header-icon-text-color);
   height: 37px;
 }
 
 .is-minimal .dpmsg-ScreenHeaderLogo svg path {
-  fill: var(--text-color);
+  fill: var(--header-icon-text-color);
 }
 
 .is-minimal .dpmsg-ScreenHeader {
@@ -140,7 +140,7 @@
 }
 
 .dpmsg-ScreenHeaderTitle {
-  color: var(--text-color);
+  color: var(--header-icon-text-color);
 }
 
 .dpmsg-ScreenHeaderText {

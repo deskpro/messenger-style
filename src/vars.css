@@ -50,7 +50,7 @@
   --color-info: var(--cyan);
   --color-warning: var(--yellow);
   --color-danger: var(--red);
-  --text-color: #fff;
+  --header-icon-text-color: #fff;
 
   --link-color: var(--color-primary);
   --link-hover-color: color-mod(var(--color-primary) blackness(50%));
