@@ -4,11 +4,11 @@
 
 .dpmsg-MessageBubbleRow {
   display: flex;
-  margin-bottom: var(--xs-space);
 }
 
 .dpmsg-AvatarCol {
   flex: 0 0 35px;
+  margin-top: var(--xxs-space);
 }
 
 .dpmsg-AvatarCol img {
@@ -40,8 +40,13 @@
   color: var(--grey-darkest);
   display: block;
   font-size: var(--h1);
-  margin-bottom: var(--xs-space);
   padding: var(--sm-space);
+  margin-bottom: var(--xxs-space);
+  margin-top: var(--s-space);
+  &.dpmsg-SameSender {
+    margin-bottom: var(--xxs-space);
+    margin-top: var(--xxs-space);
+  }
 }
 
 .dpmsg-BubbleItem img {
@@ -76,6 +81,7 @@
   font-style: italic;
   margin-bottom: var(--xs-space);
   margin-top: var(--space);
+  text-align: center;
 }
 
 .dpmsg-BubbleNotification.is-left {
