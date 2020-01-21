@@ -13,6 +13,10 @@
   width: 56px;
 }
 
+.dpmsg-AvatarHeadsIcon img {
+  max-width:  100%;
+}
+
 .dpmsg-AvatarHeadsIcon:not(:first-child) {
   margin-left: -12px;
 }
