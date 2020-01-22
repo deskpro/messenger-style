@@ -82,7 +82,6 @@
   font-style: italic;
   margin-bottom: var(--xs-space);
   margin-top: var(--space);
-  text-align: center;
 }
 
 .dpmsg-BubbleNotification.is-left {
