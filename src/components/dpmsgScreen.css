@@ -2,7 +2,7 @@
   align-items: flex-end;
   display: flex;
   flex-wrap: wrap;
-  margin: 4px var(--xs-space) 0;
+  margin: 0 var(--s-space);
   padding-bottom: var(--space);
   width: 388px;
 }
@@ -209,7 +209,6 @@
 
 .is-light .dpmsg-ScreenControls .dpmsg-IconArrow {
   background-image: url('data:image/svg+xml,<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs><style>.cls-1{fill: %234395d2;}</style></defs><title>app_icons</title><path class="cls-1" d="M275,468.73a36.26,36.26,0,0,0,50.26,0l0,0L589.1,206a36.27,36.27,0,0,0-51.29-51.29L300.69,391.8,63.56,154.67A36.27,36.27,0,0,0,12.27,206Z"/></svg>');
-
 }
 
 .dpmsg-Block .dpmsg-endChatButton {
@@ -225,6 +224,13 @@
   }
 }
 
-.dpmsg-StartChatScreen-BrandMessage {
-  padding: 10px;
+.dpmsg-StartChatScreen-FormMessage {
+  color: var(--grey-darkest);
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 150%;
+  margin: 25px 0;
+  display: block;
 }
