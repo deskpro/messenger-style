@@ -5,6 +5,7 @@ title: Buttons
 # Custom Buttons
 ```html @preview
 <button class="dpmsg-Button Button-FullWidth Button--primary Button--medium">Send a message</button>
+<button class="dpmsg-Button Button-FullWidth Button--input Button--medium">Type your message here</button>
 <button class="dpmsg-Button Button-LimitedWidth Button--success">Helpful</button>
 <button class="dpmsg-Button Button-LimitedWidth Button--danger">Unhelpful</button>
 <button class="dpmsg-Button Button-FullWidth Button--transparent">11.30am</button>
