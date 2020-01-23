@@ -88,8 +88,6 @@
     border-radius: 100px;
   }
 
-
-
   &.Button--input.Button-FullWidth {
     background: var(--grey-lighter);
     border: none;
