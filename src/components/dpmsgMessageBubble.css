@@ -12,9 +12,9 @@
 }
 
 .dpmsg-AvatarCol img {
+  height: 27px;
   margin-top: 4px;
   width: 27px;
-  height: 27px;
 }
 
 .dpmsg-BubbleCol {
@@ -41,10 +41,11 @@
   color: var(--grey-darkest);
   display: block;
   font-size: var(--h1);
-  padding: var(--sm-space);
   margin-bottom: var(--xxs-space);
   margin-top: var(--s-space);
+  padding: var(--sm-space);
   word-break: break-all;
+
   &.dpmsg-SameSender {
     margin-bottom: var(--xxs-space);
     margin-top: var(--xxs-space);
@@ -58,6 +59,7 @@
 .is-incoming .dpmsg-BubbleItem {
   background-color: #f8fafc;
   border: var(--border);
+
   &.dpmsg-SameSender {
     margin-left: 35px;
   }
@@ -66,6 +68,7 @@
 .is-outgoing .dpmsg-BubbleItem {
   background-color: #fff;
   border: 2px solid var(--grey-300);
+
   &.dpmsg-SameSender {
     margin-right: 35px;
   }

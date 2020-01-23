@@ -226,11 +226,11 @@
 
 .dpmsg-StartChatScreen-FormMessage {
   color: var(--grey-darkest);
+  display: block;
   font-family: Rubik, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 150%;
   margin: 25px 0;
-  display: block;
 }

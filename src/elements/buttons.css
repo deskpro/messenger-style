@@ -91,27 +91,28 @@
 
 
   &.Button--input.Button-FullWidth {
-     background: var(--grey-lighter);
-     border: none;
-     border-radius: 3px 0 0 3px !important;
-     color: var(--grey-dark);
-     position: relative;
+    background: var(--grey-lighter);
+    border: none;
+    border-radius: 3px 0 0 3px !important;
+    color: var(--grey-dark);
     cursor: text;
+    position: relative;
     text-align: left;
-     &::after {
-        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 18L8.25003 26.925L29.25 18L8.25003 9.07501L12 18Z' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M29.25 18H12' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-        background-position: center;
-        background-size: cover;
-        width: 40px;
-        content: "";
-        border-radius: 0 3px 3px 0;
-        background-color: var(--color-primary);
-        display: inline-block;
-        position: absolute;
-        right: 0;
-        height: 100%;
-        top: 0;
-     }
+
+    &::after {
+      background-color: var(--color-primary);
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 18L8.25003 26.925L29.25 18L8.25003 9.07501L12 18Z' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M29.25 18H12' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-position: center;
+      background-size: cover;
+      border-radius: 0 3px 3px 0;
+      content: "";
+      display: inline-block;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 40px;
+    }
   }
 
   &[disabled] {
