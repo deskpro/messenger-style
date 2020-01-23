@@ -11,10 +11,18 @@
   margin-top: var(--xxs-space);
 }
 
-.dpmsg-AvatarCol img {
-  height: 27px;
-  margin-top: 4px;
-  width: 27px;
+.dpmsg-AvatarCol img, .dpmsg-AvatarCol svg {
+  height: 32px;
+  width: 32px;
+  margin-top: 10px
+}
+
+.dpmsg-AvatarCol svg {
+  color: var(--header-icon-text-color);
+}
+
+.dpmsg-AvatarCol svg path {
+  fill: var(--header-icon-text-color);
 }
 
 .dpmsg-BubbleCol {
