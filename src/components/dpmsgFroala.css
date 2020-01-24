@@ -1,7 +1,7 @@
 .fr-box.fr-basic.fr-bottom .fr-wrapper {
   background-color: #fff;
   border: none;
-  border-top: 2px solid var(--blue);
+  border-top: 2px solid var(--color-primary);
   box-shadow: none;
   display: block;
   padding-right: 25px;
@@ -45,10 +45,21 @@
   width: 22px;
 }
 
-.fr-toolbar .fr-command.fr-btn[data-cmd="sendMessage"] {
-  float: right;
+.fr-toolbar .fr-command.fr-btn[data-cmd="emoticons"] {
+  margin-left: -5px;
 }
 
-.fr-toolbar .fr-command.fr-btn[data-cmd="sendMessage"] i {
-  margin-right: 0;
+.fr-toolbar .fr-command.fr-btn[data-cmd="sendMessage"] {
+  float: right;
+  margin-right: 4px;
+  margin-top: -8px;
+  & svg {
+    margin: 0;
+    width: 36px;
+    height: 36px;
+    fill: white !important;
+    & path {
+      stroke: var(--color-primary) !important;
+    }
+  }
 }
