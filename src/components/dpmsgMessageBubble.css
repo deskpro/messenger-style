@@ -84,6 +84,13 @@
 }
 
 .is-outgoing .dpmsg-AvatarCol {
+  margin-left: var(--s-space);
+  order: 1;
+  text-align: left;
+}
+
+.is-incoming .dpmsg-AvatarCol {
+  margin-right: var(--s-space);
   order: 1;
   text-align: right;
 }
