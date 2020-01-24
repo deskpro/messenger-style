@@ -18,11 +18,11 @@
 }
 
 .dpmsg-AvatarCol svg {
-  color: var(--header-icon-text-color);
+  color: var(--color-primary);
 }
 
 .dpmsg-AvatarCol svg path {
-  fill: var(--header-icon-text-color);
+  fill: var(--color-primary);
 }
 
 .dpmsg-BubbleCol {
