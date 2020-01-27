@@ -91,7 +91,6 @@
 
 .is-incoming .dpmsg-AvatarCol {
   margin-right: var(--s-space);
-  order: 1;
   text-align: right;
 }
 
