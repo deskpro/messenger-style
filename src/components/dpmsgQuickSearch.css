@@ -2,6 +2,10 @@
   position: relative;
   width: calc(100% - 20px);
 
+  & .dpmsg-QuickSearchControl--wrapper {
+    position: relative;
+  }
+
   & .dpmsg-QuickSearchControl--input {
     background: #fff;
     border: 1.5px solid var(--grey-light);
