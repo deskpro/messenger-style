@@ -19,8 +19,15 @@
 }
 
 .dpmsg-PromptHeader .dpmsg-IconNotes {
-  margin-right: var(--xs-space);
   max-width: var(--space);
+}
+
+.dpmsg-PromptHeader .dpmsg-Icon {
+  margin-right: var(--xs-space);
+}
+
+.dpmsg-PromptHeader .dpmsg-IconEmail {
+  margin-right: calc(var(--xs-space) - 3px);
 }
 
 .dpmsg-PromptContentAgree {
@@ -73,4 +80,25 @@
   font-size: var(--h1);
   padding: var(--space);
   text-align: center;
+
+  & .dpmsg-Button {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+.dpmsg-PromptLeftAligned {
+  & .dpmsg-PromptHeader {
+    justify-content: initial;
+    text-align: left;
+
+    & .dpmsg-PromptFAIcon {
+      margin-right: 10px;
+      margin-bottom: 2px;
+    }
+  }
+
+  & .dpmsg-PromptText {
+    text-align: left;
+  }
 }
