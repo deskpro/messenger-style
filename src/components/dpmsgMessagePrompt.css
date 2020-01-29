@@ -70,8 +70,7 @@
 }
 
 .dpmsg-MessagePrompt .dpmsg-GroupInputs {
-  padding-left: var(--sm-space);
-  padding-right: var(--sm-space);
+  padding: 0 var(--l-space) var(--sm-space);
 }
 
 .dpmsg-PromptText {
