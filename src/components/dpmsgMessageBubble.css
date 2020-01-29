@@ -44,6 +44,55 @@
   content: "";
 }
 
+.dpmsg-BubbleAttachment {
+
+  border-radius: var(--border-radius);
+  color: var(--grey-darkest);
+  display: block;
+  margin-bottom: var(--xxs-space);
+  margin-top: var(--s-space);
+  padding: var(--sm-space);
+  background: var(--white);
+  border: 1px solid var(--grey-lighter);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+
+  & .dpmsg-BubbleAttachmentHeader {
+    border-bottom: 1px solid var(--grey-lighter);
+    display: flex;
+    padding: 10px;
+
+    & .dpmsg-IconPaperclip {
+      height: 20px;
+      margin-right: 8px;
+      margin-top: -2px;
+      width: 10px;
+    }
+  }
+
+  & .dpmsg-BubbleAttachmentContent {
+    padding: 10px 20px;
+    word-break: break-word;
+    white-space: pre-wrap;
+  }
+
+  &.dpmsg-SameSender {
+    margin-bottom: var(--xxs-space);
+    margin-top: var(--xxs-space);
+  }
+}
+
+.is-incoming .dpmsg-BubbleAttachment {
+  &.dpmsg-SameSender {
+    margin-left: 45px;
+  }
+}
+
+.is-outgoing .dpmsg-BubbleAttachment {
+  &.dpmsg-SameSender {
+    margin-right: 45px;
+  }
+}
+
 .dpmsg-BubbleItem {
   border-radius: var(--border-radius);
   color: var(--grey-darkest);
