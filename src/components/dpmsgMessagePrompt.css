@@ -69,7 +69,7 @@
   width: 32px;
 }
 
-.dpmsg-MessagePrompt .dpmsg-GroupInputs {
+.dpmsg-MessagePrompt .dpmsg-GroupInputs.dpmsg-NoTopPadding {
   padding: 0 var(--l-space) var(--sm-space);
 }
 
