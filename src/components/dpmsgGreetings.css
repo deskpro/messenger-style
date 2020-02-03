@@ -135,6 +135,7 @@
 }
 
 .dpmsg-AutoStart-widget {
+  border: none;
   cursor: pointer;
   font-size: var(--p1);
 }

@@ -9,10 +9,20 @@
   flex-direction: row-reverse;
   flex-wrap: wrap;
 }
+.dpmsg-TriggerBtn-wrapper.left {
+  flex-direction: row;
+}
+.dpmsg-TriggerBtn-wrapper.left .dpmsg-TriggerBtn{
+  margin-left: 10px;
+}
 
 .dpmsg-TriggerBtn-wrapper.avatar-widget {
   flex-direction: row;
   flex-wrap: nowrap;
+}
+.dpmsg-TriggerBtn-wrapper.avatar-widget.left {
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
 }
 
 .dpmsg-TriggerBtn {
