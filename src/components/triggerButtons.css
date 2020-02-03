@@ -11,8 +11,8 @@
 }
 
 .dpmsg-TriggerBtn-wrapper.left {
-  flex-direction: column;
   align-items: flex-start;
+  flex-direction: column;
 }
 
 .dpmsg-TriggerBtn-wrapper.left .dpmsg-TriggerBtn {
