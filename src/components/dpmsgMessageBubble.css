@@ -13,8 +13,8 @@
 
 .dpmsg-AvatarCol img, .dpmsg-AvatarCol svg {
   height: 32px;
+  margin-top: 10px;
   width: 32px;
-  margin-top: 10px
 }
 
 .dpmsg-AvatarCol svg {
@@ -45,16 +45,16 @@
 }
 
 .dpmsg-BubbleAttachment {
+  background: var(--white);
+  border: 1px solid var(--grey-lighter);
 
   border-radius: var(--border-radius);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
   color: var(--grey-darkest);
   display: block;
   margin-bottom: var(--xxs-space);
   margin-top: var(--s-space);
   padding: var(--sm-space);
-  background: var(--white);
-  border: 1px solid var(--grey-lighter);
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
 
   & .dpmsg-BubbleAttachmentHeader {
     border-bottom: 1px solid var(--grey-lighter);
@@ -71,8 +71,8 @@
 
   & .dpmsg-BubbleAttachmentContent {
     padding: 10px 20px;
-    word-break: break-word;
     white-space: pre-wrap;
+    word-break: break-word;
   }
 
   &.dpmsg-SameSender {
@@ -82,12 +82,14 @@
 }
 
 .is-incoming .dpmsg-BubbleAttachment {
+
   &.dpmsg-SameSender {
     margin-left: 45px;
   }
 }
 
 .is-outgoing .dpmsg-BubbleAttachment {
+
   &.dpmsg-SameSender {
     margin-right: 45px;
   }
@@ -101,8 +103,8 @@
   margin-bottom: var(--xxs-space);
   margin-top: var(--s-space);
   padding: var(--sm-space);
-  word-break: break-word;
   white-space: pre-wrap;
+  word-break: break-word;
 
   &.dpmsg-SameSender {
     margin-bottom: var(--xxs-space);

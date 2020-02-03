@@ -44,6 +44,7 @@
 }
 
 @supports (-moz-appearance:none) {
+
   .dpmsg-QuickSearchControl .dpmsg-QuickSearchControl--label {
     top: 18px;
   }

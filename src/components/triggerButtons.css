@@ -6,12 +6,13 @@
 
 .dpmsg-TriggerBtn-wrapper {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
+
 .dpmsg-TriggerBtn-wrapper.avatar-widget {
-  flex-wrap: nowrap;
   flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .dpmsg-TriggerBtn {

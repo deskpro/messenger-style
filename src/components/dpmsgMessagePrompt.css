@@ -87,13 +87,14 @@
 }
 
 .dpmsg-PromptLeftAligned {
+
   & .dpmsg-PromptHeader {
     justify-content: initial;
     text-align: left;
 
     & .dpmsg-PromptFAIcon {
-      margin-right: 10px;
       margin-bottom: 2px;
+      margin-right: 10px;
     }
   }
 

@@ -53,11 +53,13 @@
   float: right;
   margin-right: 4px;
   margin-top: -8px;
+
   & svg {
+    fill: white !important;
+    height: 36px;
     margin: 0;
     width: 36px;
-    height: 36px;
-    fill: white !important;
+
     & path {
       stroke: var(--color-primary) !important;
     }
