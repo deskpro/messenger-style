@@ -4,6 +4,16 @@
   right: 0;
 }
 
+.dpmsg-TriggerBtn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.dpmsg-TriggerBtn-wrapper.avatar-widget {
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
 .dpmsg-TriggerBtn {
   align-items: center;
   border-radius: 50%;
