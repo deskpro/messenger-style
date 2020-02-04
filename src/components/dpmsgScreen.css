@@ -1,6 +1,6 @@
 .dpmsg-ScreenWrap {
   align-items: flex-end;
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
   margin: 0 var(--s-space);
   padding-bottom: var(--space);
