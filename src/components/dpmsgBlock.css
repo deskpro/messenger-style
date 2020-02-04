@@ -13,7 +13,7 @@
   position: relative;
 }
 
-.dpmsg-BlockHeader {
+.dpmsg-BlockHeader, .dpmsg-BlockInnerHeader {
   color: var(--grey-darkest);
   display: flex;
   font-size: 18px;
@@ -21,6 +21,25 @@
   margin-bottom: var(--xxl-space);
   padding-bottom: 15px;
   position: relative;
+}
+.dpmsg-BlockInnerHeader {
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.dpmsg-BlockInnerContent {
+  padding: 0 37px;
+  display: block;
+  text-align: justify;
+}
+
+.dpmsg-BlockInnerHeader, .dpmsg-BlockInnerIcon {
+  justify-content: center;
+  display: flex;
+}
+
+.dpmsg-BlockInnerIcon {
+  margin-bottom: 10px;
 }
 
 .dpmsg-BlockHeader span {
