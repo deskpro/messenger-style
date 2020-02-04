@@ -28,14 +28,14 @@
 }
 
 .dpmsg-BlockInnerContent {
-  padding: 0 37px;
   display: block;
+  padding: 0 37px;
   text-align: justify;
 }
 
 .dpmsg-BlockInnerHeader, .dpmsg-BlockInnerIcon {
-  justify-content: center;
   display: flex;
+  justify-content: center;
 }
 
 .dpmsg-BlockInnerIcon {
