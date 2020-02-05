@@ -123,6 +123,7 @@
 
 .dpmsg-ScreenFooterLogo {
   height: 20px;
+  cursor: pointer;
 }
 
 .dpmsg-ScreenIconRow {
