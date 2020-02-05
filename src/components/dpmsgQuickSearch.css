@@ -43,13 +43,6 @@
   }
 }
 
-@supports (-moz-appearance:none) {
-
-  .dpmsg-QuickSearchControl .dpmsg-QuickSearchControl--label {
-    top: 18px;
-  }
-}
-
 .dpmsg-QuickSearchResults {
   margin-top: 7px;
 
