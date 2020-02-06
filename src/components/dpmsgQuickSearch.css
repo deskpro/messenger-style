@@ -54,13 +54,14 @@
       line-height: 150%;
     }
 
-    & h4 {
+    & h4.dpmsg-QuickSearchEntryHeaderLink {
       font-size: 14px;
+      font-weight: 400;
       line-height: 150%;
-      max-width: calc(100% - 20px);
       margin: 0 0 3px 0;
+      max-width: calc(100% - 20px);
 
-      & a.dpmsg-QuickSearchEntryHeaderLink {
+      & a {
         text-decoration: none;
         &:hover {
           text-decoration: underline;
