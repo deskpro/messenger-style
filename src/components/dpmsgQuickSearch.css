@@ -48,7 +48,6 @@
 
   & .dpmsg-QuickSearchEntry {
     margin-top: 15px;
-    max-width: calc(100% - 20px);
 
     & .dpmsg-QuickSearchExcerpt {
       overflow: hidden;
