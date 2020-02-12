@@ -4,6 +4,13 @@
 
   & .dpmsg-QuickSearchControl--wrapper {
     position: relative;
+
+    &:hover, &.focused {
+
+      & .dpmsg-IconSearchClear {
+        display: block;
+      }
+    }
   }
 
   & .dpmsg-QuickSearchControl--input {
@@ -22,16 +29,30 @@
     border: none;
     color: var(--color-primary);
     font-size: 26px;
-    height: 32px;
-    left: 16px;
+    height: 25px;
+    left: 12px;
     padding: 0;
     position: absolute;
-    top: 7px;
-    width: 32px;
+    top: 12px;
+    width: 24px;
 
     & span {
       display: none;
     }
+
+    & svg {
+
+      & path {
+        stroke: var(--color-primary) !important;
+      }
+    }
+  }
+
+  & .dpmsg-IconSearchClear {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    display: none;
   }
 
   & .dpmsg-QuickSearchControl--hint {
@@ -86,7 +107,7 @@
 
       & a {
         text-decoration: none;
-        
+
         &:hover {
           text-decoration: underline;
         }
