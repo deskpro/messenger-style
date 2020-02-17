@@ -15,5 +15,11 @@
 @import "components/dpmsgQuickSearch.css";
 @import "elements/icons.css";
 @import "elements/buttons.css";
-@import "elements/buttons.css";
 @import "elements/content.css";
+
+body {
+  margin-top: 22px; // this is froala FF bug fix (wont affect webkit)
+  margin-left: 0; // this is froala FF bug fix (wont affect webkit)
+  padding: 0;
+  position: initial;
+}
