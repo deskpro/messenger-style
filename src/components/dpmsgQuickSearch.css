@@ -1,4 +1,5 @@
 .dpmsg-QuickSearchControl {
+  font-family: Rubik, sans-serif;
   position: relative;
   width: calc(100% - 20px);
 
@@ -58,6 +59,7 @@
 
   & .dpmsg-QuickSearchControl--hint {
     color: var(--grey-darkest);
+    font-family: Rubik, sans-serif;
     font-size: 14px;
     font-style: italic;
     font-weight: normal;
@@ -67,6 +69,7 @@
 }
 
 .dpmsg-QuickSearchResults {
+  font-family: Rubik, sans-serif;
   margin-top: 7px;
 
   & .dpmsg-QuickSearchEntry {
