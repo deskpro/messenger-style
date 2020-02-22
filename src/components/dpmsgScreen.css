@@ -1,10 +1,22 @@
+.dpmsg-ScreenFrame {
+  height: 100%;
+
+  & .frame-content {
+    height: 100%
+  }
+}
+
 .dpmsg-ScreenWrap {
   align-items: flex-end;
+  align-self: flex-start;
   display: flex !important;
   flex-wrap: wrap;
+  height: 100%;
   margin: 0 var(--s-space);
   padding-bottom: var(--space);
+  vertical-align: top;
   width: 388px;
+  -webkit-box-align: end;
 }
 
 .dpmsg-Screen {
@@ -12,14 +24,16 @@
   border-radius: var(--border-radius);
   box-shadow: 0 3px 8px 1px var(--color-dark-secondary);
   display: flex;
-  flex-wrap: wrap;
-  height: auto;
+  flex-direction: column;
+  height: 100%;
   overflow-x: auto;
+  padding-top: 0;
+  width: 400px;
 }
 
 .dpmsg-ScreenContent {
   align-self: flex-start;
-  flex: 0 0 100%;
+  width: 100%;
 
   & .dp-pc_field {
 
@@ -31,16 +45,13 @@
 }
 
 .dpmsg-ScreenHeader {
+  background-image: linear-gradient(30deg, var(--color-primary) 0%, var(--color-primary) 22%, var(--color-dark-primary) 100%);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   display: flex;
-  flex: 0 0 100%;
+  width: 100%;
   flex-wrap: wrap;
   margin-bottom: -50px;
   padding: 25px 25px 62px 25px;
-}
-
-.is-minimal .dpmsg-ScreenHeader {
-  padding: 25px 25px 65px 23px;
 }
 
 .dpmsg-ScreenHeaderLogo img {
@@ -56,16 +67,12 @@
   height: 37px;
 }
 
-.is-minimal .dpmsg-ScreenHeaderLogo svg {
-  color: var(--header-icon-text-color);
-  height: 37px;
-}
-
 .is-minimal .dpmsg-ScreenHeaderLogo svg path {
   fill: var(--header-icon-text-color);
 }
 
 .is-minimal .dpmsg-ScreenHeader {
+  padding: 25px 25px 65px 23px;
   flex-direction: row;
 }
 
@@ -104,11 +111,11 @@
 
 .dpmsg-ScreenFooter {
   align-items: center;
-  align-self: flex-end;
   display: flex;
-  flex: 0 0 100%;
   justify-content: space-between;
+  margin-top: auto;
   padding: 0 25px var(--xs-space);
+  width: 100%;
 }
 
 .dpmsg-ScreenLine {
@@ -142,10 +149,6 @@
   display: flex;
   flex: 0 0 100%;
   justify-content: flex-end;
-}
-
-.dpmsg-ScreenHeader {
-  background-image: linear-gradient(30deg, var(--color-primary) 0%, var(--color-primary) 22%, var(--color-dark-primary) 100%);
 }
 
 .dpmsg-ScreenHeaderTitle {

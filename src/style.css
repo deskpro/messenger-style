@@ -18,8 +18,10 @@
 @import "elements/content.css";
 
 body {
-  margin-top: 22px; // this is froala FF bug fix (wont affect webkit)
-  margin-left: 0; // this is froala FF bug fix (wont affect webkit)
+  /* this is froala FF bug fix (wont affect webkit) */
+  margin-top: 22px;
+  /* this is froala FF bug fix (wont affect webkit) */
+  margin-left: 0;
   padding: 0;
   position: initial;
 }

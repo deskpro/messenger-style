@@ -51,10 +51,10 @@
   }
 
   & .dpmsg-IconSearchClear {
+    display: none;
     position: absolute;
     right: 12px;
     top: 12px;
-    display: none;
   }
 
   & .dpmsg-QuickSearchControl--hint {
