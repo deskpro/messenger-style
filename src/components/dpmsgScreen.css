@@ -34,6 +34,12 @@
 .dpmsg-ScreenContent {
   align-self: flex-start;
   width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  & > div {
+    height: 100%;
+  }
 
   & .dp-pc_field {
 
@@ -48,10 +54,11 @@
   background-image: linear-gradient(30deg, var(--color-primary) 0%, var(--color-primary) 22%, var(--color-dark-primary) 100%);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
   margin-bottom: -50px;
+  min-height: 160px;
   padding: 25px 25px 62px 25px;
+  width: 100%;
 }
 
 .dpmsg-ScreenHeaderLogo img {
