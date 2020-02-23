@@ -1,3 +1,15 @@
+.dpmsg-Control {
+  background-image: linear-gradient(-180deg, var(--color-primary) 22%, var(--color-dark-primary) 100%);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  color: var(--header-icon-text-color);
+  height: 32px;
+  left: 2px;
+  position: fixed;
+  top: 0;
+  width: 388px;
+  z-index: 9999999999;
+}
+
 .dpmsg-ScreenFrame {
   height: 100%;
 
@@ -14,6 +26,7 @@
   height: 100%;
   margin: 0 var(--s-space);
   padding-bottom: var(--space);
+  padding-top: 32px;
   vertical-align: top;
   width: 388px;
   -webkit-box-align: end;
@@ -21,8 +34,6 @@
 
 .dpmsg-Screen {
   background-color: var(--color-secondary);
-  border-radius: var(--border-radius);
-  box-shadow: 0 3px 8px 1px var(--color-dark-secondary);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -51,13 +62,12 @@
 }
 
 .dpmsg-ScreenHeader {
-  background-image: linear-gradient(30deg, var(--color-primary) 0%, var(--color-primary) 22%, var(--color-dark-primary) 100%);
-  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  background-image: linear-gradient(0deg, var(--color-primary) 50%, var(--color-dark-primary) 100%);
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -50px;
-  min-height: 160px;
-  padding: 25px 25px 62px 25px;
+  min-height: 116px;
+  padding: 0 25px 62px 25px;
   width: 100%;
 }
 
@@ -79,7 +89,7 @@
 }
 
 .is-minimal .dpmsg-ScreenHeader {
-  padding: 25px 25px 65px 23px;
+  padding: 0 25px 65px 23px;
   flex-direction: row;
 }
 
@@ -194,8 +204,6 @@
 
 .dpmsg-ScreenControls {
   flex: 0 0 100%;
-  margin-top: -4px;
-  padding-bottom: var(--space);
 }
 
 .dpmsg-ScreenControls a,
@@ -211,10 +219,18 @@
   &:hover {
     color: #9db2d8;
   }
+  & .dpmsg-BackBtn.dpmsg-LevelLeft {
+    position: relative;
+    left: 22px;
+    top: 8px;
+  }
+
 }
 
 .dpmsg-ScreenControls .dpmsg-IconArrow {
   background-image: url('data:image/svg+xml,<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs><style>.cls-1{fill:%23fff;}</style></defs><title>app_icons</title><path class="cls-1" d="M275,468.73a36.26,36.26,0,0,0,50.26,0l0,0L589.1,206a36.27,36.27,0,0,0-51.29-51.29L300.69,391.8,63.56,154.67A36.27,36.27,0,0,0,12.27,206Z"/></svg>');
+  width: 12px;
+  height: 12px;
 }
 
 .is-light .dpmsg-ScreenControls,
