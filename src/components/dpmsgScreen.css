@@ -1,32 +1,28 @@
+.dpmsg-AnimationDiv {
+  & > div {
+    height: 100%;
+  }
+}
+
 .dpmsg-Control {
-  background-image: linear-gradient(-180deg, var(--color-primary) 22%, var(--color-dark-primary) 100%);
+  background-color: var(--color-primary);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   color: var(--header-icon-text-color);
-  height: 32px;
+  height: 34px;
   left: 2px;
   position: fixed;
   top: 0;
   width: 388px;
-  z-index: 9999999999;
-}
-
-.dpmsg-ScreenFrame {
-  height: 100%;
-
-  & .frame-content {
-    height: 100%
-  }
+  z-index: 9999;
 }
 
 .dpmsg-ScreenWrap {
   align-items: flex-end;
-  align-self: flex-start;
+  align-self: flex-end;
   display: flex !important;
   flex-wrap: wrap;
   height: 100%;
   margin: 0 var(--s-space);
-  padding-bottom: var(--space);
-  padding-top: 32px;
   vertical-align: top;
   width: 388px;
   -webkit-box-align: end;
@@ -37,18 +33,17 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  overflow-x: auto;
   padding-top: 0;
   width: 400px;
 }
 
 .dpmsg-ScreenContent {
   align-self: flex-start;
-  width: 100%;
   position: relative;
-  overflow: hidden;
+  width: 100%;
+  margin-top: 34px;
 
-  & > div {
+  & >.scrollarea {
     height: 100%;
   }
 
@@ -62,11 +57,11 @@
 }
 
 .dpmsg-ScreenHeader {
-  background-image: linear-gradient(0deg, var(--color-primary) 50%, var(--color-dark-primary) 100%);
+  background-color: var(--color-primary);
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -50px;
-  min-height: 116px;
+  height: 116px;
   padding: 0 25px 62px 25px;
   width: 100%;
 }
