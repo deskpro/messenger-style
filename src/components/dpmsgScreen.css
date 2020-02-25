@@ -9,9 +9,10 @@
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   color: var(--header-icon-text-color);
   height: 34px;
-  left: 2px;
-  position: fixed;
-  top: 0;
+  left: 0;
+  min-height: 34px;
+  position: relative;
+  top:0;
   width: 388px;
   z-index: 9999;
 }
@@ -35,13 +36,13 @@
   height: 100%;
   padding-top: 0;
   width: 400px;
+  border-radius: var(--border-radius);
 }
 
 .dpmsg-ScreenContent {
   align-self: flex-start;
   position: relative;
   width: 100%;
-  margin-top: 34px;
 
   & >.scrollarea {
     height: 100%;
