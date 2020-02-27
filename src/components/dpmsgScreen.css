@@ -234,7 +234,7 @@
   }
   & .dpmsg-BackBtn.dpmsg-LevelLeft {
     position: relative;
-    left: 22px;
+    left: 11px;
     top: 8px;
   }
 
@@ -307,6 +307,10 @@
 
             & .dpmsg-Control {
               width: 100%;
+
+              & .dpmsg-ScreenControls a.dpmsg-BackBtn.dpmsg-LevelLeft {
+                left: 22px;
+              }
             }
           }
         }
@@ -314,4 +318,3 @@
     }
   }
 }
-
