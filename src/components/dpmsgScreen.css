@@ -49,7 +49,7 @@
     height: 100%;
     overflow: visible;
 
-    & .scrollarea-content {
+    & >.scrollarea-content {
       height: 100%;
     }
 
