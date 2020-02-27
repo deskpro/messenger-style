@@ -37,6 +37,7 @@
   padding-top: 0;
   width: 400px;
   border-radius: var(--border-radius);
+  overflow: hidden;
 }
 
 .dpmsg-ScreenContent {
@@ -44,6 +45,7 @@
   height: 100%;
   position: relative;
   width: 100%;
+  overflow: hidden;
 
   & >.scrollarea {
     height: 100%;

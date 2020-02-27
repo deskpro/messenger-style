@@ -56,16 +56,6 @@
     right: 12px;
     top: 12px;
   }
-
-  & .dpmsg-QuickSearchControl--hint {
-    color: var(--grey-darkest);
-    font-family: Rubik, sans-serif;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: normal;
-    margin-top: 15px;
-    word-break: break-all;
-  }
 }
 
 .dpmsg-QuickSearchResults {
