@@ -1,4 +1,9 @@
-.fr-box.fr-basic.fr-bottom .fr-wrapper {
+.fr-box.fr-basic.fr-top {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.fr-box.fr-basic.fr-bottom .fr-wrapper, .fr-box.fr-basic.fr-top .fr-wrapper {
   background-color: #fff;
   border: none;
   border-top: 2px solid var(--color-primary);
@@ -21,7 +26,7 @@
   word-wrap: break-word;
 }
 
-.fr-toolbar.fr-bottom {
+.fr-toolbar.fr-bottom, .fr-toolbar.fr-top {
   border: none;
   box-shadow: none;
 }
