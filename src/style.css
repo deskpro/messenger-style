@@ -17,10 +17,12 @@
 @import "elements/content.css";
 
 body {
-  /* this is froala FF bug fix (wont affect webkit) */
-  margin-top: 22px;
+
   /* this is froala FF bug fix (wont affect webkit) */
   margin-left: 0;
+
+  /* this is froala FF bug fix (wont affect webkit) */
+  margin-top: 22px;
   padding: 0;
   position: initial;
 }

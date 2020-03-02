@@ -1,4 +1,5 @@
 .dpmsg-AnimationDiv {
+
   & > div {
     height: 100%;
   }
@@ -12,7 +13,7 @@
   left: 0;
   min-height: 34px;
   position: relative;
-  top:0;
+  top: 0;
   width: 388px;
   z-index: 9999;
 }
@@ -26,18 +27,17 @@
   margin: 0 var(--s-space);
   vertical-align: top;
   width: 388px;
-  -webkit-box-align: end;
 }
 
 .dpmsg-Screen {
   background-color: var(--color-secondary);
+  border-radius: var(--border-radius);
   display: flex;
   flex-direction: column;
   height: 100%;
+  overflow: hidden;
   padding-top: 0;
   width: 400px;
-  border-radius: var(--border-radius);
-  overflow: hidden;
 }
 
 .dpmsg-ScreenContent {
@@ -47,11 +47,11 @@
   width: 100%;
   overflow: hidden;
 
-  & >.scrollarea {
+  & > .scrollarea {
     height: 100%;
     overflow: visible;
 
-    & >.scrollarea-content {
+    & > .scrollarea-content {
       height: 100%;
     }
 
@@ -61,6 +61,7 @@
     }
 
     &.fullHeight {
+
       & .scrollbar-container.vertical {
         display: none;
       }
@@ -80,8 +81,8 @@
   background-color: var(--color-primary);
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -50px;
   height: 116px;
+  margin-bottom: -50px;
   padding: 0 25px 62px 25px;
   width: 100%;
 }
@@ -143,12 +144,12 @@
 
 .dpmsg-ScreenFooter {
   align-items: center;
+  align-self: flex-end;
   display: flex;
   justify-content: space-between;
   margin-top: auto;
   padding: 0 25px var(--xs-space);
   width: 100%;
-  align-self: flex-end;
 }
 
 .dpmsg-ScreenLine {
@@ -237,9 +238,10 @@
   &:hover {
     color: #9db2d8;
   }
+
   & .dpmsg-BackBtn.dpmsg-LevelLeft {
-    position: relative;
     left: 11px;
+    position: relative;
     top: 8px;
   }
 
@@ -302,13 +304,13 @@
         width: 100%;
 
         & .dpmsg-ScreenWrap {
-          width: 100%;
           height: 100%;
           margin: 0;
+          width: 100%;
 
           & .dpmsg-Screen {
-            width: 100%;
             border-radius: 0;
+            width: 100%;
 
             & .dpmsg-Control {
               width: 100%;
