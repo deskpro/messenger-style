@@ -51,7 +51,7 @@
   border-right: var(--border);
 }
 
-.dpmsg-PromptBtn.is-agdee {
+.dpmsg-PromptBtn.is-agree {
   color: var(--color-success);
   &:hover { color: color-mod(var(--color-success) blackness(20%)); }
 }
