@@ -171,3 +171,7 @@ label {
 .dpmsg-TextareaActions [class*="dpmsg-Icon"] {
   cursor: pointer;
 }
+
+.dpmsg-BlockWrapper .dp-pc_field .react-select__control {
+  font-size: 16px !important;
+}
