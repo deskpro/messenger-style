@@ -4,7 +4,7 @@
   border-radius: var(--border-radius);
   box-shadow: 0 4px 8px 1px rgba(51, 51, 62, 0.1);
   display: block;
-  padding: var(--l-space);
+  padding: var(--xl-space);
   position: relative;
 }
 
@@ -19,7 +19,7 @@
   font-size: 18px;
   letter-spacing: 0.4px;
   margin-bottom: var(--xxl-space);
-  padding-bottom: 15px;
+  padding-bottom: var(--space);
   position: relative;
 }
 
@@ -65,5 +65,5 @@
   color: #4c4f50;
   display: block;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: var(--xl-space);
 }

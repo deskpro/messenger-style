@@ -23,7 +23,7 @@
 }
 
 .dpmsg-PromptHeader .dpmsg-IconNotes {
-  max-width: var(--space);
+  max-width: var(--l-space);
 }
 
 .dpmsg-PromptHeader .dpmsg-Icon {
@@ -43,7 +43,7 @@
 .dpmsg-PromptBtn {
   cursor: pointer;
   flex: 0 0 50%;
-  padding: var(--space);
+  padding: var(--l-space);
   text-align: center;
 }
 
@@ -74,14 +74,14 @@
 }
 
 .dpmsg-MessagePrompt .dpmsg-GroupInputs.dpmsg-NoTopPadding {
-  padding: 0 var(--l-space) var(--sm-space);
+  padding: 0 var(--xl-space) var(--sm-space);
 }
 
 .dpmsg-PromptText {
   color: var(--grey-darkest);
   display: block;
   font-size: var(--h1);
-  padding: var(--space);
+  padding: var(--l-space);
   text-align: center;
 
   & .dpmsg-Button {

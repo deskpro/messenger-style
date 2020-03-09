@@ -151,7 +151,7 @@
   font-size: var(--h2);
   font-style: italic;
   margin-bottom: var(--xs-space);
-  margin-top: var(--space);
+  margin-top: var(--l-space);
 }
 
 .dpmsg-BubbleNotification.is-left {

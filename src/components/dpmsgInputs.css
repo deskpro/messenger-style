@@ -27,7 +27,7 @@
 
 .dpmsg-GroupInputs {
   display: block;
-  padding: var(--sm-space) var(--l-space);
+  padding: var(--sm-space) var(--xl-space);
 }
 
 .dpmsg-GroupInputs input {
