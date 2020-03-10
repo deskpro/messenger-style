@@ -6,11 +6,11 @@
 .fr-box.fr-basic.fr-bottom .fr-wrapper, .fr-box.fr-basic.fr-top .fr-wrapper {
   background-color: #fff;
   border: 2px solid var(--grey-light);
+  border-radius: 4px;
   box-shadow: none;
   display: block;
-  padding: 0 45px 36px 20px;
   margin: 0 -20px -36px;
-  border-radius: 4px;
+  padding: 0 45px 36px 20px;
 }
 
 .fr-box.fr-basic .fr-element {

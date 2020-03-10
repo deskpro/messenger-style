@@ -130,10 +130,10 @@ label {
   background-color: #fff;
   bottom: 0;
   display: block;
+  margin-bottom: -20px;
   margin-left: calc(var(--xs-space) * -1);
   margin-right: calc(var(--xs-space) * -1);
   margin-top: 20px;
-  margin-bottom: -20px;
   padding: 0 var(--xs-space) 0 var(--xs-space);
   width: calc(100% + var(--xs-space) + var(--xs-space));
 }
