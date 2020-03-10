@@ -186,6 +186,10 @@ label {
       font-size: 16px;
       height: 36px;
       margin-top: 1px;
+
+      &:hover {
+        box-shadow: none;
+      }
     }
 
     & .dp-pc_field {

@@ -9,6 +9,7 @@
   line-height: 100%;
   padding: var(--button-padding) 1rem;
   text-align: center;
+  transition: 0.2s ease all;
 
   &:hover { background: var(--grey-100); }
 
