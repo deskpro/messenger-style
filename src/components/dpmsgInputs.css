@@ -182,9 +182,17 @@ label {
       padding: 0 15px 0 14px !important;
     }
 
-    & .dp-pc_field .react-select__control {
-      font-size: 16px !important;
+    & .dp-pc_field {
+
+      & .react-select__control {
+        font-size: 16px !important;
+      }
+
+      & .dp-pc_label{
+        margin-bottom: 12px !important;
+      }
     }
+
   }
 
 }

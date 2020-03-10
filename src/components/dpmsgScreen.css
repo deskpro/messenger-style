@@ -131,10 +131,6 @@
   flex: 0 0 auto;
 }
 
-.dpmsg-Block {
-  margin: 0 var(--xs-space) 10px var(--xs-space);
-}
-
 .dpmsg-ScreenHeaderText {
   flex: 0 0 100%;
   font-size: var(--h1);
@@ -148,7 +144,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
-  padding: 0 25px var(--xs-space);
+  padding: 0 25px var(--s-space);
   width: 100%;
 }
 

@@ -6,6 +6,7 @@
   display: block;
   padding: 17px var(--xl-space) var(--xl-space);
   position: relative;
+  margin: 0 var(--s-space) 15px var(--s-space);
 }
 
 .dpmsg-BlockWrapper {
@@ -65,5 +66,5 @@
   color: #4c4f50;
   display: block;
   font-size: 16px;
-  margin-bottom: var(--xl-space);
+  margin-bottom: 16px;
 }
