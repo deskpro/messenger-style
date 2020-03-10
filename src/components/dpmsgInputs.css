@@ -173,6 +173,18 @@ label {
   cursor: pointer;
 }
 
-.dpmsg-BlockWrapper .dp-pc_field .react-select__control {
-  font-size: 16px !important;
+.dpmsg-BlockWrapper {
+  & .dp-pc_form {
+
+    margin-top: -5px;
+
+    & .dp-pc_field .react-select__control {
+      padding: 0 15px 0 14px !important;
+    }
+
+    & .dp-pc_field .react-select__control {
+      font-size: 16px !important;
+    }
+  }
+
 }

@@ -3,7 +3,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --font-family-base: var(--font-family-sans-serif);
 
-  --font-size-base: 0.875rem;
+  --font-size-base: 16px;
   --font-size-lg: calc(var(--font-size-base) * 1.25);
   --font-size-sm: calc(var(--font-size-base) * 0.85);
 
@@ -92,7 +92,7 @@
   --xs-space: 8px;
   --xxs-space: 5px;
 
-  --button-padding: var(--xs-space);
+  --button-padding: var(--s-space);
 
   --grey-border: #dce4eb;
   --border: 2px solid var(--grey-border);
