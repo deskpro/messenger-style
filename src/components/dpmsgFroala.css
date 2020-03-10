@@ -5,18 +5,20 @@
 
 .fr-box.fr-basic.fr-bottom .fr-wrapper, .fr-box.fr-basic.fr-top .fr-wrapper {
   background-color: #fff;
-  border: none;
-  border-top: 2px solid var(--color-primary);
+  border: 2px solid var(--grey-light);
   box-shadow: none;
   display: block;
-  padding-right: 25px;
+  padding: 0 45px 36px 20px;
+  margin: 0 -20px -36px;
+  border-radius: 4px;
 }
 
 .fr-box.fr-basic .fr-element {
   color: var(--grey-darkest);
   cursor: text;
   font-size: var(--h1);
-  max-height: 170px;
+  line-height: 150%;
+  max-height: calc(50vh - 20px);
   overflow-x: auto;
   padding: var(--sm-space);
   padding-left: 0;

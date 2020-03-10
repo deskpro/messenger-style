@@ -133,7 +133,8 @@ label {
   margin-left: calc(var(--xs-space) * -1);
   margin-right: calc(var(--xs-space) * -1);
   margin-top: 20px;
-  padding: 0 var(--xs-space) var(--xs-space);
+  margin-bottom: -20px;
+  padding: 0 var(--xs-space) 0 var(--xs-space);
   width: calc(100% + var(--xs-space) + var(--xs-space));
 }
 
