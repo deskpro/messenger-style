@@ -83,7 +83,7 @@
   flex-wrap: wrap;
   height: 116px;
   margin-bottom: -50px;
-  padding: 0 25px 62px 25px;
+  padding: 0 25px 62px 30px;
   width: 100%;
 }
 
@@ -106,7 +106,7 @@
 
 .is-minimal .dpmsg-ScreenHeader {
   flex-direction: row;
-  padding: 0 25px 65px 23px;
+  padding: 0 25px 65px 30px;
 }
 
 .dpmsg-ScreenHeaderLogo {
@@ -252,7 +252,7 @@
   }
 
   & .dpmsg-BackBtn.dpmsg-LevelLeft {
-    left: 11px;
+    left: 10px;
     position: relative;
     top: 8px;
   }
