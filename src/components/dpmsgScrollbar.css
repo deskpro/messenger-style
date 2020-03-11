@@ -29,19 +29,15 @@
   position: relative;
 }
 
-.dpmsg-WrapTextarea {
-  flex: 0 0 auto;
-}
-
 .scrollbar-container.vertical {
   background: #d1d9e1;
   border-radius: 10px;
   height: 100%;
   position: absolute;
-  right: 0;
+  right: 1px;
   top: 0;
   transition: all 0.4s;
-  width: 6px;
+  width: 8px;
   z-index: 9999;
 }
 
@@ -49,5 +45,5 @@
   background: #6e8394;
   border-radius: 10px;
   height: 20px;
-  width: 6px;
+  width: 8px;
 }
