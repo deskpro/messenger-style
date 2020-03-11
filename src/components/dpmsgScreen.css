@@ -68,6 +68,36 @@
     }
   }
 
+  &.dpmsg-isChatScreenContent {
+
+    display: flex;
+    flex-direction: column;
+
+    & > .scrollarea {
+      height: calc(100% - 182px);
+      overflow: hidden;
+
+      & .dpmsg-ScreenContentWrapper {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      & .Block--chat {
+        margin-bottom: 0;
+      }
+
+      & .scrollbar-container {
+        height: initial;
+      }
+
+    }
+
+    & .dpmsg-WrapTextarea {
+      margin: 0 22px;
+      width: 356px;
+    }
+  }
+
   & .dp-pc_field {
 
     & .dp-pc_input {
@@ -146,6 +176,8 @@
   margin-top: auto;
   padding: 0 25px var(--s-space);
   width: 100%;
+  z-index: 9999;
+  background-color: var(--color-secondary);
 }
 
 .dpmsg-ScreenLine {
