@@ -1,4 +1,15 @@
+
+.dpmsg-MessengerFrame.frame-root {
+  left: 10px;
+  bottom: 20px;
+}
+
 .dpmsg-AnimationDiv {
+
+  align-items: flex-end;
+  border-radius: 4px;
+  box-shadow: 5px 0 20px rgba(29,62,85, 0.3);
+  display: flex;
 
   & > div {
     height: 100%;
