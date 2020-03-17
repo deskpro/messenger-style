@@ -45,7 +45,7 @@
     & svg {
 
       & path {
-        stroke: var(--color-primary) !important;
+        fill: var(--color-primary) !important;
       }
     }
   }
@@ -53,8 +53,8 @@
   & .dpmsg-IconSearchClear {
     display: none;
     position: absolute;
-    right: 12px;
-    top: 12px;
+    right: 15px;
+    top: 15px;
   }
 }
 
