@@ -176,7 +176,11 @@ label {
     margin-top: -5px;
 
     & .dp-pc_field .react-select__control {
-      padding: 0 15px 0 14px !important;
+      padding: 0 15px 0 14px;
+    }
+
+    & .dp-pc_field .react-select-multi .react-select__control {
+      padding-left: 6px;
     }
 
     & .dp-pc_submit {
