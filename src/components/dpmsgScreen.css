@@ -1,9 +1,11 @@
 
 .dpmsg-MessengerFrame.frame-root {
   bottom: 20px;
+
   &.dpmsg-MessengerFrame--right {
     right: 10px;
   }
+
   &.dpmsg-MessengerFrame--left {
     left: 10px;
   }
@@ -13,7 +15,7 @@
 
   align-items: flex-end;
   border-radius: 4px;
-  box-shadow: 5px 0 20px rgba(29,62,85, 0.3);
+  box-shadow: 5px 0 20px rgba(29, 62, 85, 0.3);
   display: flex;
 
   & > div {
@@ -79,6 +81,7 @@
     &.fullHeight {
 
       & .dpmsg-ScreenContentWrapper {
+
         & .Block--chat {
           height: 100%;
         }
@@ -112,9 +115,9 @@
       }
 
       & .Block--chat {
-        margin-bottom: 0;
-        border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-bottom: 0;
       }
 
       & .scrollbar-container {
@@ -124,8 +127,8 @@
     }
 
     & .dpmsg-WrapTextarea {
-      margin: -5px 22px 0;
       box-shadow: 0 5px 5px rgba(29, 62, 85, 0.15);
+      margin: -5px 22px 0;
       width: 356px;
     }
   }
