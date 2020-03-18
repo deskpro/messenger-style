@@ -29,6 +29,7 @@
   --grey-dark: #8b9293;
   --grey-light: #d3d6d7;
   --grey-lighter: #eff0f0;
+  --grey-lightest: #f7f7f7;
   --grey-darkest: #4c4f50;
 
   --blue: #3d88f3;
@@ -55,10 +56,8 @@
   --link-color: var(--color-primary);
   --link-hover-color: color-mod(var(--color-primary) blackness(50%));
 
-  /* 4px based on 16px document */
-  --border-radius: 0.25rem;
+  --border-radius: 4px;
 
-  /* 4px based on 16px document */
   --border-radius-small: calc(var(--border-radius) * 0.5);
 
   --animation-speed: 0.2s;

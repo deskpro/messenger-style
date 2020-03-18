@@ -101,8 +101,8 @@
   display: block;
   font-size: var(--h1);
   margin-bottom: var(--xxs-space);
-  margin-top: var(--s-space);
-  padding: var(--sm-space);
+  margin-top: var(--space);
+  padding: var(--s-space) var(--s-space) var(--s-space) var(--space);
   white-space: pre-wrap;
   word-break: break-word;
 
@@ -117,8 +117,8 @@
 }
 
 .is-incoming .dpmsg-BubbleItem {
-  background-color: #f8fafc;
-  border: var(--border);
+  background-color: var(--grey-lightest);
+  border: 1px solid var(--grey-light);
 
   &.dpmsg-SameSender {
     margin-left: 45px;
@@ -126,8 +126,8 @@
 }
 
 .is-outgoing .dpmsg-BubbleItem {
-  background-color: #fff;
-  border: 2px solid var(--grey-300);
+  background-color: var(--white);
+  border: 1px solid var(--grey-light);
 
   &.dpmsg-SameSender {
     margin-right: 45px;
