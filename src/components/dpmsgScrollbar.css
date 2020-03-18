@@ -19,6 +19,7 @@
 .dpmsg-ChatMessagesWrapper {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .dpmsg-ChatMessagesWrapper .scrollarea {
