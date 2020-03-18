@@ -90,6 +90,11 @@
   text-align: center;
 }
 
+.dpmsg-ChatMessagesDropZone .dpmsg-ChatMessagesDropZoneProgress {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
 .dpmsg-ChatMessagesDropZone i {
   color: var(--grey);
   display: flex;
@@ -102,6 +107,7 @@
   font-size: 16px;
   line-height: 150%;
 }
+
 .dpmsg-ChatMessagesDropZone .dp-progress {
   width: 90%;
 }
