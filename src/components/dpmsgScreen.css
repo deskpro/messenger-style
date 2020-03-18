@@ -1,7 +1,12 @@
 
 .dpmsg-MessengerFrame.frame-root {
-  left: 10px;
   bottom: 20px;
+  &.dpmsg-MessengerFrame--right {
+    right: 10px;
+  }
+  &.dpmsg-MessengerFrame--left {
+    left: 10px;
+  }
 }
 
 .dpmsg-AnimationDiv {
