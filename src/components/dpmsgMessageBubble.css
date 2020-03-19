@@ -54,25 +54,21 @@
   display: block;
   margin-bottom: var(--xxs-space);
   margin-top: var(--s-space);
-  padding: var(--sm-space);
-
-  & .dpmsg-BubbleAttachmentHeader {
-    border-bottom: 1px solid var(--grey-lighter);
-    display: flex;
-    padding: 10px;
-
-    & .dpmsg-IconPaperclip {
-      height: 20px;
-      margin-right: 8px;
-      margin-top: -2px;
-      width: 10px;
-    }
-  }
+  padding: var(--space);
 
   & .dpmsg-BubbleAttachmentContent {
-    padding: 10px 20px;
+    font-size: 14px;
     white-space: pre-wrap;
     word-break: break-word;
+
+    & .dpmsg-BubbleAttachmentContentPreview {
+      margin-bottom: var(--xxs-space);
+
+      & img {
+        max-width: 245px;
+        max-height: 138px;
+      }
+    }
   }
 
   &.dpmsg-SameSender {
