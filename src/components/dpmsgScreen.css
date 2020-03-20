@@ -142,6 +142,7 @@
   & .dp-pc_field {
 
     & .dp-pc_input {
+      border-color: var(--grey-light);
       font-family: var(--font-family-base);
       font-size: 16px;
     }
