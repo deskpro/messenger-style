@@ -9,6 +9,12 @@
   &.dpmsg-MessengerFrame--left {
     left: 10px;
   }
+
+  &.dpmsg-ScreenMobile {
+    bottom: 0;
+    left: 0;
+    right: unset;
+  }
 }
 
 .dpmsg-AnimationDiv {
@@ -366,6 +372,8 @@
     height: 100%;
 
     & .dpmsg-AnimationDiv {
+      border-radius: 0;
+      box-shadow: none;
 
       & > div {
         height: 100%;
@@ -382,6 +390,7 @@
 
             & .dpmsg-Control {
               width: 100%;
+              border-radius: 0;
 
               & .dpmsg-ScreenControls a.dpmsg-BackBtn.dpmsg-LevelLeft {
                 left: 22px;
