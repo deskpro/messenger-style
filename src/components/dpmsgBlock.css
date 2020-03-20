@@ -71,7 +71,7 @@
 
 .dpmsg-ChatMessagesDropZone {
   background-color: white;
-  border: 2px solid var(--brand-primary);
+  border: 2px solid var(--color-primary);
   border-radius: 4px;
   bottom: 11px;
   left: 10px;

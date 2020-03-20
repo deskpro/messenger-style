@@ -65,8 +65,8 @@
       margin-bottom: var(--xxs-space);
 
       & img {
-        max-width: 245px;
         max-height: 138px;
+        max-width: 245px;
       }
     }
   }
