@@ -18,7 +18,7 @@
   cursor: text;
   font-size: var(--h1);
   line-height: 150%;
-  max-height: calc(50vh - 47px);
+  max-height: calc(50vh - 89px);
   overflow-x: auto;
   padding: var(--sm-space);
   padding-left: 0;
