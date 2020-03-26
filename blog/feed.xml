@@ -5,8 +5,8 @@
         <link>https://deskpro.github.io/messenger-style/messenger-style/blog</link>
         <description>The best place to stay up-to-date with the latest Messenger Style news and events.</description>
         <lastBuildDate>Mon, 23 Jul 2018 06:00:00 GMT</lastBuildDate>
-        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <generator>Feed for Node.js</generator>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>Messenger Style Blog</title>
             <url>https://deskpro.github.io/messenger-style/messenger-style/img/dp-logo-white.svg</url>
@@ -18,8 +18,7 @@
             <link>https://deskpro.github.io/messenger-style/messenger-style/blog/2018/07/23/init.html</link>
             <guid>https://deskpro.github.io/messenger-style/messenger-style/blog/2018/07/23/init.html</guid>
             <pubDate>Mon, 23 Jul 2018 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>This new repository is the bases for all the styling found in Deskpro Messenger.</p>
-]]></description>
+            <description><![CDATA[<p>This new repository is the bases for all the styling found in Deskpro Messenger.</p> ]]></description>
         </item>
     </channel>
 </rss>

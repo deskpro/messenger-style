@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deskpro.github.io/messenger-style/messenger-style/blog</id>
     <title>Messenger Style Blog</title>
-    <updated>2018-07-23T06:00:00Z</updated>
-    <generator>Feed for Node.js</generator>
+    <updated>2018-07-23T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deskpro.github.io/messenger-style/messenger-style/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Messenger Style news and events.</subtitle>
     <logo>https://deskpro.github.io/messenger-style/messenger-style/img/dp-logo-white.svg</logo>
@@ -11,13 +11,12 @@
     <entry>
         <title type="html"><![CDATA[New Project]]></title>
         <id>https://deskpro.github.io/messenger-style/messenger-style/blog/2018/07/23/init.html</id>
-        <link href="https://deskpro.github.io/messenger-style/messenger-style/blog/2018/07/23/init.html">
-        </link>
-        <updated>2018-07-23T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>This new repository is the bases for all the styling found in Deskpro Messenger.</p>
-]]></summary>
+        <link href="https://deskpro.github.io/messenger-style/messenger-style/blog/2018/07/23/init.html"/>
+        <updated>2018-07-23T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>This new repository is the bases for all the styling found in Deskpro Messenger.</p> ]]></summary>
         <author>
             <name>Christopher Nadeau</name>
+            <email/>
             <uri>https://www.deskpro.com/developers</uri>
         </author>
     </entry>
