@@ -89,8 +89,8 @@
       }
 
       & .dpmsg-ScreenFooter {
-        position: absolute;
         bottom: 0;
+        position: absolute;
         left: 0;
       }
     }
