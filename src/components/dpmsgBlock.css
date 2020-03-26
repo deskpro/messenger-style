@@ -118,3 +118,9 @@
   right: -21px;
   top: -18px;
 }
+
+.dpmsg-BlockWrapper .react-select span[class$=a11yText] {
+  height: 1px;
+  position: absolute;
+  width: 1px;
+}
