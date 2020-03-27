@@ -96,6 +96,7 @@
   color: var(--grey-darkest);
   display: block;
   font-size: var(--h1);
+  line-height: 150%;
   margin-bottom: var(--xxs-space);
   margin-top: var(--space);
   padding: var(--s-space) var(--s-space) var(--s-space) var(--space);
