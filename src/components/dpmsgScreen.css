@@ -109,7 +109,6 @@
     }
 
     & > .scrollarea {
-      height: calc(100% - 130px);
       overflow: hidden;
 
       & .dpmsg-ScreenContentWrapper {
