@@ -124,3 +124,7 @@
   position: absolute;
   width: 1px;
 }
+
+.dpmsg-BlockWrapper .dp-pc_field .dp-pc_description {
+  color: #8b9293;
+}
