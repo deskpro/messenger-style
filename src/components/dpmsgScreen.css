@@ -212,30 +212,32 @@
   background-color: var(--color-secondary);
   display: flex;
   justify-content: space-between;
+  margin-left: 10px;
   margin-top: auto;
   min-height: 33px;
   padding: 0 25px var(--s-space);
-  width: 100%;
+  width: 380px;
   z-index: 9999;
 
 }
 
 .dpmsg-ScreenLine {
-  background-color: #e4e4e4;
+  background-color: var(--grey-light);
   display: block;
   height: 1px;
-  width: 56px;
+  width: 68px;
 }
 
 .dpmsg-ScreenFooterText {
-  color: #666;
-  font-size: var(--h4);
+  color: var(--grey);
+  font-size: var(--h2);
 }
 
 .dpmsg-VertLine {
-  background-color: #d1d5dc;
+  background-color: transparent;
+  border: 1px solid var(--grey-light);
   height: 25px;
-  width: 2px;
+  width: 1px;
 }
 
 .dpmsg-ScreenFooterLogo {
