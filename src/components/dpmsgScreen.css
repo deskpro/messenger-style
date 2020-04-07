@@ -219,6 +219,10 @@
   width: 380px;
   z-index: 9999;
 
+  & a {
+    margin-left: -6px;
+    margin-top: -2px;
+  }
 }
 
 .dpmsg-ScreenLine {
@@ -231,6 +235,7 @@
 .dpmsg-ScreenFooterText {
   color: var(--grey);
   font-size: var(--h2);
+  margin-right: -10px;
 }
 
 .dpmsg-VertLine {
@@ -243,7 +248,7 @@
 .dpmsg-ScreenFooterLogo {
   cursor: pointer;
   height: 20px;
-  margin-bottom: -4px;
+  margin-bottom: -8px;
   position: relative;
 }
 
