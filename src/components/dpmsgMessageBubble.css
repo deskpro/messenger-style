@@ -161,28 +161,13 @@
 
 @keyframes blink {
 
-  /**
-   * At the start of the animation the dot
-   * has an opacity of .2
-   */
-
   0% {
     opacity: 0.2;
   }
 
-  /**
-   * At 20% the dot is fully visible and
-   * then fades out slowly
-   */
-
   20% {
     opacity: 1;
   }
-
-  /**
-   * Until it reaches an opacity of .2 and
-   * the animation can start again
-   */
 
   100% {
     opacity: 0.2;
@@ -199,7 +184,7 @@
   margin-bottom: 0;
   margin-left: 0;
   margin-right: auto;
-  padding: 0;
+  padding: 1px 0 0;
   width: 44px;
 
   & span {
