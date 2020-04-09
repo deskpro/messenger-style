@@ -58,6 +58,20 @@
     right: 15px;
     top: 15px;
   }
+
+  & .dpmsg-QuickSearchControl--hint {
+    color: var(--grey-darkest);
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 15px;
+    word-break: break-all;
+  }
+
+  & .dpmsg-QuickSearchControl--is-loading {
+    text-align: center;
+  }
 }
 
 .dpmsg-QuickSearchResults {

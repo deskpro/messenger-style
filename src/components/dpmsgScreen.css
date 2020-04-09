@@ -3,7 +3,7 @@
   bottom: 20px;
 
   &.dpmsg-MessengerFrame--right {
-    right: 10px;
+    right: 25px;
   }
 
   &.dpmsg-MessengerFrame--left {
@@ -131,16 +131,21 @@
     & .dpmsg-WrapTextarea {
       box-shadow: 0 5px 5px rgba(29, 62, 85, 0.15);
       margin: -5px 22px 0;
+      min-height: 90px;
       width: 356px;
     }
   }
 
   & .dp-pc_field {
 
-    & .dp-pc_input {
-      border-color: var(--grey-light);
+    & .dp-pc_input, & .dp-pc_date-picker {
+      border: 1px solid var(--grey-light);
       font-family: var(--font-family-base);
       font-size: 16px;
+    }
+
+    & .dp-pc_radio > i {
+      top: 4px;
     }
   }
 }
