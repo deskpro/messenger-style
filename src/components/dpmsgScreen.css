@@ -138,8 +138,8 @@
 
   & .dp-pc_field {
 
-    & .dp-pc_input {
-      border-color: var(--grey-light);
+    & .dp-pc_input, & .dp-pc_date-picker {
+      border: 1px solid var(--grey-light);
       font-family: var(--font-family-base);
       font-size: 16px;
     }
