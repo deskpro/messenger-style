@@ -99,6 +99,13 @@
 
 .dpmsg-AutoStart {
   display: block !important;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.dpmsg-AutoStart .dpmsg-ScreenWrap {
+  position: relative;
+  width: 380px;
 }
 
 .dpmsg-AutoStartHeader {

@@ -164,6 +164,10 @@
   height: 30px;
 }
 
+.dpmsg-AutoStart .dpmsg-Screen {
+  box-shadow: 0 5px 10px rgba(29, 62, 85, 0.3);
+}
+
 .is-minimal .dpmsg-ScreenHeaderLogo img {
   height: 37px;
 }
@@ -180,6 +184,11 @@
 .is-minimal .dpmsg-ScreenHeader {
   flex-direction: row;
   padding: 0 25px 65px 30px;
+}
+
+.dpmsg-AutoStart .dpmsg-ScreenHeader {
+  padding-bottom: 110px;
+  padding-top: 34px;
 }
 
 .dpmsg-ScreenHeaderLogo {
