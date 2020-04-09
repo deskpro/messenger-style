@@ -143,6 +143,10 @@
       font-family: var(--font-family-base);
       font-size: 16px;
     }
+
+    & .dp-pc_radio > i {
+      top: 4px;
+    }
   }
 }
 
