@@ -119,12 +119,6 @@
   top: -18px;
 }
 
-.dpmsg-BlockWrapper .react-select span[class$=a11yText] {
-  height: 1px;
-  position: absolute;
-  width: 1px;
-}
-
 .dpmsg-BlockWrapper .dp-pc_field .dp-pc_description {
   color: #8b9293;
 }

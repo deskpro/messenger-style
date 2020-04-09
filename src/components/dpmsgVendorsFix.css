@@ -1,0 +1,45 @@
+.dpmsg-BlockWrapper .react-select span[class$=a11yText] {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.dpmsg-BlockWrapper .react-select input[class$=dummyInput] {
+  background: 0;
+  border: 0;
+  left: -100px;
+  opacity: 0;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  transform: scale(0);
+  width: 1px;
+}
+
+.dpmsg-BlockWrapper .react-select div[class$=singleValue] {
+  box-sizing: border-box;
+  max-width: calc(100% - 8px);
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dpmsg-BlockWrapper .react-select div[class$=-indicatorContainer] {
+  display: flex;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.dpmsg-BlockWrapper .react-select div[class$=-conrtrol] {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+}
