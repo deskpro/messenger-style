@@ -22,7 +22,6 @@
 }
 
 .dpmsg-BlockWrapper .react-select div[class$=singleValue] {
-  box-sizing: border-box;
   max-width: calc(100% - 8px);
   overflow: hidden;
   position: absolute;
@@ -36,10 +35,25 @@
   padding: 8px;
 }
 
-.dpmsg-BlockWrapper .react-select div[class$=-conrtrol] {
+.dpmsg-BlockWrapper .react-select div[class$=-control] {
   align-items: center;
-  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.dpmsg-BlockWrapper .react-select div[class$=-menu] {
+  border-radius: 4px;
+  margin-top: 8px;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+}
+
+.dpmsg-BlockWrapper .react-select div[class$=-MenuList] {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  position: relative;
 }
