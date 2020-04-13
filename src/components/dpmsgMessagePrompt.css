@@ -92,6 +92,10 @@
 
 .dpmsg-PromptLeftAligned {
 
+  &.dpmsg-PromptReducedMargin {
+    margin-top: 24px;
+  }
+
   & .dpmsg-PromptHeader {
     justify-content: initial;
     text-align: left;
