@@ -422,6 +422,7 @@
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
   .dpmsg-ScreenHeaderLogo {
     max-width: 37px;
   }
