@@ -173,12 +173,13 @@
 }
 
 .is-minimal .dpmsg-ScreenHeaderLogo svg {
-  color: var(--header-icon-text-color);
+  color: var(--header-icon-text-color) !important;
   height: 37px;
 }
 
 .is-minimal .dpmsg-ScreenHeaderLogo svg path {
-  fill: var(--header-icon-text-color);
+  fill: var(--header-icon-text-color) !important;
+  stroke: var(--header-icon-text-color) !important;
 }
 
 .is-minimal .dpmsg-ScreenHeader {
