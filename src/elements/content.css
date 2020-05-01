@@ -136,3 +136,7 @@
     word-wrap: normal;
   }
 }
+
+.dp-progress--primary .dp-progress__bar {
+  background-color: var(--color-primary) !important;
+}
