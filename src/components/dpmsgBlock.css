@@ -4,7 +4,7 @@
   border-radius: var(--border-radius);
   box-shadow: 0 4px 8px 1px rgba(51, 51, 62, 0.1);
   display: block;
-  margin: 0 var(--s-space) 15px var(--s-space);
+  margin: 0 var(--s-space) 10px var(--s-space);
   padding: 17px var(--xl-space) var(--xl-space);
   position: relative;
 }
