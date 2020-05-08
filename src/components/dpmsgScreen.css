@@ -38,7 +38,7 @@
   min-height: 34px;
   position: relative;
   top: 0;
-  width: 400px;
+  width: 380px;
   z-index: 9999;
 }
 
@@ -50,7 +50,7 @@
   flex-wrap: wrap;
   height: 100%;
   vertical-align: top;
-  width: 400px;
+  width: 380px;
 }
 
 .dpmsg-Screen {
@@ -61,7 +61,7 @@
   height: 100%;
   overflow: hidden;
   padding-top: 0;
-  width: 400px;
+  width: 380px;
 }
 
 .dpmsg-ScreenContent {
