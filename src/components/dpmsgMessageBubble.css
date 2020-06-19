@@ -102,6 +102,11 @@
   white-space: pre-wrap;
   word-break: break-word;
 
+  & p {
+    margin: 0;
+    padding: 0;
+  }
+
   & pre, & code {
     font-family: Rubik, sans-serif;
     overflow-x: auto;
