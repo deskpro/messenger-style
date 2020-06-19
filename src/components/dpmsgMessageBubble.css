@@ -95,7 +95,6 @@
   border-radius: var(--border-radius);
   color: var(--grey-darkest);
   display: block;
-  font-size: var(--h1);
   line-height: 150%;
   margin-bottom: var(--xxs-space);
   margin-top: var(--space);
