@@ -141,6 +141,13 @@
     font-size: 17px;
   }
 
+  & blockquote {
+    border-left: 1px solid !important;
+    font-style: normal !important;
+    margin: 15px 0 15px 0 !important;
+    padding-left: 5px;
+  }
+
   &.dpmsg-SameSender {
     margin-bottom: var(--xxs-space);
     margin-top: var(--xxs-space);
