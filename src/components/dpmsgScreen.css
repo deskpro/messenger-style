@@ -154,7 +154,6 @@
   background-color: var(--color-primary);
   display: flex;
   flex-wrap: wrap;
-  height: 103px;
   margin-bottom: -50px;
   padding: 0 25px 62px 30px;
   width: 100%;
@@ -201,6 +200,7 @@
   flex: 0 0 100%;
   font-size: 24px;
   letter-spacing: 1.4px;
+  max-width: 270px;
   padding: 18px 0 var(--xs-space);
 }
 
