@@ -157,6 +157,10 @@
   margin-bottom: -50px;
   padding: 0 25px 62px 30px;
   width: 100%;
+
+  &.dpmsg-ScreenHeader-noLogo {
+    padding-left: 10px;
+  }
 }
 
 .dpmsg-ScreenHeaderLogo img {
@@ -167,27 +171,30 @@
   box-shadow: 0 5px 10px rgba(29, 62, 85, 0.3);
 }
 
-.is-minimal .dpmsg-ScreenHeaderLogo img {
+.dpmsg-ScreenHeaderLogo img {
   height: 37px;
 }
 
-.is-minimal .dpmsg-ScreenHeaderLogo svg {
+.dpmsg-ScreenHeaderLogo svg {
   color: var(--header-icon-text-color) !important;
   height: 37px;
 }
 
-.is-minimal .dpmsg-ScreenHeaderLogo svg path {
+.dpmsg-ScreenHeaderLogo svg path {
   fill: var(--header-icon-text-color) !important;
   stroke: var(--header-icon-text-color) !important;
 }
 
-.is-minimal .dpmsg-ScreenHeader {
+.dpmsg-ScreenHeader {
   flex-direction: row;
   padding: 0 25px 65px 30px;
+
+  &.dpmsg-ScreenHeader-noLogo {
+    padding-left: 10px;
+  }
 }
 
 .dpmsg-AutoStart .dpmsg-ScreenHeader {
-  padding-bottom: 110px;
   padding-top: 34px;
 }
 
@@ -204,13 +211,13 @@
   padding: 18px 0 var(--xs-space);
 }
 
-.is-minimal .dpmsg-ScreenHeaderTitle {
+.dpmsg-ScreenHeaderTitle {
   letter-spacing: 0;
   padding: 0;
 }
 
-.is-minimal .dpmsg-ScreenHeaderLogo,
-.is-minimal .dpmsg-ScreenHeaderTitle {
+.dpmsg-ScreenHeaderLogo,
+.dpmsg-ScreenHeaderTitle {
   flex: 0 0 auto;
 }
 
@@ -285,7 +292,7 @@
   color: #f9f9f9;
 }
 
-.is-minimal.is-light .dpmsg-ScreenHeaderText {
+.is-light .dpmsg-ScreenHeaderText {
   color: #f9f9f9;
 }
 
@@ -298,7 +305,7 @@
   background-image: none;
 }
 
-.is-minimal.is-light .dpmsg-ScreenHeaderTitle {
+.is-light .dpmsg-ScreenHeaderTitle {
   color: #5f7689;
 }
 
