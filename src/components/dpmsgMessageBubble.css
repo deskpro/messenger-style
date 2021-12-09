@@ -255,10 +255,25 @@
   display: inline-block;
   font-size: 12px;
   font-weight: normal;
-  height: 30px;
+  height: 32px;
   margin-right: 10px;
-  padding: 7px 0;
   text-align: center;
   text-transform: uppercase;
-  width: 30px;
+  width: 32px;
+}
+
+.dpmsg-MessageBubbleRow {
+
+  & .dpmsg-AvatarText {
+    margin-top: 5px;
+  }
+}
+
+.dpmsg-AvatarTextTyping {
+  margin-top: 10px;
+}
+
+.dpmsg-AvatarHeadText {
+  font-size: initial;
+  padding: initial;
 }
