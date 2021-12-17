@@ -56,6 +56,11 @@
   margin-top: var(--s-space);
   padding: var(--space);
 
+  & p:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
   & .dpmsg-BubbleAttachmentContent {
     font-size: 14px;
     white-space: pre-wrap;
