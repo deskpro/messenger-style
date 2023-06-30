@@ -1,0 +1,30 @@
+{
+  "blogPosts": [
+    {
+      "id": "/2018/07/23/init",
+      "metadata": {
+        "permalink": "/messenger-style/blog/2018/07/23/init",
+        "source": "@site/blog/2018-07-23-init.md",
+        "title": "New Project",
+        "description": "This new repository is the bases for all the styling found in Deskpro Messenger.",
+        "date": "2018-07-23T00:00:00.000Z",
+        "formattedDate": "July 23, 2018",
+        "tags": [],
+        "readingTime": 0.07,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Christopher Nadeau",
+            "url": "https://www.deskpro.com/developers"
+          }
+        ],
+        "frontMatter": {
+          "title": "New Project",
+          "author": "Christopher Nadeau",
+          "authorURL": "https://www.deskpro.com/developers"
+        }
+      },
+      "content": "This new repository is the bases for all the styling found in Deskpro Messenger."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dpmsg-BookTime",
+  "id": "components/dpmsg-BookTime",
+  "title": "Book Time",
+  "description": "",
+  "source": "@site/../docs/components/dpmsg-BookTime.md",
+  "sourceDirName": "components",
+  "slug": "/components/dpmsg-BookTime",
+  "permalink": "/messenger-style/docs/components/dpmsg-BookTime",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1534277377,
+  "formattedLastUpdatedAt": "Aug 14, 2018",
+  "frontMatter": {
+    "title": "Book Time"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Greetings",
+    "permalink": "/messenger-style/docs/components/dpmsg-Greetings"
+  },
+  "next": {
+    "title": "Inputs",
+    "permalink": "/messenger-style/docs/components/dpmsg-Inputs"
+  }
+}

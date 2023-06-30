@@ -1,0 +1,107 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/messenger-style/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/messenger-style/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "colors",
+              "path": "/messenger-style/docs/colors",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dp-Level",
+              "path": "/messenger-style/docs/components/dp-Level"
+            },
+            {
+              "id": "components/dpmsg-AvatarHeadsList",
+              "path": "/messenger-style/docs/components/dpmsg-AvatarHeadsList",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dpmsg-Block",
+              "path": "/messenger-style/docs/components/dpmsg-Block",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dpmsg-BookTime",
+              "path": "/messenger-style/docs/components/dpmsg-BookTime",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dpmsg-Greetings",
+              "path": "/messenger-style/docs/components/dpmsg-Greetings",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dpmsg-Inputs",
+              "path": "/messenger-style/docs/components/dpmsg-Inputs",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dpmsg-Level",
+              "path": "/messenger-style/docs/components/dpmsg-Level",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dpmsg-MessageBubble",
+              "path": "/messenger-style/docs/components/dpmsg-MessageBubble",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dpmsg-MessagePrompt",
+              "path": "/messenger-style/docs/components/dpmsg-MessagePrompt",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dpmsg-Screen",
+              "path": "/messenger-style/docs/components/dpmsg-Screen",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/dpmsg-TriggerButtons",
+              "path": "/messenger-style/docs/components/dpmsg-TriggerButtons",
+              "sidebar": "docs"
+            },
+            {
+              "id": "elements/dpmsg-Button",
+              "path": "/messenger-style/docs/elements/dpmsg-Button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "elements/dpmsg-Content",
+              "path": "/messenger-style/docs/elements/dpmsg-Content",
+              "sidebar": "docs"
+            },
+            {
+              "id": "elements/dpmsg-Icon",
+              "path": "/messenger-style/docs/elements/dpmsg-Icon",
+              "sidebar": "docs"
+            },
+            {
+              "id": "intro",
+              "path": "/messenger-style/docs/intro",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/messenger-style/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dpmsg-MessageBubble",
+  "id": "components/dpmsg-MessageBubble",
+  "title": "Message Bubble",
+  "description": "back",
+  "source": "@site/../docs/components/dpmsg-MessageBubble.md",
+  "sourceDirName": "components",
+  "slug": "/components/dpmsg-MessageBubble",
+  "permalink": "/messenger-style/docs/components/dpmsg-MessageBubble",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1535397320,
+  "formattedLastUpdatedAt": "Aug 27, 2018",
+  "frontMatter": {
+    "title": "Message Bubble"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Message Prompt",
+    "permalink": "/messenger-style/docs/components/dpmsg-MessagePrompt"
+  },
+  "next": {
+    "title": "Greetings",
+    "permalink": "/messenger-style/docs/components/dpmsg-Greetings"
+  }
+}

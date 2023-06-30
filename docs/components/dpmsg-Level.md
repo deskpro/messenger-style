@@ -4,6 +4,7 @@ title: Level - alignment
 
 The structure of a level is the following:
 
+```html @preview
 <ul>
   <li>dpmsg-Level: main container</li>
   <li style="list-style: none">
@@ -20,6 +21,7 @@ The structure of a level is the following:
     </ul>
   </li>
 </ul>
+```
 
 In a dpmsg-LevelItem, you can then insert almost anything you want: a title, a button, a text input, or just simple text. No matter what elements you put inside a Bulma level, they will always be vertically centered.
 

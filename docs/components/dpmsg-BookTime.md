@@ -16,7 +16,7 @@ title: Book Time
     <span class="dpmsg-BlockHeader">Book a meeting</span>
     <div class="dpmsg-BookTime">
       <div class="dpmsg-BookAvatar">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <span class="dpmsg-BookName is-bold">Nick Green</span>
       <span class="dpmsg-BookPost is-italic">Sales</span>
@@ -84,7 +84,7 @@ title: Book Time
     <div class="dpmsg-BookTime">
       <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left iconArrow--blue"></i> back</a>
       <div class="dpmsg-BookAvatar">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <span class="dpmsg-BookName is-bold">Nick Green</span>
       <span class="dpmsg-BookPost is-italic">Sales</span>
@@ -137,7 +137,7 @@ title: Book Time
     <div class="dpmsg-BookTime">
       <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left iconArrow--blue"></i> back</a>
       <div class="dpmsg-BookAvatar">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <span class="dpmsg-BookName is-bold">Nick Green</span>
       <span class="dpmsg-BookPost is-italic">Sales</span>
@@ -166,7 +166,7 @@ title: Book Time
     <div class="dpmsg-BookTime">
       <a class="dpmsg-BackBtn dpmsg-LevelLeft" href="#"><i class="dpmsg-IconArrow iconArrow--left iconArrow--blue"></i> back</a>
       <div class="dpmsg-BookAvatar">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <span class="dpmsg-BookName is-bold">Nick Green</span>
       <span class="dpmsg-BookPost is-italic">Sales</span>

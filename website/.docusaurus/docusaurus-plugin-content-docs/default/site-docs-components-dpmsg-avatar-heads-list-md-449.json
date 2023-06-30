@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dpmsg-AvatarHeadsList",
+  "id": "components/dpmsg-AvatarHeadsList",
+  "title": "Avatar Heads List",
+  "description": "",
+  "source": "@site/../docs/components/dpmsg-AvatarHeadsList.md",
+  "sourceDirName": "components",
+  "slug": "/components/dpmsg-AvatarHeadsList",
+  "permalink": "/messenger-style/docs/components/dpmsg-AvatarHeadsList",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1534277377,
+  "formattedLastUpdatedAt": "Aug 14, 2018",
+  "frontMatter": {
+    "title": "Avatar Heads List"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Block",
+    "permalink": "/messenger-style/docs/components/dpmsg-Block"
+  },
+  "next": {
+    "title": "Message Prompt",
+    "permalink": "/messenger-style/docs/components/dpmsg-MessagePrompt"
+  }
+}

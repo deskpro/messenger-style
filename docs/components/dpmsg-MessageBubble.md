@@ -7,7 +7,7 @@ title: Message Bubble
 <div class="dpmsg-MessageBubble">
   <div class="dpmsg-MessageBubbleRow is-incoming">
     <div class="dpmsg-AvatarCol">
-      <img src="/messenger-style/img/dp-logo.svg" alt="">
+      <img src="/messenger-style/img/dp-logo.svg" alt="" />
     </div>
     <div class="dpmsg-BubbleCol">
       <span class="dpmsg-BubbleItem">Our mission is to help businesses and organizations like yours provide their customers with better support across every communication channel.</span>
@@ -21,7 +21,7 @@ title: Message Bubble
 <div class="dpmsg-MessageBubble">
   <div class="dpmsg-MessageBubbleRow is-outgoing">
     <div class="dpmsg-AvatarCol is-rounded">
-      <img src="/messenger-style/img/docs/avatar.png" alt="">
+      <img src="/messenger-style/img/docs/avatar.png" alt="" />
     </div>
     <div class="dpmsg-BubbleCol">
       <span class="dpmsg-BubbleItem">Our mission is to help businesses and organizations like yours provide their customers with better support across every communication channel.</span>
@@ -35,7 +35,7 @@ title: Message Bubble
 <div class="dpmsg-MessageBubble">
   <div class="dpmsg-MessageBubbleRow is-outgoing">
     <div class="dpmsg-AvatarCol is-rounded">
-      <img src="/messenger-style/img/docs/avatar.png" alt="">
+      <img src="/messenger-style/img/docs/avatar.png" alt="" />
     </div>
     <div class="dpmsg-BubbleCol is-center">
       <span class="dpmsg-BubbleItem is-typing">...</span>
@@ -57,22 +57,22 @@ title: Message Bubble
     <span class="dpmsg-BlockHeader">Your conversations</span>
     <div class="dpmsg-AvatarHeadsList">
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
     </div>
     <div class="dpmsg-MessageBubbleRow is-incoming">
@@ -87,7 +87,7 @@ title: Message Bubble
     </div>
     <div class="dpmsg-MessageBubbleRow is-outgoing">
       <div class="dpmsg-AvatarCol is-rounded">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-BubbleCol">
         <span class="dpmsg-BubbleItem">Hi, need help with a ticket please.</span>
@@ -96,7 +96,7 @@ title: Message Bubble
     <span class="dpmsg-BubbleNotification is-left">Nick Green joined the conversation (12.47pm)</span>
     <div class="dpmsg-MessageBubbleRow is-incoming">
       <div class="dpmsg-AvatarCol is-rounded">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-BubbleCol">
         <span class="dpmsg-BubbleItem">Our mission is to help businesses and organizations like yours provide their customers with better support across every communication channel.</span>
@@ -104,7 +104,7 @@ title: Message Bubble
     </div>
     <div class="dpmsg-MessageBubbleRow is-outgoing">
       <div class="dpmsg-AvatarCol is-rounded">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-BubbleCol">
         <span class="dpmsg-BubbleItem">It’s AW874KGY9056.</span>
@@ -160,7 +160,7 @@ title: Message Bubble
         <a class="dpmsg-LevelRight" href="#"><i class="dpmsg-IconMute"></i></a>
       </div>
       <div class="dpmsg-ScreenHederLogo">
-        <img src="/messenger-style/img/deskpro-logo-white.svg" alt="">
+        <img src="/messenger-style/img/deskpro-logo-white.svg" alt="" />
       </div>
       <span class="dpmsg-ScreenHederTitle">Get in touch</span>
       <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
@@ -171,22 +171,22 @@ title: Message Bubble
           <span class="dpmsg-BlockHeader">Your conversations</span>
           <div class="dpmsg-AvatarHeadsList">
             <div class="dpmsg-AvatarHeadsIcon">
-              <img src="/messenger-style/img/docs/avatar.png" alt="">
+              <img src="/messenger-style/img/docs/avatar.png" alt="" />
             </div>
             <div class="dpmsg-AvatarHeadsIcon">
-              <img src="/messenger-style/img/docs/avatar.png" alt="">
+              <img src="/messenger-style/img/docs/avatar.png" alt="" />
             </div>
             <div class="dpmsg-AvatarHeadsIcon">
-              <img src="/messenger-style/img/docs/avatar.png" alt="">
+              <img src="/messenger-style/img/docs/avatar.png" alt="" />
             </div>
             <div class="dpmsg-AvatarHeadsIcon">
-              <img src="/messenger-style/img/docs/avatar.png" alt="">
+              <img src="/messenger-style/img/docs/avatar.png" alt="" />
             </div>
             <div class="dpmsg-AvatarHeadsIcon">
-              <img src="/messenger-style/img/docs/avatar.png" alt="">
+              <img src="/messenger-style/img/docs/avatar.png" alt="" />
             </div>
             <div class="dpmsg-AvatarHeadsIcon">
-              <img src="/messenger-style/img/docs/avatar.png" alt="">
+              <img src="/messenger-style/img/docs/avatar.png" alt="" />
             </div>
           </div>
           <div class="dpmsg-MessageBubbleRow is-incoming">
@@ -201,7 +201,7 @@ title: Message Bubble
           </div>
           <div class="dpmsg-MessageBubbleRow is-outgoing">
             <div class="dpmsg-AvatarCol is-rounded">
-              <img src="/messenger-style/img/docs/avatar.png" alt="">
+              <img src="/messenger-style/img/docs/avatar.png" alt="" />
             </div>
             <div class="dpmsg-BubbleCol">
               <span class="dpmsg-BubbleItem">Hi, need help with a ticket please.</span>
@@ -210,7 +210,7 @@ title: Message Bubble
           <span class="dpmsg-BubbleNotification is-left">Nick Green joined the conversation (12.47pm)</span>
           <div class="dpmsg-MessageBubbleRow is-incoming">
             <div class="dpmsg-AvatarCol is-rounded">
-              <img src="/messenger-style/img/docs/avatar.png" alt="">
+              <img src="/messenger-style/img/docs/avatar.png" alt="" />
             </div>
             <div class="dpmsg-BubbleCol">
               <span class="dpmsg-BubbleItem">Our mission is to help businesses and organizations like yours provide their customers with better support across every communication channel.</span>
@@ -218,7 +218,7 @@ title: Message Bubble
           </div>
           <div class="dpmsg-MessageBubbleRow is-outgoing">
             <div class="dpmsg-AvatarCol is-rounded">
-              <img src="/messenger-style/img/docs/avatar.png" alt="">
+              <img src="/messenger-style/img/docs/avatar.png" alt="" />
             </div>
             <div class="dpmsg-BubbleCol">
               <span class="dpmsg-BubbleItem">It’s AW874KGY9056.</span>
@@ -277,7 +277,7 @@ title: Message Bubble
       <span class="dpmsg-ScreenLine"></span>
       <span class="dpmsg-ScreenFooterText">Powered by</span>
       <span class="dpmsg-VertLine"></span>
-      <img class="dpmsg-ScreenFooterLogo" src="/messenger-style/img/deskpro-logo.svg" alt="">
+      <img class="dpmsg-ScreenFooterLogo" src="/messenger-style/img/deskpro-logo.svg" alt="" />
       <span class="dpmsg-ScreenLine"></span>
     </div>
   </div>

@@ -8,7 +8,7 @@ title: Greetings
   <div class="dpmsg-GreetingsBubble">
     <div class="dpmsg-GreetingsBubbleRow">
       <div class="dpmsg-GreetingsAvatarCol is-rounded">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-GreetingsBubbleCol">
         <span class="dpmsg-GreetingsBubbleItem">Hi John, sure, what's the reference number?
@@ -37,7 +37,7 @@ title: Greetings
   </div>
   <div class="dpmsg-ScreenIconRow is-left">
     <button class="dpmsg-TriggerBtn">
-      <img src="/messenger-style/img/docs/avatar.png" alt="">
+      <img src="/messenger-style/img/docs/avatar.png" alt="" />
       <span class="dpmsg-IconBadge">1</span>
     </button>
   </div>

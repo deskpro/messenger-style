@@ -5,22 +5,22 @@ title: Avatar Heads List
 ```html @preview
 <div class="dpmsg-AvatarHeadsList">
   <div class="dpmsg-AvatarHeadsIcon">
-    <img src="/messenger-style/img/docs/avatar.png" alt="">
+    <img src="/messenger-style/img/docs/avatar.png" alt="" />
   </div>
   <div class="dpmsg-AvatarHeadsIcon">
-    <img src="/messenger-style/img/docs/avatar.png" alt="">
+    <img src="/messenger-style/img/docs/avatar.png" alt="" />
   </div>
   <div class="dpmsg-AvatarHeadsIcon">
-    <img src="/messenger-style/img/docs/avatar.png" alt="">
+    <img src="/messenger-style/img/docs/avatar.png" alt="" />
   </div>
   <div class="dpmsg-AvatarHeadsIcon">
-    <img src="/messenger-style/img/docs/avatar.png" alt="">
+    <img src="/messenger-style/img/docs/avatar.png" alt="" />
   </div>
   <div class="dpmsg-AvatarHeadsIcon">
-    <img src="/messenger-style/img/docs/avatar.png" alt="">
+    <img src="/messenger-style/img/docs/avatar.png" alt="" />
   </div>
   <div class="dpmsg-AvatarHeadsIcon">
-    <img src="/messenger-style/img/docs/avatar.png" alt="">
+    <img src="/messenger-style/img/docs/avatar.png" alt="" />
   </div>
 </div>
 ```
@@ -32,22 +32,22 @@ title: Avatar Heads List
     <span class="dpmsg-BlockHeader">Your conversations</span>
     <div class="dpmsg-AvatarHeadsList">
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
       <div class="dpmsg-AvatarHeadsIcon">
-        <img src="/messenger-style/img/docs/avatar.png" alt="">
+        <img src="/messenger-style/img/docs/avatar.png" alt="" />
       </div>
     </div>
     <span class="dpmsg-BlockText">Need help? Just reply to start a live conversation  with one of our team</span>
