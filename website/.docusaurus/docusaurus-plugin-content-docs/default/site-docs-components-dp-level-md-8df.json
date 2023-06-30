@@ -1,0 +1,19 @@
+{
+  "unversionedId": "components/dp-Level",
+  "id": "components/dp-Level",
+  "title": "Level - alignment",
+  "description": "The structure of a level is the following:",
+  "source": "@site/../docs/components/dp-Level.md",
+  "sourceDirName": "components",
+  "slug": "/components/dp-Level",
+  "permalink": "/messenger-style/docs/components/dp-Level",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1533936773,
+  "formattedLastUpdatedAt": "Aug 10, 2018",
+  "frontMatter": {
+    "title": "Level - alignment"
+  }
+}

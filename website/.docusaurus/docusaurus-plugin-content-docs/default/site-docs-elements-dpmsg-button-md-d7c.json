@@ -1,0 +1,28 @@
+{
+  "unversionedId": "elements/dpmsg-Button",
+  "id": "elements/dpmsg-Button",
+  "title": "Buttons",
+  "description": "",
+  "source": "@site/../docs/elements/dpmsg-Button.md",
+  "sourceDirName": "elements",
+  "slug": "/elements/dpmsg-Button",
+  "permalink": "/messenger-style/docs/elements/dpmsg-Button",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Julien Ducro",
+  "lastUpdatedAt": 1579774020,
+  "formattedLastUpdatedAt": "Jan 23, 2020",
+  "frontMatter": {
+    "title": "Buttons"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Inputs",
+    "permalink": "/messenger-style/docs/components/dpmsg-Inputs"
+  },
+  "next": {
+    "title": "Icons",
+    "permalink": "/messenger-style/docs/elements/dpmsg-Icon"
+  }
+}

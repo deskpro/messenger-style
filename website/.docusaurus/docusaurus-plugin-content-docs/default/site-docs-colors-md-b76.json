@@ -1,0 +1,30 @@
+{
+  "unversionedId": "colors",
+  "id": "colors",
+  "title": "Color Palette",
+  "description": "",
+  "source": "@site/../docs/colors.md",
+  "sourceDirName": ".",
+  "slug": "/colors",
+  "permalink": "/messenger-style/docs/colors",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1533936773,
+  "formattedLastUpdatedAt": "Aug 10, 2018",
+  "frontMatter": {
+    "id": "colors",
+    "title": "Color Palette",
+    "sidebar_label": "Color Palette"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/messenger-style/docs/intro"
+  },
+  "next": {
+    "title": "Level - alignment",
+    "permalink": "/messenger-style/docs/components/dpmsg-Level"
+  }
+}

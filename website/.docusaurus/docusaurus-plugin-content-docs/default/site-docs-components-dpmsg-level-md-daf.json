@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dpmsg-Level",
+  "id": "components/dpmsg-Level",
+  "title": "Level - alignment",
+  "description": "The structure of a level is the following:",
+  "source": "@site/../docs/components/dpmsg-Level.md",
+  "sourceDirName": "components",
+  "slug": "/components/dpmsg-Level",
+  "permalink": "/messenger-style/docs/components/dpmsg-Level",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1533936773,
+  "formattedLastUpdatedAt": "Aug 10, 2018",
+  "frontMatter": {
+    "title": "Level - alignment"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Color Palette",
+    "permalink": "/messenger-style/docs/colors"
+  },
+  "next": {
+    "title": "Messenger Trigger Button",
+    "permalink": "/messenger-style/docs/components/dpmsg-TriggerButtons"
+  }
+}

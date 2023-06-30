@@ -67,7 +67,7 @@ title: Screens
   <div class="dpmsg-Screen is-blue">
     <div class="dpmsg-ScreenHeder">
       <div class="dpmsg-ScreenHederLogo">
-        <img src="/messenger-style/img/deskpro-logo-white.svg" alt="">
+        <img src="/messenger-style/img/deskpro-logo-white.svg" alt="" />
       </div>
       <span class="dpmsg-ScreenHederTitle">Get in touch</span>
       <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>
@@ -131,7 +131,7 @@ title: Screens
         <a class="dpmsg-LevelRight is-disabled" href="#"><i class="dpmsg-IconMute"></i></a>
       </div>
       <div class="dpmsg-ScreenHederLogo">
-        <img src="/messenger-style/img/deskpro-logo-white.svg" alt="">
+        <img src="/messenger-style/img/deskpro-logo-white.svg" alt="" />
       </div>
       <span class="dpmsg-ScreenHederTitle">Get in touch</span>
       <span class="dpmsg-ScreenHederText">Helping organizations provide their customers with better support.</span>

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dpmsg-MessagePrompt",
+  "id": "components/dpmsg-MessagePrompt",
+  "title": "Message Prompt",
+  "description": "",
+  "source": "@site/../docs/components/dpmsg-MessagePrompt.md",
+  "sourceDirName": "components",
+  "slug": "/components/dpmsg-MessagePrompt",
+  "permalink": "/messenger-style/docs/components/dpmsg-MessagePrompt",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1534020338,
+  "formattedLastUpdatedAt": "Aug 11, 2018",
+  "frontMatter": {
+    "title": "Message Prompt"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Avatar Heads List",
+    "permalink": "/messenger-style/docs/components/dpmsg-AvatarHeadsList"
+  },
+  "next": {
+    "title": "Message Bubble",
+    "permalink": "/messenger-style/docs/components/dpmsg-MessageBubble"
+  }
+}

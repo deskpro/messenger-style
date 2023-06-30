@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dpmsg-Screen",
+  "id": "components/dpmsg-Screen",
+  "title": "Screens",
+  "description": "",
+  "source": "@site/../docs/components/dpmsg-Screen.md",
+  "sourceDirName": "components",
+  "slug": "/components/dpmsg-Screen",
+  "permalink": "/messenger-style/docs/components/dpmsg-Screen",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1535083330,
+  "formattedLastUpdatedAt": "Aug 24, 2018",
+  "frontMatter": {
+    "title": "Screens"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Messenger Trigger Button",
+    "permalink": "/messenger-style/docs/components/dpmsg-TriggerButtons"
+  },
+  "next": {
+    "title": "Block",
+    "permalink": "/messenger-style/docs/components/dpmsg-Block"
+  }
+}

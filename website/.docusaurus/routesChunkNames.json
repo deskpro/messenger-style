@@ -1,0 +1,108 @@
+{
+  "/messenger-style/blog-af1": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "00583e72"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "f3af427c"
+      }
+    ],
+    "metadata": "569836ca"
+  },
+  "/messenger-style/blog/2018/07/23/init-65b": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "00583e72"
+    },
+    "sidebar": "814f3328",
+    "content": "85c97412"
+  },
+  "/messenger-style/blog/archive-f67": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "00583e72"
+    },
+    "archive": "6824950a"
+  },
+  "/messenger-style/docs-de6": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "6373ff42"
+    },
+    "versionMetadata": "935f2afb"
+  },
+  "/messenger-style/docs/colors-3c6": {
+    "__comp": "17896441",
+    "content": "b7610e1d"
+  },
+  "/messenger-style/docs/components/dp-Level-ce2": {
+    "__comp": "17896441",
+    "content": "8dfa7bfe"
+  },
+  "/messenger-style/docs/components/dpmsg-AvatarHeadsList-04f": {
+    "__comp": "17896441",
+    "content": "44987477"
+  },
+  "/messenger-style/docs/components/dpmsg-Block-cd8": {
+    "__comp": "17896441",
+    "content": "368e7597"
+  },
+  "/messenger-style/docs/components/dpmsg-BookTime-27b": {
+    "__comp": "17896441",
+    "content": "2f5bfcf5"
+  },
+  "/messenger-style/docs/components/dpmsg-Greetings-587": {
+    "__comp": "17896441",
+    "content": "20f48154"
+  },
+  "/messenger-style/docs/components/dpmsg-Inputs-dba": {
+    "__comp": "17896441",
+    "content": "61946fa2"
+  },
+  "/messenger-style/docs/components/dpmsg-Level-df8": {
+    "__comp": "17896441",
+    "content": "daf0b767"
+  },
+  "/messenger-style/docs/components/dpmsg-MessageBubble-bec": {
+    "__comp": "17896441",
+    "content": "0db0e38e"
+  },
+  "/messenger-style/docs/components/dpmsg-MessagePrompt-1ff": {
+    "__comp": "17896441",
+    "content": "7f3a3d88"
+  },
+  "/messenger-style/docs/components/dpmsg-Screen-f56": {
+    "__comp": "17896441",
+    "content": "90bf31dc"
+  },
+  "/messenger-style/docs/components/dpmsg-TriggerButtons-fdd": {
+    "__comp": "17896441",
+    "content": "20327200"
+  },
+  "/messenger-style/docs/elements/dpmsg-Button-095": {
+    "__comp": "17896441",
+    "content": "d7cca357"
+  },
+  "/messenger-style/docs/elements/dpmsg-Content-f2a": {
+    "__comp": "17896441",
+    "content": "3c242308"
+  },
+  "/messenger-style/docs/elements/dpmsg-Icon-c22": {
+    "__comp": "17896441",
+    "content": "a6620668"
+  },
+  "/messenger-style/docs/intro-e35": {
+    "__comp": "17896441",
+    "content": "f6d69ff8"
+  },
+  "/messenger-style/-1cd": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "cc20fa3f"
+    },
+    "config": "5e9f5e1a"
+  }
+}

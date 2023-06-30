@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dpmsg-Inputs",
+  "id": "components/dpmsg-Inputs",
+  "title": "Inputs",
+  "description": "",
+  "source": "@site/../docs/components/dpmsg-Inputs.md",
+  "sourceDirName": "components",
+  "slug": "/components/dpmsg-Inputs",
+  "permalink": "/messenger-style/docs/components/dpmsg-Inputs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1535397320,
+  "formattedLastUpdatedAt": "Aug 27, 2018",
+  "frontMatter": {
+    "title": "Inputs"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Book Time",
+    "permalink": "/messenger-style/docs/components/dpmsg-BookTime"
+  },
+  "next": {
+    "title": "Buttons",
+    "permalink": "/messenger-style/docs/elements/dpmsg-Button"
+  }
+}

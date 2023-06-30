@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dpmsg-Greetings",
+  "id": "components/dpmsg-Greetings",
+  "title": "Greetings",
+  "description": "",
+  "source": "@site/../docs/components/dpmsg-Greetings.md",
+  "sourceDirName": "components",
+  "slug": "/components/dpmsg-Greetings",
+  "permalink": "/messenger-style/docs/components/dpmsg-Greetings",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "bogdanmir",
+  "lastUpdatedAt": 1535397320,
+  "formattedLastUpdatedAt": "Aug 27, 2018",
+  "frontMatter": {
+    "title": "Greetings"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Message Bubble",
+    "permalink": "/messenger-style/docs/components/dpmsg-MessageBubble"
+  },
+  "next": {
+    "title": "Book Time",
+    "permalink": "/messenger-style/docs/components/dpmsg-BookTime"
+  }
+}
