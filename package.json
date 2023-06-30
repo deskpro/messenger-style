@@ -32,8 +32,8 @@
     "postcss-reporter": "^5.0.0",
     "pre-commit": "^1.2.2",
     "stylelint": "15.9.0",
-    "stylelint-config-suitcss": "^14.0.0",
-    "stylelint-selector-bem-pattern": "^2.0.0"
+    "stylelint-config-suitcss": "19.0.0",
+    "stylelint-selector-bem-pattern": "3.0.0"
   },
   "pre-commit": [
     "lint"
