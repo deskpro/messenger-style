@@ -21,14 +21,14 @@
   width: 1px;
 }
 
-.dpmsg-BlockWrapper .react-select input[class$=-placeholder] {
+.dpmsg-BlockWrapper .react-select .react-select__placeholder {
   box-sizing: border-box;
   grid-area: 1/1/2/3;
   margin-left: 2px;
   margin-right: 2px;
 }
 
-.dpmsg-BlockWrapper .react-select div[class$=-ValueContainer] {
+.dpmsg-BlockWrapper .react-select .react-select__value-container {
   align-items: center;
   box-sizing: border-box;
   display: flex;
@@ -39,7 +39,7 @@
   position: relative;
 }
 
-.dpmsg-BlockWrapper .react-select-multi .react-select__control .react-select__value-container--is-multi > [class$=-Input] {
+.dpmsg-BlockWrapper .react-select-multi .react-select__control .react-select__value-container--is-multi > .react-select__input-container {
   box-sizing: border-box;
   display: inline-grid;
   flex: 1 1 auto;
@@ -62,7 +62,7 @@
   flex-shrink: 0;
 }
 
-.dpmsg-BlockWrapper .react-select div[class$=-indicatorContainer] {
+.dpmsg-BlockWrapper .react-select .react-select__indicator {
   align-self: stretch;
   box-sizing: border-box;
   box-sizing: border-box;
