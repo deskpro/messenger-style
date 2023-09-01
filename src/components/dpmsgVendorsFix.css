@@ -21,16 +21,56 @@
   width: 1px;
 }
 
+.dpmsg-BlockWrapper .react-select input[class$=-placeholder] {
+  grid-area: 1/1/2/3;
+  margin-left: 2px;
+  margin-right: 2px;
+  box-sizing: border-box;
+}
+
+.dpmsg-BlockWrapper .react-select div[class$=-ValueContainer] {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.dpmsg-BlockWrapper .react-select-multi .react-select__control .react-select__value-container--is-multi > [class$=-Input] {
+  margin: 2px;
+  padding-bottom: 2px;
+  visibility: visible;
+  flex: 1 1 auto;
+  display: inline-grid;
+  grid-area: 1/1/2/3;
+  grid-template-columns: 0 min-content;
+  box-sizing: border-box;
+}
+
 .dpmsg-BlockWrapper .react-select div[class$=singleValue] {
   max-width: calc(100% - 8px);
   overflow: hidden;
   position: absolute;
 }
 
+.dpmsg-BlockWrapper .react-select .react-select__indicators {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+}
+
 .dpmsg-BlockWrapper .react-select div[class$=-indicatorContainer] {
   box-sizing: border-box;
   display: flex;
   padding: 8px;
+  align-self: stretch;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  width: 1px;
+  box-sizing: border-box;
 }
 
 .dpmsg-BlockWrapper .react-select div[class$=-control] {
@@ -38,6 +78,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
+  transition: all 100ms;
+  box-sizing: border-box;
 }
 
 .dpmsg-BlockWrapper .react-select div[class$=-menu] {
