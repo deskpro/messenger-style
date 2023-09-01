@@ -9,7 +9,6 @@
       "presetOptions": {
           "namespace": "dp"
       }
-    },
-    "selector-list-comma-newline-after": "always-multi-line"
+    }
   }
 }
