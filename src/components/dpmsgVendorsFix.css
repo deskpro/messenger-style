@@ -21,14 +21,14 @@
   width: 1px;
 }
 
-.dpmsg-BlockWrapper .react-select input[class$=-placeholder] {
+.dpmsg-BlockWrapper .react-select .react-select__placeholder {
   box-sizing: border-box;
   grid-area: 1/1/2/3;
   margin-left: 2px;
   margin-right: 2px;
 }
 
-.dpmsg-BlockWrapper .react-select div[class$=-ValueContainer] {
+.dpmsg-BlockWrapper .react-select .react-select__value-container {
   align-items: center;
   box-sizing: border-box;
   display: flex;
@@ -39,7 +39,7 @@
   position: relative;
 }
 
-.dpmsg-BlockWrapper .react-select-multi .react-select__control .react-select__value-container--is-multi > [class$=-Input] {
+.dpmsg-BlockWrapper .react-select-multi .react-select__control .react-select__value-container--is-multi > .react-select__input-container {
   box-sizing: border-box;
   display: inline-grid;
   flex: 1 1 auto;
@@ -50,19 +50,45 @@
   visibility: visible;
 }
 
+.dpmsg-BlockWrapper .react-select-multi .react-select__control .react-select__value-container--is-multi {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.dpmsg-BlockWrapper .react-select-multi .react-select__control .react-select__value-container--is-multi .react-select__multi-value {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  margin-bottom: 0;
+  margin-right: 2px;
+  margin-top: 6px;
+  width: auto;
+}
+
+.dpmsg-BlockWrapper .react-select-multi .react-select__control .react-select__multi-value__label {
+  display: flex;
+}
+
+.dpmsg-BlockWrapper .react-select-multi .react-select__control .react-select__multi-value__remove {
+  display: flex;
+  height: 21px;
+  padding: 4px 5px 0;
+}
+
 .dpmsg-BlockWrapper .react-select div[class$=singleValue] {
   max-width: calc(100% - 8px);
-  overflow: hidden;
-  position: absolute;
 }
 
 .dpmsg-BlockWrapper .react-select .react-select__indicators {
   align-items: center;
   display: flex;
   flex-shrink: 0;
+  margin-top: 6px;
 }
 
-.dpmsg-BlockWrapper .react-select div[class$=-indicatorContainer] {
+.dpmsg-BlockWrapper .react-select .react-select__indicator {
   align-self: stretch;
   box-sizing: border-box;
   box-sizing: border-box;
@@ -77,7 +103,7 @@
   align-items: center;
   box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   position: relative;
   transition: all 100ms;
