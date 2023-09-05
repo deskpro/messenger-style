@@ -79,8 +79,6 @@
 
 .dpmsg-BlockWrapper .react-select div[class$=singleValue] {
   max-width: calc(100% - 8px);
-  overflow: hidden;
-  position: absolute;
 }
 
 .dpmsg-BlockWrapper .react-select .react-select__indicators {
