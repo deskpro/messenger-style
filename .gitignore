@@ -11,3 +11,4 @@ website/i18n/*
 dist/
 website/static/css/style.css
 website/static/css/style.css.map
+website/.docusaurus
